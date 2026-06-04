@@ -1,0 +1,21 @@
+{{ $title := site.Title }}
+{{ if not .IsHome }}
+  {{ $title = printf "%s | %s" .Title site.Title }}
+{{ end }}
+{{ $description := site.Params.siteDescription }}
+{{ with .Params.description }}
+  {{ $description = . }}
+{{ end }}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<meta name="theme-color" content="#1f4b6e">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ "css/site.css" | relURL }}">

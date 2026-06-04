@@ -1,0 +1,250 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $status := $p.status }}
+{{ $statusLabel := "" }}
+{{ $statusClass := "" }}
+{{ if eq $status "no-action" }}{{ $statusLabel = "No action on officials" }}{{ $statusClass = "s-none" }}
+{{ else if eq $status "under-trial" }}{{ $statusLabel = "Under trial" }}{{ $statusClass = "s-trial" }}
+{{ else if eq $status "partial-justice" }}{{ $statusLabel = "Partial justice" }}{{ $statusClass = "s-partial" }}
+{{ else if eq $status "closed" }}{{ $statusLabel = "Closed" }}{{ $statusClass = "s-closed" }}
+{{ end }}
+
+{{ $allCases := where site.RegularPages "Section" "cases" }}
+
+<div class="page-wrap">
+  <a class="back-link" href="{{ "/" | relURL }}">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+    All cases
+  </a>
+
+  <!-- HEADER -->
+  <div class="case-detail-header">
+    <div class="case-badge-row">
+      <span class="status-badge {{ $statusClass }}">{{ $statusLabel }}</span>
+      {{ with $p.category }}<span class="tag-badge">{{ replace . "-" " " | title }}</span>{{ end }}
+      {{ range $p.tags }}<span class="tag-badge">{{ . }}</span>{{ end }}
+    </div>
+
+    <h1 class="case-detail-title">{{ .Title }}</h1>
+
+    <div class="case-detail-meta">
+      <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        {{ dateFormat "Jan 2, 2006" $p.date }}
+      </span>
+      <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        {{ $p.location }}
+      </span>
+      {{ with $p.last_updated }}
+      <span>Last updated {{ dateFormat "Jan 2, 2006" . }}</span>
+      {{ end }}
+    </div>
+
+    <!-- SCOREBOARD -->
+    <div class="scoreboard">
+      <div class="score-item">
+        <div class="score-num red">{{ default "—" $p.deaths }}</div>
+        <div class="score-label">Deaths</div>
+      </div>
+      <div class="score-item">
+        <div class="score-num amber">{{ default "—" $p.accused_count }}</div>
+        <div class="score-label">Accused persons</div>
+      </div>
+      <div class="score-item">
+        {{ $govtCS := 0 }}
+        {{ range $p.accused }}
+          {{ if and (eq .type "govt") (eq .status "chargesheeted") }}{{ $govtCS = add $govtCS 1 }}{{ end }}
+        {{ end }}
+        <div class="score-num red">{{ $govtCS }}</div>
+        <div class="score-label">Govt officials chargesheeted</div>
+      </div>
+      <div class="score-item">
+        {{ $compLabel := "Unknown" }}
+        {{ $compClass := "" }}
+        {{ if $p.compensation }}
+          {{ if eq $p.compensation.paid "full" }}{{ $compLabel = "Paid" }}{{ $compClass = "green" }}
+          {{ else if eq $p.compensation.paid "partial" }}{{ $compLabel = "Partial" }}{{ $compClass = "amber" }}
+          {{ else if eq $p.compensation.paid "none" }}{{ $compLabel = "Not paid" }}{{ $compClass = "red" }}
+          {{ end }}
+        {{ end }}
+        <div class="score-num {{ $compClass }}">{{ $compLabel }}</div>
+        <div class="score-label">Compensation</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="detail-body">
+
+    <!-- MAIN COLUMN -->
+    <div class="detail-main">
+
+      <!-- TIMELINE -->
+      {{ with $p.timeline }}
+      <div class="detail-section">
+        <div class="detail-section-title">Timeline</div>
+        <div class="timeline">
+          {{ range $i, $e := . }}
+          {{ $dotClass := "gray" }}
+          {{ if $e.type }}{{ $dotClass = $e.type }}{{ end }}
+          <div class="t-item">
+            <div class="t-spine">
+              <div class="t-dot {{ $dotClass }}" aria-hidden="true"></div>
+              {{ if lt $i (sub (len $p.timeline) 1) }}<div class="t-line" aria-hidden="true"></div>{{ end }}
+            </div>
+            <div class="t-content">
+              <div class="t-date">{{ dateFormat "Jan 2, 2006" $e.date }}</div>
+              <div class="t-event">{{ $e.event }}</div>
+              {{ with $e.source }}
+              <a class="t-source" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                {{ with $e.source_name }}{{ . }}{{ else }}Source{{ end }}
+              </a>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      <!-- ACCUSED -->
+      {{ with $p.accused }}
+      <div class="detail-section">
+        <div class="detail-section-title">Accused persons</div>
+        <table class="accused-table">
+          <thead>
+            <tr>
+              <th>Name / role</th>
+              <th>Type</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range . }}
+            {{ $aClass := "a-free" }}
+            {{ if eq .status "on-bail" }}{{ $aClass = "a-bail" }}
+            {{ else if eq .status "arrested" }}{{ $aClass = "a-arrested" }}
+            {{ else if eq .status "convicted" }}{{ $aClass = "a-convicted" }}
+            {{ else if eq .status "absconding" }}{{ $aClass = "a-absconding" }}
+            {{ end }}
+            {{ $aLabel := replace .status "-" " " | title }}
+            <tr>
+              <td>
+                <div class="accused-name">{{ .name }}</div>
+                {{ with .role }}<div class="accused-role">{{ . }}</div>{{ end }}
+              </td>
+              <td style="font-size:12px; color:var(--text-secondary);">{{ default "—" .type | title }}</td>
+              <td><span class="a-status {{ $aClass }}">{{ $aLabel }}</span></td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+      {{ end }}
+
+      <!-- COMPENSATION -->
+      {{ with $p.compensation }}
+      <div class="detail-section">
+        <div class="detail-section-title">Compensation</div>
+        <div>
+          {{ with .announced_amount }}
+          <div class="comp-row">
+            <span class="comp-key">Announced amount</span>
+            <span class="comp-val">{{ . }}</span>
+          </div>
+          {{ end }}
+          <div class="comp-row">
+            <span class="comp-key">Paid so far</span>
+            <span class="comp-val {{ if eq .paid "none" }}bad{{ else if eq .paid "full" }}ok{{ else }}warn{{ end }}">
+              {{ if eq .paid "none" }}Not paid{{ else if eq .paid "full" }}Fully paid{{ else if eq .paid "partial" }}Partially paid{{ else }}Unknown{{ end }}
+              {{ with .paid_note }} — {{ . }}{{ end }}
+            </span>
+          </div>
+          {{ with .source }}
+          <div class="comp-row">
+            <span class="comp-key">Source</span>
+            <span class="comp-val"><a href="{{ . }}" target="_blank" rel="noopener" style="color:var(--blue); font-size:12px;">Court order / source</a></span>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      <!-- MARKDOWN BODY -->
+      {{ with .Content }}
+      <div class="detail-section">
+        <div class="detail-section-title">Notes & context</div>
+        <div style="font-size:14px; color:var(--text-secondary); line-height:1.7;">{{ . }}</div>
+      </div>
+      {{ end }}
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="detail-sidebar">
+
+      <!-- WATCH -->
+      <div class="sidebar-block">
+        <div class="sidebar-title">Case status</div>
+        <div class="watch-box">
+          <div class="watch-count">—</div>
+          <div class="watch-sub">watching this case</div>
+          <button class="btn-watch" onclick="alert('Subscribe via RSS to follow all case updates.')">Watch this case</button>
+          <div>
+            <a class="rss-link" href="{{ "index.xml" | absURL }}">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+              RSS Feed
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SHARE -->
+      <div class="sidebar-block">
+        <div class="sidebar-title">Share &amp; contribute</div>
+        <button class="btn-share" onclick="shareOnX()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          Share on X
+        </button>
+        <button class="btn-share" onclick="copyLink()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          Copy link
+        </button>
+        <a class="btn-submit" href="https://github.com/dakshpareek/hissab/issues/new?title=Update:+{{ .Title | urlize }}&labels=case-update" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Submit an update
+        </a>
+      </div>
+
+      <!-- RELATED CASES -->
+      {{ $currentID := .File.BaseFileName }}
+      {{ $related := where $allCases "File.BaseFileName" "ne" $currentID | first 4 }}
+      {{ with $related }}
+      <div class="sidebar-block">
+        <div class="sidebar-title">Related cases</div>
+        {{ range . }}
+        <a class="related-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+
+<script>
+function shareOnX() {
+  const text = encodeURIComponent('{{ .Title }} — tracking accountability on Hissab');
+  const url  = encodeURIComponent(window.location.href);
+  window.open('https://x.com/intent/tweet?text=' + text + '&url=' + url, '_blank');
+}
+function copyLink() {
+  navigator.clipboard.writeText(window.location.href).then(function() {
+    const btn = document.querySelector('.btn-share:nth-child(2)');
+    if (btn) { btn.textContent = 'Copied!'; setTimeout(() => location.reload(), 1500); }
+  });
+}
+</script>
+{{ end }}

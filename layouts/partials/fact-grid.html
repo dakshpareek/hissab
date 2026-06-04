@@ -1,0 +1,79 @@
+<section class="fact-card">
+  <div class="section-heading">
+    <p class="eyebrow">Quick facts</p>
+    <h2>Case snapshot</h2>
+  </div>
+
+  <dl class="fact-grid">
+    {{ with .Params.location }}
+      <div>
+        <dt>Location</dt>
+        <dd>{{ . }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .Date }}
+      <div>
+        <dt>Date</dt>
+        <dd>{{ .Format "2 Jan 2006" }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .Params.category }}
+      <div>
+        <dt>Category</dt>
+        <dd>{{ humanize . }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .Params.status }}
+      <div>
+        <dt>Status</dt>
+        <dd>{{ partial "status-pill.html" . }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .Params.deaths }}
+      <div>
+        <dt>Deaths</dt>
+        <dd>{{ . }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .Params.injured }}
+      <div>
+        <dt>Injured</dt>
+        <dd>{{ . }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .Params.compensation_status }}
+      <div>
+        <dt>Compensation</dt>
+        <dd>{{ humanize . }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .Params.compensation_amount }}
+      <div>
+        <dt>Amount</dt>
+        <dd>{{ . }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .Params.accused }}
+      <div>
+        <dt>Tracked people</dt>
+        <dd>{{ len . }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .Params.sources }}
+      <div>
+        <dt>Sources</dt>
+        <dd>{{ len . }}</dd>
+      </div>
+    {{ end }}
+  </dl>
+</section>
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
+  <title>{{ if .IsHome }}Hissab — India's accountability gap, documented{{ else }}{{ .Title }} · Hissab{{ end }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" />
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+  <link rel="alternate" type="application/rss+xml" title="Hissab — Case Updates" href="{{ "index.xml" | absURL }}" />
+  <meta property="og:title" content="{{ if .IsHome }}Hissab{{ else }}{{ .Title }} · Hissab{{ end }}" />
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="{{ "/" | relURL }}" class="nav-logo">
+    <span class="logo-dot" aria-hidden="true"></span>
+    Hissab
+  </a>
+  <span class="nav-meta">{{ len (where site.RegularPages "Section" "cases") }} cases tracked</span>
+  <div class="nav-links">
+    <a href="{{ "/" | relURL }}">Cases</a>
+    <a href="{{ "/about/" | relURL }}">About</a>
+    <a href="{{ "index.xml" | absURL }}">RSS</a>
+  </div>
+</nav>
+
+<main>
+  {{ block "main" . }}{{ end }}
+</main>
+
+<div class="page-wrap">
+  <footer>
+    <span>Hissab — all data sourced from court orders &amp; named news outlets only</span>
+    <span>
+      <a href="https://github.com/dakshpareek/hissab" target="_blank" rel="noopener">GitHub</a>
+      &nbsp;·&nbsp;
+      <a href="{{ "index.xml" | absURL }}">RSS Feed</a>
+    </span>
+  </footer>
+</div>
+
+<script src="{{ "js/main.js" | relURL }}"></script>
+</body>
+</html>

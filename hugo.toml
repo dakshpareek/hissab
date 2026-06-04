@@ -1,0 +1,17 @@
+baseURL = "https://dakshpareek.github.io/hissab/"
+languageCode = "en-in"
+title = "Hissab"
+theme = ""
+
+[params]
+  description = "India's accountability gap, documented."
+  tagline = "We track what happens after the headlines fade."
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  state = "states"
+  status = "statuses"
+
+[pagination]
+  pagerSize = 20
