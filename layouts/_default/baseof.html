@@ -12,7 +12,6 @@
   <link rel="alternate" type="application/rss+xml" title="Hissab — Case Updates" href="{{ "index.xml" | absURL }}" />
   <meta property="og:title" content="{{ if .IsHome }}Hissab{{ else }}{{ .Title }} · Hissab{{ end }}" />
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
-  <meta property="og:type" content="website" />
 </head>
 <body>
 
@@ -44,7 +43,6 @@
   </footer>
 </div>
 
-<script src="{{ "js/site.js" | relURL }}"></script>
 <script src="{{ "js/main.js" | relURL }}"></script>
 </body>
 </html>

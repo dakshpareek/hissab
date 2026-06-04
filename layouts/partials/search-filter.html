@@ -3,11 +3,13 @@
 {{ $showSearch := ne $mode "hero" }}
 {{ $surface := .Surface | default "panel" }}
 {{ $categories := slice }}
+
 {{ range $cases }}
   {{ with .Params.category }}
     {{ $categories = $categories | append . }}
   {{ end }}
 {{ end }}
+
 {{ $categories = uniq $categories | sort }}
 
 <section class="filter-bar filter-bar--{{ $surface }}" data-filters>
@@ -22,27 +24,14 @@
     </label>
   {{ end }}
 
-  <div style="display:flex; flex-direction:column; gap:0.55rem;">
-    <p style="margin:0; font-size:0.85rem; color:var(--muted);">Status</p>
-    <div class="chip-row" data-chip-row>
-      <button type="button" class="chip is-active" data-filter-chip="all">All cases</button>
-      <button type="button" class="chip" data-filter-chip="no-action">No action</button>
-      <button type="button" class="chip" data-filter-chip="under-trial">Under trial</button>
-      <button type="button" class="chip" data-filter-chip="partial-justice">Partial justice</button>
-      <button type="button" class="chip" data-filter-chip="closed">Closed</button>
-    </div>
+  <div class="chip-row" data-chip-row>
+    <button type="button" class="chip is-active" data-filter-chip="all">All cases</button>
+    {{ range $categories }}
+      <button type="button" class="chip" data-filter-chip="{{ . | urlize }}">
+        {{ humanize . }}
+      </button>
+    {{ end }}
   </div>
-
-  {{ if gt (len $categories) 0 }}
-    <div style="display:flex; flex-direction:column; gap:0.55rem; margin-top:0.95rem;">
-      <p style="margin:0; font-size:0.85rem; color:var(--muted);">Category</p>
-      <div class="chip-row">
-        {{ range $categories }}
-          <button type="button" class="chip" data-filter-chip="{{ . | urlize }}">{{ humanize . }}</button>
-        {{ end }}
-      </div>
-    </div>
-  {{ end }}
 
   {{ if $showSearch }}
     <div class="filter-bar__meta">
