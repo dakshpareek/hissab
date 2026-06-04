@@ -801,9 +801,56 @@ footer a { color: var(--blue); }
   .scoreboard { grid-template-columns: 1fr 1fr; }
   .score-item:nth-child(2) { border-right: none; }
   .score-item:nth-child(3), .score-item:nth-child(4) { border-top: 0.5px solid var(--gray-border); }
-  .detail-body { grid-template-columns: 1fr; }
-  .detail-main { border-right: none; padding-right: 0; }
-  .detail-sidebar { padding-left: 0; border-top: 0.5px solid var(--gray-border); padding-top: 24px; }
+  .case-detail-header { padding: 22px 0 18px; }
+  .case-badge-row { gap: 0.35rem; }
+  .case-detail-meta {
+    gap: 0.35rem 0.75rem;
+    font-size: 12px;
+  }
+  .case-detail-title {
+    font-size: 24px;
+    line-height: 1.08;
+  }
+  .scoreboard { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .score-item {
+    padding: 14px 12px;
+    min-width: 0;
+  }
+  .score-num { font-size: 22px; }
+  .detail-body {
+    grid-template-columns: 1fr;
+    padding-bottom: 56px;
+  }
+  .detail-main {
+    border-right: none;
+    padding-right: 0;
+    padding-top: 22px;
+  }
+  .detail-sidebar {
+    padding-left: 0;
+    padding-top: 22px;
+    margin-top: 20px;
+    border-top: 0.5px solid var(--gray-border);
+  }
+  .detail-section { margin-bottom: 28px; }
+  .t-item { gap: 10px; }
+  .t-event { font-size: 13px; }
+  .accused-table th,
+  .accused-table td { padding-right: 8px; }
+  .accused-table th { font-size: 10px; }
+  .accused-table td { font-size: 12.5px; }
+  .comp-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  .comp-key,
+  .comp-val { text-align: left; }
+  .sidebar-block { margin-bottom: 18px; }
+  .watch-box { padding: 14px; }
+  .btn-watch,
+  .btn-share,
+  .btn-submit { min-height: 44px; }
   .search-row { justify-content: stretch; }
   .search-wrap { max-width: none; }
   .case-right {
@@ -825,7 +872,6 @@ footer a { color: var(--blue); }
   .case-card__footer .button { width: 100%; }
   .about-strip { flex-direction: column; gap: 20px; }
   footer { flex-direction: column; gap: 6px; text-align: center; }
-  .case-detail-title { font-size: 24px; }
 }
 
 /* ── ANIMATIONS ── */
