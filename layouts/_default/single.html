@@ -1,38 +1,11 @@
 {{ define "main" }}
 <div class="page-wrap" style="max-width: 680px; padding-top: 40px; padding-bottom: 80px;">
 
-  <h1 style="font-family: var(--font-serif); font-size: 32px; letter-spacing: -0.02em; margin-bottom: 8px;">About Hissab</h1>
-  <p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 40px; line-height: 1.65;">Why we built this, how it works, and how to contribute.</p>
+  <h1 style="font-family: var(--font-serif); font-size: 32px; letter-spacing: -0.02em; margin-bottom: 8px;">{{ .Title }}</h1>
+  {{ with .Description }}<p style="font-size: 15px; color: var(--text-secondary); margin-bottom: 40px; line-height: 1.65;">{{ . }}</p>{{ end }}
 
   <div style="display: flex; flex-direction: column; gap: 32px;">
-
-    <section>
-      <h2 style="font-size: 15px; font-weight: 500; color: var(--text-primary); margin-bottom: 10px; padding-bottom: 8px; border-bottom: 0.5px solid var(--gray-border);">The problem</h2>
-      <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.75;">India has no shortage of tragedies. Bridges collapse, buildings fall, fires kill. The media covers them for a week. Then the headlines move on — and so does public attention. Meanwhile, the courts move slowly, FIRs die in investigation, officials escape accountability, and victims wait for compensation that never fully arrives. Hissab exists because we forget too quickly, and because forgetting is exactly what allows the cycle to repeat.</p>
-    </section>
-
-    <section>
-      <h2 style="font-size: 15px; font-weight: 500; color: var(--text-primary); margin-bottom: 10px; padding-bottom: 8px; border-bottom: 0.5px solid var(--gray-border);">How we work</h2>
-      <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.75; margin-bottom: 12px;">Every entry on Hissab is sourced from public records — court orders, RTI responses, and named news outlets. We do not publish original allegations. We do not editorialise about guilt. We compile what is already in the public domain into a structured, searchable archive.</p>
-      <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.75;">Each timeline entry has a source link. If there is no source link, it is marked as "Hissab monitoring" — meaning we have not found an independent source for that update and it should be treated accordingly. Every claim is attributed.</p>
-    </section>
-
-    <section>
-      <h2 style="font-size: 15px; font-weight: 500; color: var(--text-primary); margin-bottom: 10px; padding-bottom: 8px; border-bottom: 0.5px solid var(--gray-border);">What we track</h2>
-      <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.75;">For each case, we track: who was accused, what their legal status is (arrested, chargesheeted, convicted, on bail), whether government officials have faced any consequences, and whether victims received compensation. The scoreboard at the top of each case page gives you the answer in one glance.</p>
-    </section>
-
-    <section>
-      <h2 style="font-size: 15px; font-weight: 500; color: var(--text-primary); margin-bottom: 10px; padding-bottom: 8px; border-bottom: 0.5px solid var(--gray-border);">How to contribute</h2>
-      <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.75; margin-bottom: 12px;">Hissab is open. If you know of a case we are not tracking, or have a source for an update on an existing case, open an issue on <a href="https://github.com/dakshpareek/hissab/issues/new" target="_blank" rel="noopener" style="color: var(--blue);">GitHub</a>. Include the case name, the update, and a link to the source. We review all submissions before publishing.</p>
-      <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.75;">We do not accept anonymous tips without a verifiable source. This is intentional — it is what keeps the archive credible and legally defensible.</p>
-    </section>
-
-    <section>
-      <h2 style="font-size: 15px; font-weight: 500; color: var(--text-primary); margin-bottom: 10px; padding-bottom: 8px; border-bottom: 0.5px solid var(--gray-border);">Stay updated</h2>
-      <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.75;">Subscribe to the <a href="{{ "index.xml" | absURL }}" style="color: var(--blue);">RSS feed</a> to get notified whenever a case is updated. No email required, no signup. If you use a feed reader like Feedly or NetNewsWire, paste the RSS URL there.</p>
-    </section>
-
+    {{ .Content }}
   </div>
 </div>
 {{ end }}
