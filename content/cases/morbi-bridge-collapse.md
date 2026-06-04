@@ -5,67 +5,70 @@ location: "Morbi, Gujarat"
 category: "bridge-collapse"
 status: "under-trial"
 deaths: 135
-injured: 56
-accused_count: 9
-accused_gap: "3 officials named — 0 chargesheeted"
-summary: "135 killed when a suspension bridge over the Machchhu river collapsed. Oreva Group MD arrested. Municipality officials who renewed the contract without a fitness certificate remain untouched."
-tags: ["bridge", "gujarat", "officials-shielded", "oreva"]
-last_updated: 2025-06-01
+injured: 180
+accused_count: 10
+accused_gap: "10 accused named in the chargesheet; later reporting centered on compensation and municipal accountability gaps rather than municipal charges"
+summary: "A pedestrian suspension bridge over the Machchhu River collapsed after reopening for Diwali, killing 135 people and injuring more than 180 others. Later reporting focused on the 10 accused named in the chargesheet, the compensation package, and continued disputes over municipal responsibility."
+tags: ["bridge", "gujarat", "morbi", "oreva", "trial"]
+last_updated: 2026-06-04
 
 accused:
   - name: "Jaysukh Patel"
-    role: "Oreva Group MD"
+    role: "Oreva Group director and prime accused"
     type: "private"
-    status: "on-bail"
-  - name: "Managers, guards, ticketing staff (7 others)"
-    role: "Oreva Group"
+    status: "chargesheeted"
+  - name: "Oreva managers (2)"
+    role: "Operational managers named in the chargesheet"
     type: "private"
-    status: "on-bail"
-  - name: "Municipality officer (unnamed)"
-    role: "Signed renewal without fitness certificate"
-    type: "govt"
-    status: "not-chargesheeted"
+    status: "chargesheeted"
+  - name: "Ticket clerks (2)"
+    role: "Ticketing staff on the Oreva payroll named in the chargesheet"
+    type: "private"
+    status: "chargesheeted"
+  - name: "Security guards (3)"
+    role: "Security staff hired by Oreva named in the chargesheet"
+    type: "private"
+    status: "chargesheeted"
+  - name: "Contractors (2)"
+    role: "Fabrication contractors named in the chargesheet"
+    type: "private"
+    status: "chargesheeted"
 
 compensation:
   announced: true
-  announced_amount: "₹4L per death, ₹50K per injured person"
+  announced_amount: "₹10L per death total; additional ₹1L/₹2L for injured depending on disability"
   paid: "partial"
-  paid_note: "Disputed by victim families, full disbursement not confirmed"
-  source: "https://highcourtofgujarat.nic.in"
+  paid_note: "The government announced the revised package in court; this file does not claim full disbursement beyond the sourced reporting."
+  source: "https://www.telegraphindia.com/india/bridge-collapse-morbi-municipality-to-be-dissolved-compensation-to-be-hiked-gujarat-govt-tells-high-court/cid/1903497"
 
 timeline:
   - date: 2022-10-30
     type: "red"
-    event: "Suspension bridge over Machchhu river collapses during Diwali. 135 people killed, 56 injured. Bridge had been recently handed to Oreva Group for renovation and reopened 5 days earlier without safety checks."
-    source: "https://indianexpress.com/article/india/morbi-bridge-collapse-8221398/"
-    source_name: "Indian Express"
-  - date: 2022-11-03
+    event: "A pedestrian suspension bridge over the Machchhu River collapsed after reopening for Diwali, killing 135 people and injuring more than 180 others."
+    source: "https://www.bbc.com/news/world-asia-india-63477292"
+    source_name: "BBC News"
+  - date: 2022-11-02
     type: "amber"
-    event: "9 arrested including Oreva Group managers, security guards, and ticketing staff. Oreva Group MD Jaysukh Patel initially absconding."
-    source: "https://www.livelaw.in/top-stories/morbi-bridge-collapse-gujarat-police-arrests-211632"
-    source_name: "Live Law"
-  - date: 2022-12-10
-    type: "amber"
-    event: "Jaysukh Patel surrenders and is arrested. Granted bail within weeks. Municipality officials who approved the contract renewal — who never ordered a fitness inspection — are not touched."
-    source: "https://thewire.in/rights/morbi-bridge-collapse-jaysukh-patel"
-    source_name: "The Wire"
-  - date: 2023-01-15
+    event: "BBC reported that police had arrested nine people associated with Oreva, including managers, ticket clerks, contractors, and security guards, as the investigation continued."
+    source: "https://www.bbc.com/news/world-asia-india-63477292"
+    source_name: "BBC News"
+  - date: 2022-12-12
     type: "blue"
-    event: "Gujarat HC orders ex-gratia compensation. ₹4L per death, ₹50K per injured. Oreva directed to contribute. Disbursement of full amount disputed by families."
-    source: "https://highcourtofgujarat.nic.in"
-    source_name: "Gujarat HC order"
-  - date: 2024-03-01
+    event: "The Gujarat government told the High Court it would dissolve Morbi municipality and increase compensation for victims' families."
+    source: "https://www.telegraphindia.com/india/bridge-collapse-morbi-municipality-to-be-dissolved-compensation-to-be-hiked-gujarat-govt-tells-high-court/cid/1903497"
+    source_name: "Telegraph India"
+  - date: 2023-01-28
+    type: "blue"
+    event: "Ahmedabad Mirror reported that Gujarat police filed a 1,262-page chargesheet naming 10 accused, with Jaysukh Patel described as the prime accused."
+    source: "https://www.ahmedabadmirror.com/morbi-bridge-collapse/81850537.html"
+    source_name: "Ahmedabad Mirror"
+  - date: 2024-11-19
     type: "gray"
-    event: "Sessions Court begins trial. Chargesheet filed against all 9 accused — all private individuals. Zero government or municipality officials named in the chargesheet."
-    source: "https://www.barandbench.com/news/morbi-bridge-collapse-chargesheet"
-    source_name: "Bar & Bench"
-  - date: 2025-06-01
-    type: "gray"
-    event: "Trial ongoing. Next hearing scheduled July 2025. Municipality officials remain outside the chargesheet. Victim families continue to pursue compensation through Gujarat HC."
-    source: "https://www.livelaw.in"
-    source_name: "Live Law"
+    event: "Times of India reported that all ten accused sought discharge from culpable homicide charges, keeping the case active in court."
+    source: "https://timesofindia.indiatimes.com/city/rajkot/morbi-bridge-collapse-accused-seek-discharge-from-culpable-homicide-charges/articleshow/115462140.cms"
+    source_name: "Times of India"
 ---
 
-The Morbi bridge collapse is one of India's worst infrastructure disasters in the last decade. The bridge was a colonial-era structure leased to Oreva Group for renovation. It was reopened without an official fitness certificate or load-bearing test just days before the collapse.
+The Morbi bridge collapse remains one of the worst bridge disasters in India’s recent history. The strongest public record is consistent on the headline facts: the bridge reopened just days before the collapse, 135 people were killed, more than 180 were injured, and ten accused were later named in the chargesheet.
 
-The accountability gap is stark: while private company employees were arrested and tried, the municipality officials who renewed the contract without any safety inspection have not been chargesheeted. Critics and victim families argue this shields the systemic negligence that made the disaster possible.
+The accountability picture is more complicated than an early arrest list suggests. Later reporting focused on the court process, compensation, and the continuing dispute over municipal responsibility rather than any neat closure.
