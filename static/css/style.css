@@ -855,20 +855,38 @@ footer a { color: var(--blue); }
   .search-wrap { max-width: none; }
   .case-card {
     flex-direction: column;
-    gap: 10px;
-    padding: 16px 0;
+    gap: 8px;
+    padding: 12px 0;
   }
   .case-left { width: 100%; }
+  .case-summary {
+    font-size: 12.75px;
+    line-height: 1.45;
+    margin-bottom: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .accused-line {
+    font-size: 11px;
+    padding: 3px 8px;
+  }
   .case-right {
     width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.35rem 0.5rem;
+    align-items: start;
     justify-content: flex-start;
-    gap: 0.35rem 0.75rem;
+    min-width: 0;
   }
+  .case-right > * { min-width: 0; }
   .case-deaths,
-  .case-updated { text-align: left; }
+  .case-updated {
+    text-align: left;
+    line-height: 1.2;
+  }
   .case-card__footer {
     flex-direction: column;
     align-items: flex-start;
