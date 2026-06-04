@@ -5,7 +5,7 @@
   data-case-card
   data-case-status="{{ .Params.status | default "unknown" | urlize }}"
   data-case-category="{{ .Params.category | default "uncategorized" | urlize }}"
-  data-case-text="{{ printf "%s %s %s %s %s %s" .Title (.Params.location | default "") (.Params.category | default "") (.Params.status | default "") $summary (.File.BaseFileName) | plainify | lower }}"
+  data-case-text="{{ printf "%s %s %s %s %s %s %s %s" .Title (.Params.location | default "") (.Params.category | default "") (.Params.status | default "") $summary (.Params.accused_gap | default "") (delimit (.Params.tags | default slice) " ") (.File.BaseFileName) | plainify | lower }}"
 >
   <div class="case-card__top">
     <span class="case-card__mark" aria-hidden="true"></span>
@@ -47,7 +47,7 @@
       {{ range first 3 . }}
         <li class="case-card__timeline-item">
           <span class="case-card__timeline-date">{{ .date | time.Format "Jan 2006" }}</span>
-          <span class="case-card__timeline-copy">{{ .title | default .note }}</span>
+          <span class="case-card__timeline-copy">{{ .title | default .event | default .note }}</span>
         </li>
       {{ end }}
     </ol>

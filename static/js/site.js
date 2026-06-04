@@ -1,60 +1,59 @@
 (function () {
-  const cards = Array.from(document.querySelectorAll("[data-case-card]"));
-  const resultCount = document.querySelector("[data-result-count]");
-  const emptyState = document.querySelector("[data-no-results]");
-  const searchInput = document.querySelector("[data-filter-input]");
-  const chipButtons = Array.from(document.querySelectorAll("[data-filter-chip]"));
+  'use strict';
 
-  if (!cards.length) {
-    return;
-  }
+  var cards = Array.from(document.querySelectorAll('[data-case-card]'));
+  var resultCount = document.querySelector('[data-result-count]');
+  var emptyState = document.querySelector('[data-no-results]');
+  var searchInput = document.querySelector('[data-filter-input]');
+  var chipButtons = Array.from(document.querySelectorAll('[data-filter-chip]'));
 
-  const initialUrl = new URL(window.location.href);
-  const state = {
-    query: (initialUrl.searchParams.get("q") || "").trim().toLowerCase(),
-    category: (initialUrl.searchParams.get("category") || "all").trim().toLowerCase()
+  if (!cards.length) return;
+
+  var initialUrl = new URL(window.location.href);
+  var state = {
+    query: (initialUrl.searchParams.get('q') || '').trim().toLowerCase(),
+    filter: (initialUrl.searchParams.get('filter') || 'all').trim().toLowerCase(),
   };
 
   if (searchInput) {
     searchInput.value = state.query;
   }
 
-  const setActiveChip = () => {
-    chipButtons.forEach((button) => {
-      const value = (button.getAttribute("data-filter-chip") || "all").toLowerCase();
-      button.classList.toggle("is-active", value === state.category);
-      button.setAttribute("aria-pressed", String(value === state.category));
+  function setActiveChip() {
+    chipButtons.forEach(function (button) {
+      var value = (button.getAttribute('data-filter-chip') || 'all').toLowerCase();
+      var isActive = value === state.filter;
+      button.classList.toggle('is-active', isActive);
+      button.setAttribute('aria-pressed', String(isActive));
     });
-  };
+  }
 
-  const syncUrl = () => {
-    const next = new URL(window.location.href);
+  function syncUrl() {
+    var next = new URL(window.location.href);
 
-    if (state.query) next.searchParams.set("q", state.query);
-    else next.searchParams.delete("q");
+    if (state.query) next.searchParams.set('q', state.query);
+    else next.searchParams.delete('q');
 
-    if (state.category && state.category !== "all") next.searchParams.set("category", state.category);
-    else next.searchParams.delete("category");
+    if (state.filter && state.filter !== 'all') next.searchParams.set('filter', state.filter);
+    else next.searchParams.delete('filter');
 
-    history.replaceState({}, "", `${next.pathname}${next.search}${next.hash}`);
-  };
+    history.replaceState({}, '', next.pathname + next.search + next.hash);
+  }
 
-  const applyFilters = () => {
-    let visible = 0;
+  function applyFilters() {
+    var visible = 0;
 
-    cards.forEach((card) => {
-      const text = (card.getAttribute("data-case-text") || "").toLowerCase();
-      const category = (card.getAttribute("data-case-category") || "all").toLowerCase();
+    cards.forEach(function (card) {
+      var text = (card.getAttribute('data-case-text') || '').toLowerCase();
+      var category = (card.getAttribute('data-case-category') || 'all').toLowerCase();
+      var status = (card.getAttribute('data-case-status') || '').toLowerCase();
 
-      const matches =
-        (!state.query || text.includes(state.query)) &&
-        (state.category === "all" || category === state.category);
+      var matches =
+        (!state.query || text.indexOf(state.query) > -1) &&
+        (state.filter === 'all' || category === state.filter || status === state.filter);
 
       card.hidden = !matches;
-
-      if (matches) {
-        visible += 1;
-      }
+      if (matches) visible += 1;
     });
 
     if (resultCount) {
@@ -67,18 +66,18 @@
 
     setActiveChip();
     syncUrl();
-  };
+  }
 
   if (searchInput) {
-    searchInput.addEventListener("input", () => {
+    searchInput.addEventListener('input', function () {
       state.query = searchInput.value.trim().toLowerCase();
       applyFilters();
     });
   }
 
-  chipButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      state.category = (button.getAttribute("data-filter-chip") || "all").toLowerCase();
+  chipButtons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      state.filter = (button.getAttribute('data-filter-chip') || 'all').toLowerCase();
       applyFilters();
     });
   });
