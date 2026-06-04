@@ -35,7 +35,7 @@ Open http://localhost:1313 in your browser.
 
 Update `baseURL` in `hugo.toml` to your actual GitHub Pages URL:
 ```toml
-baseURL = "https://dakshpareek.github.io/hissab/"
+baseURL = "https://hissab.daksh.be/"
 ```
 
 ---
