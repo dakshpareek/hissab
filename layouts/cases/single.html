@@ -113,34 +113,36 @@
       {{ with $p.accused }}
       <div class="detail-section">
         <div class="detail-section-title">Accused persons</div>
-        <table class="accused-table">
-          <thead>
-            <tr>
-              <th>Name / role</th>
-              <th>Type</th>
-              <th>Status</th>
-            </tr>
-          </thead>
-          <tbody>
-            {{ range . }}
-            {{ $aClass := "a-free" }}
-            {{ if eq .status "on-bail" }}{{ $aClass = "a-bail" }}
-            {{ else if eq .status "arrested" }}{{ $aClass = "a-arrested" }}
-            {{ else if eq .status "convicted" }}{{ $aClass = "a-convicted" }}
-            {{ else if eq .status "absconding" }}{{ $aClass = "a-absconding" }}
-            {{ end }}
-            {{ $aLabel := replace .status "-" " " | title }}
-            <tr>
-              <td>
-                <div class="accused-name">{{ .name }}</div>
-                {{ with .role }}<div class="accused-role">{{ . }}</div>{{ end }}
-              </td>
-              <td style="font-size:12px; color:var(--text-secondary);">{{ default "—" .type | title }}</td>
-              <td><span class="a-status {{ $aClass }}">{{ $aLabel }}</span></td>
-            </tr>
-            {{ end }}
-          </tbody>
-        </table>
+        <div class="table-scroll">
+          <table class="accused-table">
+            <thead>
+              <tr>
+                <th>Name / role</th>
+                <th>Type</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range . }}
+              {{ $aClass := "a-free" }}
+              {{ if eq .status "on-bail" }}{{ $aClass = "a-bail" }}
+              {{ else if eq .status "arrested" }}{{ $aClass = "a-arrested" }}
+              {{ else if eq .status "convicted" }}{{ $aClass = "a-convicted" }}
+              {{ else if eq .status "absconding" }}{{ $aClass = "a-absconding" }}
+              {{ end }}
+              {{ $aLabel := replace .status "-" " " | title }}
+              <tr>
+                <td>
+                  <div class="accused-name">{{ .name }}</div>
+                  {{ with .role }}<div class="accused-role">{{ . }}</div>{{ end }}
+                </td>
+                <td style="font-size:12px; color:var(--text-secondary);">{{ default "—" .type | title }}</td>
+                <td><span class="a-status {{ $aClass }}">{{ $aLabel }}</span></td>
+              </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
       </div>
       {{ end }}
 

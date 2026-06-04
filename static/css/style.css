@@ -851,10 +851,15 @@ footer a { color: var(--blue); }
   .btn-watch,
   .btn-share,
   .btn-submit { min-height: 44px; }
-  .search-row { justify-content: stretch; }
+  .search-row { justify-content: flex-start; }
   .search-wrap { max-width: none; }
+  .case-card {
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px 0;
+  }
+  .case-left { width: 100%; }
   .case-right {
-    min-width: 0;
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
@@ -870,8 +875,22 @@ footer a { color: var(--blue); }
   }
   .case-card__tags { width: 100%; }
   .case-card__footer .button { width: 100%; }
+  .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -4px;
+    padding: 0 4px;
+  }
+  .accused-table {
+    min-width: 520px;
+  }
   .about-strip { flex-direction: column; gap: 20px; }
   footer { flex-direction: column; gap: 6px; text-align: center; }
+}
+
+/* Keep wide tables readable on smaller screens. */
+.table-scroll {
+  width: 100%;
 }
 
 /* ── ANIMATIONS ── */

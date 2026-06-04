@@ -19,6 +19,18 @@ cd hissab
 
 Install Hugo Extended (v0.120+): https://gohugo.io/installation/
 
+On this machine, the Hugo binary is installed here:
+
+```text
+C:\Users\rdpuser\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe
+```
+
+If Hugo is not on `PATH`, use the full path directly:
+
+```powershell
+& "C:\Users\rdpuser\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe" server -D
+```
+
 ### 2. Run locally
 
 ```bash
