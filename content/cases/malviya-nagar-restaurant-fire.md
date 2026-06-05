@@ -10,7 +10,7 @@ accused_count: 1
 accused_gap: "Owner arrested — no public record here of chargesheet against regulators"
 summary: "A fire at Flourish Stay B&B in Hauz Rani, Malviya Nagar killed 21 people and injured at least 26 more. Police said the owner, Lavkesh Bajaj, was arrested, while the public reporting highlighted missing fire exits and major room-capacity violations."
 tags: ["fire", "delhi", "hotel", "bnb", "malviya-nagar"]
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 
 accused:
   - name: "Lavkesh Bajaj"
@@ -19,11 +19,11 @@ accused:
     status: "arrested"
 
 compensation:
-  announced: false
-  announced_amount: ""
+  announced: true
+  announced_amount: "Rs 2 lakh compensation for families of the deceased"
   paid: "none"
-  paid_note: "No compensation figure confirmed in the reporting used for this update"
-  source: ""
+  paid_note: "Centre announced ex gratia; injured to receive Rs 50,000 according to the report"
+  source: "https://indianexpress.com/article/cities/delhi/delhi-malviya-nagar-lemon-green-restaurant-fire-death-toll-10721599/"
 
 timeline:
   - date: 2026-06-03
@@ -41,6 +41,11 @@ timeline:
     event: "HT reports the B&B was operating 26 rooms instead of the allowed six and lacked a fire exit, reinforcing the regulatory failure around the building."
     source: "https://www.hindustantimes.com/india-news/room-permit-closed-exit-how-safety-gaps-sparked-another-delhi-tragedy-in-bnb-blaze-killing-21-101780545538868.html"
     source_name: "Hindustan Times"
+  - date: 2026-06-04
+    type: "gray"
+    event: "The Centre announced Rs 2 lakh compensation for the families of the people who died, and Rs 50,000 for the injured."
+    source: "https://indianexpress.com/article/cities/delhi/delhi-malviya-nagar-lemon-green-restaurant-fire-death-toll-10721599/"
+    source_name: "The Indian Express"
 ---
 
 This record has been corrected to the currently documented Malviya Nagar fire incident, which is now clearly source-backed in public reporting. The older 2024 placeholders and broken links were replaced with the live 2026 reporting trail so the case file reflects the actual public record.
