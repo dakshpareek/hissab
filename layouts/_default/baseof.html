@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" />
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "css/site.css" | relURL }}" />
   <link rel="alternate" type="application/rss+xml" title="Hissab — Case Updates" href="{{ "index.xml" | absURL }}" />
   <meta property="og:title" content="{{ if .IsHome }}Hissab{{ else }}{{ .Title }} · Hissab{{ end }}" />
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
