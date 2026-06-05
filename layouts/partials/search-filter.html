@@ -3,12 +3,6 @@
 {{ $showSearch := ne $mode "hero" }}
 {{ $surface := .Surface | default "panel" }}
 {{ $categories := slice }}
-{{ $statusChips := slice
-  (dict "value" "no-action" "label" "No action")
-  (dict "value" "under-trial" "label" "Under trial")
-  (dict "value" "partial-justice" "label" "Partial justice")
-  (dict "value" "closed" "label" "Closed")
-}}
 
 {{ range $cases }}
   {{ with .Params.category }}
@@ -30,17 +24,10 @@
     </label>
   {{ end }}
 
-  <div class="chip-row" data-chip-row role="group" aria-label="Case filters">
-    <button type="button" class="chip is-active" data-filter-chip-kind="all" data-filter-chip="all">All cases</button>
-
-    {{ range $statusChips }}
-      <button type="button" class="chip" data-filter-chip-kind="status" data-filter-chip="{{ .value }}">
-        {{ .label }}
-      </button>
-    {{ end }}
-
+  <div class="chip-row" data-chip-row>
+    <button type="button" class="chip is-active" data-filter-chip="all">All cases</button>
     {{ range $categories }}
-      <button type="button" class="chip" data-filter-chip-kind="category" data-filter-chip="{{ . | urlize }}">
+      <button type="button" class="chip" data-filter-chip="{{ . | urlize }}">
         {{ humanize . }}
       </button>
     {{ end }}

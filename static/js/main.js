@@ -1,139 +1,74 @@
 (function () {
   'use strict';
 
-  var cards = Array.from(document.querySelectorAll('[data-case-card]'));
-  var resultCount = document.querySelector('[data-result-count]');
-  var emptyState = document.querySelector('[data-no-results]');
-  var searchInput = document.querySelector('[data-filter-input]');
-  var chipButtons = Array.from(document.querySelectorAll('[data-filter-chip]'));
+  // ── FILTER + SEARCH ──────────────────────────────────────────────
+  var cards = Array.from(document.querySelectorAll('.case-card'));
+  var chips = Array.from(document.querySelectorAll('.chip'));
+  var searchInput = document.getElementById('search-input');
+  var noResults = document.getElementById('no-results');
 
-  if (cards.length) {
-    var initialUrl = new URL(window.location.href);
-    var initialStatus = (initialUrl.searchParams.get('status') || '').trim().toLowerCase();
-    var initialCategory = (initialUrl.searchParams.get('category') || '').trim().toLowerCase();
-    var initialFilterKind = 'all';
-    var initialFilterValue = 'all';
+  if (!cards.length) return;
 
-    if (initialStatus) {
-      initialFilterKind = 'status';
-      initialFilterValue = initialStatus;
-    } else if (initialCategory) {
-      initialFilterKind = 'category';
-      initialFilterValue = initialCategory;
-    }
+  var activeFilter = 'all';
+  var searchQuery = '';
 
-    var state = {
-      query: (initialUrl.searchParams.get('q') || '').trim().toLowerCase(),
-      filterKind: initialFilterKind,
-      filterValue: initialFilterValue
-    };
+  function applyFilters() {
+    var visible = 0;
 
-    if (searchInput) {
-      searchInput.value = state.query;
-    }
+    cards.forEach(function (card) {
+      var status   = card.dataset.status || '';
+      var category = card.dataset.category || '';
+      var title    = card.dataset.title || '';
+      var location = card.dataset.location || '';
+      var tagsRaw  = card.dataset.tags || '[]';
+      var tags     = [];
+      try { tags = JSON.parse(tagsRaw); } catch (e) {}
 
-    var setActiveChip = function () {
-      chipButtons.forEach(function (button) {
-        var kind = (button.getAttribute('data-filter-chip-kind') || 'category').toLowerCase();
-        var value = (button.getAttribute('data-filter-chip') || 'all').toLowerCase();
-        var active = state.filterKind === kind && state.filterValue === value;
-
-        if (value === 'all' && kind === 'all') {
-          active = state.filterKind === 'all';
-        }
-
-        button.classList.toggle('is-active', active);
-        button.setAttribute('aria-pressed', String(active));
-      });
-    };
-
-    var syncUrl = function () {
-      var next = new URL(window.location.href);
-
-      if (state.query) {
-        next.searchParams.set('q', state.query);
-      } else {
-        next.searchParams.delete('q');
+      // Filter match
+      var filterMatch = activeFilter === 'all';
+      if (!filterMatch) {
+        filterMatch =
+          status === activeFilter ||
+          category === activeFilter ||
+          tags.indexOf(activeFilter) > -1;
       }
 
-      if (state.filterKind === 'status') {
-        next.searchParams.set('status', state.filterValue);
-        next.searchParams.delete('category');
-      } else if (state.filterKind === 'category') {
-        next.searchParams.set('category', state.filterValue);
-        next.searchParams.delete('status');
-      } else {
-        next.searchParams.delete('status');
-        next.searchParams.delete('category');
+      // Search match
+      var searchMatch = true;
+      if (searchQuery.length > 1) {
+        searchMatch =
+          title.indexOf(searchQuery) > -1 ||
+          location.indexOf(searchQuery) > -1 ||
+          category.indexOf(searchQuery) > -1;
       }
 
-      history.replaceState({}, '', next.pathname + next.search + next.hash);
-    };
-
-    var applyFilters = function () {
-      var visible = 0;
-
-      cards.forEach(function (card) {
-        var text = (card.getAttribute('data-case-text') || '').toLowerCase();
-        var category = (card.getAttribute('data-case-category') || '').toLowerCase();
-        var status = (card.getAttribute('data-case-status') || '').toLowerCase();
-
-        var matchesQuery = !state.query || text.indexOf(state.query) !== -1;
-        var matchesFilter = true;
-
-        if (state.filterKind === 'status') {
-          matchesFilter = status === state.filterValue;
-        } else if (state.filterKind === 'category') {
-          matchesFilter = category === state.filterValue;
-        }
-
-        var matches = matchesQuery && matchesFilter;
-        card.hidden = !matches;
-
-        if (matches) {
-          visible += 1;
-        }
-      });
-
-      if (resultCount) {
-        resultCount.textContent = String(visible);
-      }
-
-      if (emptyState) {
-        emptyState.hidden = visible !== 0;
-      }
-
-      setActiveChip();
-      syncUrl();
-    };
-
-    if (searchInput) {
-      searchInput.addEventListener('input', function () {
-        state.query = searchInput.value.trim().toLowerCase();
-        applyFilters();
-      });
-    }
-
-    chipButtons.forEach(function (button) {
-      button.addEventListener('click', function () {
-        var kind = (button.getAttribute('data-filter-chip-kind') || 'category').toLowerCase();
-        var value = (button.getAttribute('data-filter-chip') || 'all').toLowerCase();
-
-        if (kind === 'all' || value === 'all') {
-          state.filterKind = 'all';
-          state.filterValue = 'all';
-        } else {
-          state.filterKind = kind;
-          state.filterValue = value;
-        }
-
-        applyFilters();
-      });
+      var show = filterMatch && searchMatch;
+      card.classList.toggle('hidden', !show);
+      if (show) visible++;
     });
 
-    applyFilters();
+    if (noResults) noResults.classList.toggle('hidden', visible > 0);
   }
 
+  // Chip clicks
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      chips.forEach(function (c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      activeFilter = chip.dataset.filter || 'all';
+      applyFilters();
+    });
+  });
+
+  // Search input
+  if (searchInput) {
+    searchInput.addEventListener('input', function () {
+      searchQuery = searchInput.value.trim().toLowerCase();
+      applyFilters();
+    });
+  }
+
+  // ── COPY LINK FEEDBACK ───────────────────────────────────────────
   window.copyLink = function () {
     navigator.clipboard.writeText(window.location.href).then(function () {
       var btns = document.querySelectorAll('.btn-share');
@@ -148,4 +83,5 @@
       prompt('Copy this link:', window.location.href);
     });
   };
+
 })();
