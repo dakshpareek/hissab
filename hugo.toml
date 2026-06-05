@@ -12,5 +12,11 @@ title = "Hissab"
   state = "states"
   status = "statuses"
 
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
 [pagination]
   pagerSize = 20
