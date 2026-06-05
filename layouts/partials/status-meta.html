@@ -1,0 +1,7 @@
+{{- $map := dict
+  "no-action"       (dict "label" "No action"       "detail" "No action on officials" "class" "s-none")
+  "under-trial"     (dict "label" "Under trial"     "detail" "Under trial"            "class" "s-trial")
+  "partial-justice" (dict "label" "Partial justice" "detail" "Partial justice"        "class" "s-partial")
+  "closed"          (dict "label" "Closed"          "detail" "Closed"                 "class" "s-closed")
+-}}
+{{- return index $map . | default (dict "label" "" "detail" "" "class" "") -}}

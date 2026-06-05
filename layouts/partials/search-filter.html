@@ -14,14 +14,8 @@
   <span class="filter-label">Filter:</span>
   <button class="chip chip-all active" data-filter-chip="all">All cases</button>
   {{ range $statuses }}
-  {{ $label := "" }}
-  {{ if eq . "no-action" }}{{ $label = "No action" }}
-  {{ else if eq . "under-trial" }}{{ $label = "Under trial" }}
-  {{ else if eq . "partial-justice" }}{{ $label = "Partial justice" }}
-  {{ else if eq . "closed" }}{{ $label = "Closed" }}
-  {{ else }}{{ $label = . | humanize }}
-  {{ end }}
-  <button class="chip" data-filter-chip="{{ . }}">{{ $label }}</button>
+  {{ $meta := partial "status-meta.html" . }}
+  <button class="chip" data-filter-chip="{{ . }}">{{ $meta.label }}</button>
   {{ end }}
   {{ range $categories }}
   <button class="chip" data-filter-chip="{{ . | urlize }}">{{ replace . "-" " " | title }}</button>

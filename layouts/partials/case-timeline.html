@@ -1,0 +1,28 @@
+{{ $p := . }}
+{{ with .timeline }}
+<div class="detail-section">
+  <div class="detail-section-title">Timeline</div>
+  <div class="timeline">
+    {{ range $i, $e := . }}
+    {{ $dotClass := "gray" }}
+    {{ if $e.type }}{{ $dotClass = $e.type }}{{ end }}
+    <div class="t-item">
+      <div class="t-spine">
+        <div class="t-dot {{ $dotClass }}" aria-hidden="true"></div>
+        {{ if lt $i (sub (len $p.timeline) 1) }}<div class="t-line" aria-hidden="true"></div>{{ end }}
+      </div>
+      <div class="t-content">
+        <div class="t-date">{{ dateFormat "Jan 2, 2006" $e.date }}</div>
+        <div class="t-event">{{ $e.event }}</div>
+        {{ with $e.source }}
+        <a class="t-source" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          {{ with $e.source_name }}{{ . }}{{ else }}Source{{ end }}
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,26 @@
+{{ with .compensation }}
+<div class="detail-section">
+  <div class="detail-section-title">Compensation</div>
+  <div>
+    {{ with .announced_amount }}
+    <div class="comp-row">
+      <span class="comp-key">Announced amount</span>
+      <span class="comp-val">{{ . }}</span>
+    </div>
+    {{ end }}
+    <div class="comp-row">
+      <span class="comp-key">Paid so far</span>
+      <span class="comp-val {{ if eq .paid "none" }}bad{{ else if eq .paid "full" }}ok{{ else }}warn{{ end }}">
+        {{ if eq .paid "none" }}Not paid{{ else if eq .paid "full" }}Fully paid{{ else if eq .paid "partial" }}Partially paid{{ else }}Unknown{{ end }}
+        {{ with .paid_note }} — {{ . }}{{ end }}
+      </span>
+    </div>
+    {{ with .source }}
+    <div class="comp-row">
+      <span class="comp-key">Source</span>
+      <span class="comp-val"><a href="{{ . }}" target="_blank" rel="noopener" style="color:var(--blue); font-size:12px;">Court order / source</a></span>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

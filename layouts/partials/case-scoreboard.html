@@ -1,0 +1,32 @@
+{{ $govtCS := 0 }}
+{{ range .accused }}
+  {{ if and (eq .type "govt") (eq .status "chargesheeted") }}{{ $govtCS = add $govtCS 1 }}{{ end }}
+{{ end }}
+
+{{ $compLabel := "Unknown" }}
+{{ $compClass := "" }}
+{{ if .compensation }}
+  {{ if eq .compensation.paid "full" }}{{ $compLabel = "Paid" }}{{ $compClass = "green" }}
+  {{ else if eq .compensation.paid "partial" }}{{ $compLabel = "Partial" }}{{ $compClass = "amber" }}
+  {{ else if eq .compensation.paid "none" }}{{ $compLabel = "Not paid" }}{{ $compClass = "red" }}
+  {{ end }}
+{{ end }}
+
+<div class="scoreboard">
+  <div class="score-item">
+    <div class="score-num red">{{ default "—" .deaths }}</div>
+    <div class="score-label">Deaths</div>
+  </div>
+  <div class="score-item">
+    <div class="score-num amber">{{ default "—" .accused_count }}</div>
+    <div class="score-label">Accused persons</div>
+  </div>
+  <div class="score-item">
+    <div class="score-num red">{{ $govtCS }}</div>
+    <div class="score-label">Govt officials chargesheeted</div>
+  </div>
+  <div class="score-item">
+    <div class="score-num {{ $compClass }}">{{ $compLabel }}</div>
+    <div class="score-label">Compensation</div>
+  </div>
+</div>

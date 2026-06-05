@@ -1,16 +1,9 @@
-{{ $status := .Params.status }}
-{{ $statusLabel := "" }}
-{{ $statusClass := "" }}
-{{ if eq $status "no-action" }}{{ $statusLabel = "No action" }}{{ $statusClass = "s-none" }}
-{{ else if eq $status "under-trial" }}{{ $statusLabel = "Under trial" }}{{ $statusClass = "s-trial" }}
-{{ else if eq $status "partial-justice" }}{{ $statusLabel = "Partial justice" }}{{ $statusClass = "s-partial" }}
-{{ else if eq $status "closed" }}{{ $statusLabel = "Closed" }}{{ $statusClass = "s-closed" }}
-{{ end }}
+{{ $statusMeta := partial "status-meta.html" .Params.status }}
 
 <a class="case-card"
    href="{{ .RelPermalink }}"
    data-case-card
-   data-case-status="{{ $status }}"
+   data-case-status="{{ .Params.status }}"
    data-case-category="{{ .Params.category | default "" | urlize }}"
    data-case-text="{{ printf "%s %s %s %s" .Title (.Params.location | default "") (.Params.category | default "") (.Params.summary | default "") | plainify | lower }}">
   <div class="case-left">
@@ -31,7 +24,7 @@
     {{ end }}
   </div>
   <div class="case-right">
-    <span class="status-badge {{ $statusClass }}">{{ $statusLabel }}</span>
+    <span class="status-badge {{ $statusMeta.class }}">{{ $statusMeta.label }}</span>
     {{ with .Params.deaths }}<div class="case-deaths">{{ . }} deaths</div>{{ end }}
     {{ with .Params.injured }}<div class="case-deaths">{{ . }} injured</div>{{ end }}
     <div class="case-updated">
