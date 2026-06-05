@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{ $upiLink := "upi://pay?pa=gareeblaunda@ybl&pn=Hissab&cu=INR&tn=Hissab%20support" }}
+{{ $sponsorLink := "https://github.com/sponsors/dakshpareek" }}
+
+<div class="page-wrap support-page">
+  <section class="support-hero">
+    <p class="hero-eyebrow">Support Hissab</p>
+    <h1>Help fund domain and AI credits.</h1>
+    <p class="support-lead">Hissab is a source-backed public archive. We are starting with one-time support while we assess the annual running cost. Our current planning target is ₹5,000 per month.</p>
+
+    <div class="support-actions">
+      <a class="support-cta support-cta-primary" href="{{ $sponsorLink }}" target="_blank" rel="noopener">GitHub Sponsors</a>
+      <a class="support-cta support-cta-secondary" href="{{ $upiLink | safeURL }}">Pay via UPI</a>
+    </div>
+
+    <p class="support-note">If you prefer not to donate, sharing Hissab or subscribing to the RSS feed also helps.</p>
+  </section>
+
+  <div class="support-grid">
+    <article class="support-card">
+      <h2>What support covers</h2>
+      <ul class="support-list">
+        <li>Domain renewal</li>
+        <li>AI credits used for research and drafting</li>
+        <li>Basic hosting and infrastructure costs</li>
+      </ul>
+      <p class="support-small">The goal is to keep the archive stable, readable, and source-backed without depending on ad revenue or sponsorship noise.</p>
+    </article>
+
+    <article class="support-card">
+      <h2>UPI support</h2>
+      <div class="support-qr-wrap">
+        <img class="support-qr" src="{{ "/images/hissab-upi-qr.png" | relURL }}" alt="QR code for supporting Hissab via UPI" />
+      </div>
+      <p class="support-qr-id"><code>gareeblaunda@ybl</code></p>
+      <p class="support-small">Open the QR in your payment app, or use the direct UPI link above. The scan goes to the same UPI ID.</p>
+    </article>
+  </div>
+
+  <section class="support-card support-wide">
+    <h2>Why we are asking</h2>
+    <p>Hissab exists to document accountability after major incidents, using only public records and named news sources. The support ask is intentionally narrow: we only need enough to cover the basic operating costs that keep the archive online and useful.</p>
+    <p>One-time contributions are enough to start. We will use the current support total to estimate the yearly cost of running the site and decide whether the next step should be recurring sponsorship or a larger one-time reserve.</p>
+  </section>
+</div>
+{{ end }}

@@ -155,6 +155,17 @@ Include:
 
 ---
 
+## Support Hissab
+
+If you want to help keep Hissab online, support goes toward:
+- domain renewal
+- AI credits
+- hosting / basic infra
+
+Support page: https://hissab.daksh.be/support/
+
+---
+
 ## Editorial principles
 
 1. **Source everything.** Every timeline entry needs a URL to a court order, RTI response, or named publication. No source = not published.

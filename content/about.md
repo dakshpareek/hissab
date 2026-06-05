@@ -23,6 +23,10 @@ Hissab is open. If you know of a case we are not tracking, or have a source for 
 
 We do not accept anonymous tips without a verifiable source. This is intentional — it is what keeps the archive credible and legally defensible.
 
+## Support the project
+
+If you want to help keep Hissab online, see [Support Hissab](/support/). Support goes toward domain renewal, AI credits, and basic hosting costs. We are starting with one-time support while we assess the yearly operating cost.
+
 ## Stay updated
 
 Subscribe to the [RSS feed](/index.xml) to get notified whenever a case is updated. No email required, no signup. If you use a feed reader like Feedly or NetNewsWire, paste the RSS URL there.

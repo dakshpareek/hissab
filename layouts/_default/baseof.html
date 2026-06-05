@@ -23,6 +23,7 @@
   <div class="nav-links">
     <a href="{{ "/" | relURL }}">Cases</a>
     <a href="{{ "/about/" | relURL }}">About</a>
+    <a href="{{ "/support/" | relURL }}">Support</a>
   </div>
 </nav>
 
@@ -32,9 +33,12 @@
 
 <div class="page-wrap">
   <footer>
-    <span>Hissab — all data sourced from court orders &amp; named news outlets only</span>
-    <a href="https://github.com/dakshpareek/hissab" target="_blank" rel="noopener">GitHub</a>
-  </footer>
+      <span>Hissab — all data sourced from court orders &amp; named news outlets only</span>
+      <span class="footer-links">
+        <a href="{{ "/support/" | relURL }}">Support</a>
+        <a href="https://github.com/dakshpareek/hissab" target="_blank" rel="noopener">GitHub</a>
+      </span>
+    </footer>
 </div>
 
 <script src="{{ "js/site.js" | relURL }}"></script>
