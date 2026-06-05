@@ -12,16 +12,14 @@
 {{ end }}
 {{ $events = sort $events "date" "desc" }}
 
-<div class="recent-updates">
-  <p class="recent-updates-title">Recent updates</p>
-  {{ range first 8 $events }}
-  <a class="update-item" href="{{ .caseURL }}">
+<p class="recent-updates-title">Recent updates</p>
+{{ range first 8 $events }}
+<a class="update-item" href="{{ .caseURL }}">
+  <div class="update-meta">
     <div class="t-dot {{ .type }}" aria-hidden="true"></div>
-    <div class="update-content">
-      <div class="update-date">{{ dateFormat "Jan 2, 2006" .date }}</div>
-      <div class="update-event">{{ .event }}</div>
-      <div class="update-case">{{ .caseTitle }}</div>
-    </div>
-  </a>
-  {{ end }}
-</div>
+    <span class="update-date">{{ dateFormat "Jan 2, 2006" .date }}</span>
+  </div>
+  <div class="update-event">{{ .event }}</div>
+  <div class="update-case">{{ .caseTitle }}</div>
+</a>
+{{ end }}

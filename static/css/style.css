@@ -712,12 +712,16 @@ input, select { font-family: var(--font-sans); }
 /* ── HOME TWO-COLUMN LAYOUT ── */
 .home-body {
   display: grid;
-  grid-template-columns: 1fr 240px;
+  grid-template-columns: 1fr 260px;
   gap: 0;
   align-items: start;
 }
+.home-main {
+  min-width: 0;
+  padding-right: 32px;
+  border-right: 0.5px solid var(--gray-border);
+}
 .home-sidebar {
-  border-left: 0.5px solid var(--gray-border);
   padding-left: 28px;
   position: sticky;
   top: 70px;
@@ -725,46 +729,56 @@ input, select { font-family: var(--font-sans); }
 
 /* ── RECENT UPDATES FEED ── */
 .recent-updates-title {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--text-tertiary);
   margin-bottom: 14px;
 }
 .update-item {
-  display: flex;
-  gap: 10px;
-  padding: 10px 0;
-  border-bottom: 0.5px solid var(--gray-border);
+  display: block;
+  padding: 10px;
+  margin-bottom: 6px;
+  border-radius: var(--radius-md);
+  background: var(--gray-bg);
   text-decoration: none;
   color: inherit;
-  align-items: flex-start;
+  border: 0.5px solid transparent;
+  transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
 }
-.update-item:last-child { border-bottom: none; }
-.update-item .t-dot {
+.update-item:hover {
+  background: #fff;
+  border-color: var(--gray-border);
+  box-shadow: var(--shadow-card);
+}
+.update-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+.update-meta .t-dot {
   flex-shrink: 0;
-  margin-top: 3px;
 }
-.update-content { flex: 1; min-width: 0; }
 .update-date {
   font-size: 10.5px;
   color: var(--text-tertiary);
-  margin-bottom: 2px;
 }
 .update-event {
-  font-size: 12px;
+  font-size: 12.5px;
   color: var(--text-primary);
-  line-height: 1.45;
+  line-height: 1.5;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 .update-case {
   font-size: 11px;
-  color: var(--text-secondary);
+  color: var(--blue);
+  font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -847,13 +861,16 @@ footer a { color: var(--blue); }
     display: flex;
     flex-direction: column;
   }
+  .home-main {
+    padding-right: 0;
+    border-right: none;
+  }
   .home-sidebar {
     order: -1;
-    border-left: none;
     border-bottom: 0.5px solid var(--gray-border);
     padding-left: 0;
     padding-bottom: 20px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     position: static;
   }
   .update-item:nth-child(n+4) { display: none; }
