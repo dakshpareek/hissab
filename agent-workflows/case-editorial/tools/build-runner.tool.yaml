@@ -1,0 +1,10 @@
+name: build-runner
+description: Run a Hugo build and report success or failure.
+inputs:
+  - repo_root
+outputs:
+  - build_ok
+  - build_log_excerpt
+required_behaviors:
+  - run the real site build
+  - surface template and content errors

@@ -1,0 +1,13 @@
+name: source-freezer
+description: Fetch a source URL and write its exact text to an immutable artifact.
+inputs:
+  - source_url
+  - source_name
+outputs:
+  - frozen_path
+  - frozen_text_sha256
+  - freeze_timestamp
+required_behaviors:
+  - preserve the raw text
+  - store the publication/source name
+  - record any fallback path used

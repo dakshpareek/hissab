@@ -1,0 +1,12 @@
+id: identity-gate
+description: Verify the selected case file refers to the same physical incident as the frozen sources.
+check:
+  type: llm_judgment
+  prompt: |
+    Compare the case metadata and frozen text.
+    Answer with exactly one of: MATCH / MISMATCH / UNCLEAR.
+    Do not explain.
+  expected_values: [MATCH]
+on_MATCH: proceed
+on_MISMATCH: halt_and_mismatch_resolve
+on_UNCLEAR: halt_and_mismatch_resolve

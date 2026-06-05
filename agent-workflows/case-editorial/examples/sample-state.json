@@ -1,0 +1,27 @@
+{
+  "case_slug": "bhopal-gas-disaster",
+  "case_file": "content/cases/bhopal-gas-disaster.md",
+  "queue_signal": null,
+  "queue_claim": null,
+  "record_snapshot": {
+    "title": "Bhopal Gas Disaster",
+    "date": "1984-12-03",
+    "location": "Bhopal, Madhya Pradesh"
+  },
+  "duplicate_guard": {
+    "matched": false,
+    "match_slug": null,
+    "reason": "no duplicate found"
+  },
+  "frozen_sources": [],
+  "identity_gate": {
+    "verdict": "MATCH",
+    "notes": null
+  },
+  "extraction_record": null,
+  "conflict_notes": [],
+  "draft_diff": null,
+  "critic_review": null,
+  "validation": null,
+  "commit_ready": false
+}

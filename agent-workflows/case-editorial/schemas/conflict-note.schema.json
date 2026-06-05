@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ConflictNote",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "field_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_a": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_b": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "quote_a": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "quote_b": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "resolution": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "nullified",
+        "needs-human-review",
+        "resolved",
+        null
+      ]
+    },
+    "note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "field_path",
+    "source_a",
+    "source_b",
+    "resolution"
+  ]
+}

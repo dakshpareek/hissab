@@ -1,0 +1,12 @@
+name: queue-reader
+description: Claim a single queued signal for case-editorial review.
+inputs:
+  - queue_path
+  - consumer_name
+outputs:
+  - queue_signal
+  - queue_claim
+required_behaviors:
+  - claim exactly one queue item
+  - prevent duplicate claims
+  - preserve the original queue payload

@@ -1,0 +1,22 @@
+cases:
+  - case_id: bhopal-gas-disaster
+    title: Bhopal Gas Disaster
+    watch_terms:
+      - Bhopal gas disaster verdict
+      - Union Carbide conviction
+      - Bhopal compensation order
+    source_urls:
+      - https://indianexpress.com/tag/bhopal-gas-tragedy/
+    last_checked: null
+    notes: legacy accountability case
+
+  - case_id: muzaffarpur-hospital-fire
+    title: Muzaffarpur Hospital Fire
+    watch_terms:
+      - Muzaffarpur hospital fire
+      - Prasad Hospital fire
+      - Muzaffarpur ICU fire
+    source_urls:
+      - https://www.thehindu.com/news/national/bihar/muzaffarpur-hospital-fire-in-bihar/article71059549.ece
+    last_checked: null
+    notes: active incident record

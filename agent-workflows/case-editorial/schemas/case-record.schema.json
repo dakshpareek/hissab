@@ -1,0 +1,290 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CaseRecordFrontmatter",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "category": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "bridge-collapse",
+        "fire",
+        "hoarding",
+        "infrastructure",
+        "building-collapse",
+        "flood",
+        "other",
+        null
+      ]
+    },
+    "status": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "no-action",
+        "under-trial",
+        "partial-justice",
+        "closed",
+        null
+      ]
+    },
+    "deaths": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "injured": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "accused_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "accused_gap": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "last_updated": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "accused": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/accusedPerson"
+      },
+      "default": []
+    },
+    "compensation": {
+      "$ref": "#/definitions/compensation"
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/timelineEntry"
+      },
+      "default": []
+    },
+    "body_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "title",
+    "date",
+    "location",
+    "category",
+    "status",
+    "tags",
+    "accused",
+    "compensation",
+    "timeline"
+  ],
+  "definitions": {
+    "accusedPerson": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "role": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "govt",
+            "private",
+            null
+          ]
+        },
+        "status": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "arrested",
+            "on-bail",
+            "chargesheeted",
+            "convicted",
+            "not-chargesheeted",
+            "absconding",
+            null
+          ]
+        },
+        "evidence_quote": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "compensation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "announced": {
+          "type": "boolean"
+        },
+        "announced_amount": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "paid": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "none",
+            "partial",
+            "full",
+            null
+          ]
+        },
+        "paid_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "announced",
+        "paid"
+      ]
+    },
+    "timelineEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "red",
+            "amber",
+            "blue",
+            "green",
+            "gray",
+            null
+          ]
+        },
+        "event": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_quote": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "date",
+        "type",
+        "event",
+        "source",
+        "source_name"
+      ]
+    }
+  }
+}

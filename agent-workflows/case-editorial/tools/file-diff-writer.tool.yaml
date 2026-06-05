@@ -1,0 +1,12 @@
+name: file-diff-writer
+description: Produce a minimal patch for the selected case file.
+inputs:
+  - case_file
+  - record_snapshot
+  - extraction_record
+outputs:
+  - draft_diff
+required_behaviors:
+  - minimize unrelated edits
+  - preserve markdown structure
+  - support rename semantics when needed

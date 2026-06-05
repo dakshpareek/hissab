@@ -1,0 +1,62 @@
+name: case-editorial-workflow
+version: 1.1.0
+description: >
+  Provider-neutral workflow for building or correcting one Hissab case record
+  at a time from public sources, including queue-fed review from the watcher.
+entry_stage: queue-intake
+scope_constraint: one_case_at_a_time
+state:
+  backend: json_file
+  path: ./.case-editorial-state.json
+  schema: schemas/state-store.schema.json
+stages:
+  - id: queue-intake
+    role: orchestrator
+    next: select-case
+  - id: select-case
+    role: orchestrator
+    next: snapshot-record
+    on_duplicate_found: halt_and_merge
+  - id: snapshot-record
+    role: worker
+    next: freeze-sources
+  - id: freeze-sources
+    role: worker
+    next: identity-gate
+    on_timeout: fetch-fallback
+    on_fallback_complete: identity-gate
+  - id: identity-gate
+    role: orchestrator
+    next: extract-schema
+    on_mismatch: mismatch-resolver
+    on_unclear: mismatch-resolver
+  - id: extract-schema
+    role: worker
+    next: draft-rewrite
+    on_conflict: flag-and-defer
+  - id: draft-rewrite
+    role: worker
+    next: critic-review
+  - id: critic-review
+    role: critic
+    next: validate
+    on_reject: draft-rewrite
+    max_revisions: 2
+    on_max_revisions_exceeded: human-review
+  - id: validate
+    role: worker
+    next: commit
+  - id: commit
+    role: orchestrator
+    final: true
+required_tools:
+  - queue-reader
+  - source-freezer
+  - file-diff-writer
+  - yaml-validator
+  - build-runner
+required_references:
+  - references/repo-map.md
+  - references/workflow-rules.md
+  - references/queue-policy.md
+  - references/validation-checklist.md

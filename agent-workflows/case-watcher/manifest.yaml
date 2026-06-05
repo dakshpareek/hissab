@@ -1,0 +1,34 @@
+name: case-watcher-workflow
+version: 1.0.0
+description: >
+  Provider-neutral read-only watcher that scans public sources for material case
+  updates and emits structured signals for the Case Explorer queue.
+entry_stage: index-reader
+scope_constraint: read_only_signal_producer
+state:
+  backend: json_file
+  path: ./.case-watcher-state.json
+  schema: schemas/watcher-state.schema.json
+stages:
+  - id: index-reader
+    role: orchestrator
+    next: source-scanner
+  - id: source-scanner
+    role: worker
+    next: signal-scorer
+  - id: signal-scorer
+    role: critic
+    next: queue-write
+    on_noise: index-reader
+  - id: queue-write
+    role: worker
+    final: true
+required_tools:
+  - web-search
+  - web-fetch
+  - json-validator
+  - queue-writer
+required_references:
+  - README.md
+  - references/queue-policy.md
+  - schemas/case-list.yaml

@@ -1,0 +1,16 @@
+id: duplicate-guard
+description: Detect near-duplicate case records before a new file is created.
+check:
+  type: exact_or_near_match
+  inputs:
+    - case title
+    - incident date
+    - incident location
+    - key source names
+  thresholds:
+    exact_match: halt_and_merge
+    near_match: halt_and_review
+    no_match: proceed
+on_exact_match: halt_and_merge
+on_near_match: halt_and_review
+on_no_match: proceed

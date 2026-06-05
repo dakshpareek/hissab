@@ -1,0 +1,11 @@
+name: queue-writer
+description: Append a watcher-emitted signal to the durable queue.
+inputs:
+  - queue_path
+  - signal
+outputs:
+  - queue_write_result
+required_behaviors:
+  - dedupe by signal identity
+  - write structured queue items only
+  - never touch case files

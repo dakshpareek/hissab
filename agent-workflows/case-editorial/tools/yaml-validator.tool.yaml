@@ -1,0 +1,10 @@
+name: yaml-validator
+description: Parse and validate frontmatter for a case file.
+inputs:
+  - case_file
+outputs:
+  - yaml_valid
+  - validation_notes
+required_behaviors:
+  - fail closed on parse errors
+  - report the first syntax issue clearly

@@ -1,0 +1,6 @@
+id: revision-loop
+description: Bound the critic-worker revision loop.
+policy:
+  max_revisions: 2
+  on_reject: return_to_draft_rewrite
+  on_max_revisions_exceeded: escalate_to_human_review

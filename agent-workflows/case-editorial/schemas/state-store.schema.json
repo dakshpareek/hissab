@@ -1,0 +1,308 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CaseEditorialState",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "case_slug": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "case_file": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "queue_signal": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "signal_id": { "type": ["string", "null"] },
+        "case_id": { "type": ["string", "null"] },
+        "score": { "type": ["string", "null"] },
+        "source_url": { "type": ["string", "null"] },
+        "captured_at": { "type": ["string", "null"] },
+        "status": { "type": ["string", "null"] },
+        "dedupe_key": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "queue_claim": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "claim_id": { "type": ["string", "null"] },
+        "claimed_at": { "type": ["string", "null"] },
+        "queue_name": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "record_snapshot": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "duplicate_guard": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "matched": {
+          "type": "boolean"
+        },
+        "match_slug": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "matched"
+      ],
+      "additionalProperties": true
+    },
+    "frozen_sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/frozenSource"
+      },
+      "default": []
+    },
+    "identity_gate": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "verdict": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "MATCH",
+            "MISMATCH",
+            "UNCLEAR",
+            null
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "verdict"
+      ],
+      "additionalProperties": true
+    },
+    "extraction_record": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "conflict_notes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/conflictNote"
+      },
+      "default": []
+    },
+    "draft_diff": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "critic_review": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "verdict": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "APPROVED",
+            "REJECT_CHANGES",
+            null
+          ]
+        },
+        "rejected_claims": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "verdict"
+      ],
+      "additionalProperties": true
+    },
+    "validation": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "yaml_valid": {
+          "type": "boolean"
+        },
+        "sources_valid": {
+          "type": "boolean"
+        },
+        "build_ok": {
+          "type": "boolean"
+        },
+        "passed": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "passed"
+      ],
+      "additionalProperties": true
+    },
+    "commit_ready": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "conflict_notes",
+    "frozen_sources",
+    "commit_ready"
+  ],
+  "definitions": {
+    "frozenSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "frozen_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "frozen_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "ok",
+            "timeout",
+            "partial",
+            "fallback",
+            null
+          ]
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "status"
+      ]
+    },
+    "conflictNote": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "field_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_a": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_b": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "quote_a": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "quote_b": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}
