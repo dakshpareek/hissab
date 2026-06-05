@@ -2,16 +2,13 @@
 {{ $cases := where site.RegularPages "Section" "cases" }}
 {{ $totalDeaths := 0 }}
 {{ $noAction := 0 }}
-{{ $zeroComp := 0 }}
 {{ range $cases }}
   {{ $totalDeaths = add $totalDeaths (default 0 .Params.deaths) }}
   {{ if eq .Params.status "no-action" }}{{ $noAction = add $noAction 1 }}{{ end }}
-  {{ if and .Params.compensation (eq .Params.compensation.paid "none") }}{{ $zeroComp = add $zeroComp 1 }}{{ end }}
 {{ end }}
 
 <div class="page-wrap">
 
-  <!-- HERO -->
   <section class="hero">
     <p class="hero-eyebrow">Accountability tracker · India</p>
     <h1>India's accountability gap, documented.</h1>
@@ -32,87 +29,16 @@
     </div>
   </section>
 
-  <!-- FILTERS -->
-  <div class="filters-bar">
-    <span class="filter-label">Filter:</span>
-    <button class="chip chip-all active" data-filter="all">All cases</button>
-    <button class="chip" data-filter="no-action">No action</button>
-    <button class="chip" data-filter="under-trial">Under trial</button>
-    <button class="chip" data-filter="partial-justice">Partial justice</button>
-    <button class="chip" data-filter="closed">Closed</button>
-    <button class="chip" data-filter="bridge">Bridges</button>
-    <button class="chip" data-filter="fire">Fire</button>
-    <button class="chip" data-filter="hoarding">Hoarding</button>
-    <button class="chip" data-filter="infrastructure">Infrastructure</button>
-  </div>
+  {{ partial "search-filter.html" (dict "Cases" $cases) }}
 
-  <!-- SEARCH -->
-  <div style="display:flex; justify-content:flex-end; margin-top:14px;">
-    <div class="search-wrap">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      <input type="search" id="search-input" placeholder="Search cases…" aria-label="Search cases" />
-    </div>
-  </div>
-
-  <!-- CASE LIST -->
   <div class="cases-list" id="cases-list">
     <p class="section-label">Most watched</p>
-
     {{ range sort $cases "Params.deaths" "desc" }}
-    {{ $status := .Params.status }}
-    {{ $statusLabel := "" }}
-    {{ $statusClass := "" }}
-    {{ if eq $status "no-action" }}{{ $statusLabel = "No action" }}{{ $statusClass = "s-none" }}
-    {{ else if eq $status "under-trial" }}{{ $statusLabel = "Under trial" }}{{ $statusClass = "s-trial" }}
-    {{ else if eq $status "partial-justice" }}{{ $statusLabel = "Partial justice" }}{{ $statusClass = "s-partial" }}
-    {{ else if eq $status "closed" }}{{ $statusLabel = "Closed" }}{{ $statusClass = "s-closed" }}
+      {{ partial "case-card.html" . }}
     {{ end }}
-
-    {{ $tags := .Params.tags | default slice }}
-    {{ $tagsJSON := $tags | jsonify }}
-
-    <a class="case-card"
-       href="{{ .RelPermalink }}"
-       data-status="{{ $status }}"
-       data-tags="{{ $tagsJSON }}"
-       data-title="{{ .Title | lower }}"
-       data-location="{{ .Params.location | lower }}">
-      <div class="case-left">
-        <div class="case-title">{{ .Title }}</div>
-        <div class="case-meta-row">
-          <span class="meta-pill">{{ dateFormat "Jan 2, 2006" .Params.date }}</span>
-          <span class="meta-sep" aria-hidden="true"></span>
-          <span class="meta-pill">{{ .Params.location }}</span>
-          <span class="meta-sep" aria-hidden="true"></span>
-          <span class="meta-pill" style="text-transform:capitalize;">{{ replace .Params.category "-" " " }}</span>
-        </div>
-        <p class="case-summary">{{ .Params.summary }}</p>
-        {{ with .Params.accused_gap }}
-        <span class="accused-line">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-          {{ . }}
-        </span>
-        {{ end }}
-      </div>
-      <div class="case-right">
-        <span class="status-badge {{ $statusClass }}">{{ $statusLabel }}</span>
-        {{ with .Params.deaths }}<div class="case-deaths">{{ . }} deaths</div>{{ end }}
-        {{ with .Params.injured }}<div class="case-deaths">{{ . }} injured</div>{{ end }}
-        <div class="case-updated">
-          {{ if .Params.last_updated }}
-            Updated {{ dateFormat "Jan 2" .Params.last_updated }}
-          {{ else }}
-            Updated {{ dateFormat "Jan 2" .Date }}
-          {{ end }}
-        </div>
-      </div>
-    </a>
-    {{ end }}
-
-    <p id="no-results" class="hidden" style="padding:32px 0; color:var(--text-tertiary); font-size:14px; text-align:center;">No cases match your filters.</p>
+    <p data-no-results class="hidden" style="padding:32px 0; color:var(--text-tertiary); font-size:14px; text-align:center;">No cases match your filters.</p>
   </div>
 
-  <!-- ABOUT STRIP -->
   <div class="about-strip">
     <div class="about-col">
       <h3>What is Hissab?</h3>

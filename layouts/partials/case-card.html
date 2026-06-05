@@ -1,71 +1,45 @@
-{{ $summary := .Params.summary | default (.Summary | plainify) }}
+{{ $status := .Params.status }}
+{{ $statusLabel := "" }}
+{{ $statusClass := "" }}
+{{ if eq $status "no-action" }}{{ $statusLabel = "No action" }}{{ $statusClass = "s-none" }}
+{{ else if eq $status "under-trial" }}{{ $statusLabel = "Under trial" }}{{ $statusClass = "s-trial" }}
+{{ else if eq $status "partial-justice" }}{{ $statusLabel = "Partial justice" }}{{ $statusClass = "s-partial" }}
+{{ else if eq $status "closed" }}{{ $statusLabel = "Closed" }}{{ $statusClass = "s-closed" }}
+{{ end }}
 
-<article
-  class="case-card"
-  data-case-card
-  data-case-status="{{ .Params.status | default "unknown" | urlize }}"
-  data-case-category="{{ .Params.category | default "uncategorized" | urlize }}"
-  data-case-text="{{ printf "%s %s %s %s %s %s" .Title (.Params.location | default "") (.Params.category | default "") (.Params.status | default "") $summary (.File.BaseFileName) | plainify | lower }}"
->
-  <div class="case-card__top">
-    <span class="case-card__mark" aria-hidden="true"></span>
-
-    <div class="case-card__heading">
-      <div class="case-card__eyebrow">
-        {{ with .Params.category }}
-          {{ humanize . }}
-        {{ else }}
-          Case record
-        {{ end }}
-      </div>
-
-      <h2 class="case-card__title">
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </h2>
-
-      <p class="case-card__meta">
-        {{ with .Params.location }}
-          <span>{{ . }}</span>
-        {{ end }}
-        {{ with .Date }}
-          <span>{{ .Format "2 Jan 2006" }}</span>
-        {{ end }}
-      </p>
+<a class="case-card"
+   href="{{ .RelPermalink }}"
+   data-case-card
+   data-case-status="{{ $status }}"
+   data-case-category="{{ .Params.category | default "" | urlize }}"
+   data-case-text="{{ printf "%s %s %s %s" .Title (.Params.location | default "") (.Params.category | default "") (.Params.summary | default "") | plainify | lower }}">
+  <div class="case-left">
+    <div class="case-title">{{ .Title }}</div>
+    <div class="case-meta-row">
+      <span class="meta-pill">{{ dateFormat "Jan 2, 2006" .Params.date }}</span>
+      <span class="meta-sep" aria-hidden="true"></span>
+      <span class="meta-pill">{{ .Params.location }}</span>
+      <span class="meta-sep" aria-hidden="true"></span>
+      <span class="meta-pill" style="text-transform:capitalize;">{{ replace (.Params.category | default "") "-" " " }}</span>
     </div>
-
-    <div class="case-card__status">
-      {{ partial "status-pill.html" .Params.status }}
+    <p class="case-summary">{{ .Params.summary }}</p>
+    {{ with .Params.accused_gap }}
+    <span class="accused-line">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      {{ . }}
+    </span>
+    {{ end }}
+  </div>
+  <div class="case-right">
+    <span class="status-badge {{ $statusClass }}">{{ $statusLabel }}</span>
+    {{ with .Params.deaths }}<div class="case-deaths">{{ . }} deaths</div>{{ end }}
+    {{ with .Params.injured }}<div class="case-deaths">{{ . }} injured</div>{{ end }}
+    <div class="case-updated">
+      {{ if .Params.last_updated }}
+        Updated {{ dateFormat "Jan 2" .Params.last_updated }}
+      {{ else }}
+        Updated {{ dateFormat "Jan 2" .Date }}
+      {{ end }}
     </div>
   </div>
-
-  <p class="case-card__summary">
-    {{ $summary }}
-  </p>
-
-  {{ with .Params.timeline }}
-    <ol class="case-card__timeline">
-      {{ range first 3 . }}
-        <li class="case-card__timeline-item">
-          <span class="case-card__timeline-date">{{ .date | time.Format "Jan 2006" }}</span>
-          <span class="case-card__timeline-copy">{{ .title | default .note }}</span>
-        </li>
-      {{ end }}
-    </ol>
-  {{ end }}
-
-  <div class="case-card__footer">
-    <div class="case-card__tags">
-      {{ with .Params.category }}
-        <span class="chip chip--soft">{{ humanize . }}</span>
-      {{ end }}
-      {{ with .Params.location }}
-        <span class="chip chip--soft">{{ . }}</span>
-      {{ end }}
-      {{ with .Params.sources }}
-        <span class="chip chip--soft">{{ len . }} sources</span>
-      {{ end }}
-    </div>
-
-    <a class="button button--ghost" href="{{ .RelPermalink }}">Open dossier</a>
-  </div>
-</article>
+</a>

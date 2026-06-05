@@ -1,42 +1,36 @@
 {{ $cases := .Cases }}
-{{ $mode := .Mode | default "panel" }}
-{{ $showSearch := ne $mode "hero" }}
-{{ $surface := .Surface | default "panel" }}
+{{ $statuses := slice }}
 {{ $categories := slice }}
 
 {{ range $cases }}
-  {{ with .Params.category }}
-    {{ $categories = $categories | append . }}
-  {{ end }}
+  {{ with .Params.status }}{{ $statuses = $statuses | append . }}{{ end }}
+  {{ with .Params.category }}{{ $categories = $categories | append . }}{{ end }}
 {{ end }}
 
+{{ $statuses = uniq $statuses | sort }}
 {{ $categories = uniq $categories | sort }}
 
-<section class="filter-bar filter-bar--{{ $surface }}" data-filters>
-  {{ if $showSearch }}
-    <label class="filter-search">
-      <span>Search cases</span>
-      <input
-        type="search"
-        placeholder="Search by case, place, official, or incident"
-        data-filter-input
-      >
-    </label>
+<div class="filters-bar">
+  <span class="filter-label">Filter:</span>
+  <button class="chip chip-all active" data-filter-chip="all">All cases</button>
+  {{ range $statuses }}
+  {{ $label := "" }}
+  {{ if eq . "no-action" }}{{ $label = "No action" }}
+  {{ else if eq . "under-trial" }}{{ $label = "Under trial" }}
+  {{ else if eq . "partial-justice" }}{{ $label = "Partial justice" }}
+  {{ else if eq . "closed" }}{{ $label = "Closed" }}
+  {{ else }}{{ $label = . | humanize }}
   {{ end }}
+  <button class="chip" data-filter-chip="{{ . }}">{{ $label }}</button>
+  {{ end }}
+  {{ range $categories }}
+  <button class="chip" data-filter-chip="{{ . | urlize }}">{{ replace . "-" " " | title }}</button>
+  {{ end }}
+</div>
 
-  <div class="chip-row" data-chip-row>
-    <button type="button" class="chip is-active" data-filter-chip="all">All cases</button>
-    {{ range $categories }}
-      <button type="button" class="chip" data-filter-chip="{{ . | urlize }}">
-        {{ humanize . }}
-      </button>
-    {{ end }}
+<div class="search-row">
+  <div class="search-wrap">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="search" id="search-input" data-filter-input placeholder="Search cases…" aria-label="Search cases" />
   </div>
-
-  {{ if $showSearch }}
-    <div class="filter-bar__meta">
-      <p><span data-result-count>{{ len $cases }}</span> cases shown</p>
-      <p>Search is local and instant.</p>
-    </div>
-  {{ end }}
-</section>
+</div>
