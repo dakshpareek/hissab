@@ -29,14 +29,22 @@
     </div>
   </section>
 
-  {{ partial "search-filter.html" (dict "Cases" $cases) }}
+  <div class="home-body">
+    <div class="home-main">
+      {{ partial "search-filter.html" (dict "Cases" $cases) }}
 
-  <div class="cases-list" id="cases-list">
-    <p class="section-label">Most watched</p>
-    {{ range sort $cases "Params.deaths" "desc" }}
-      {{ partial "case-card.html" . }}
-    {{ end }}
-    <p data-no-results class="hidden" style="padding:32px 0; color:var(--text-tertiary); font-size:14px; text-align:center;">No cases match your filters.</p>
+      <div class="cases-list" id="cases-list">
+        <p class="section-label">Most watched</p>
+        {{ range sort $cases "Params.deaths" "desc" }}
+          {{ partial "case-card.html" . }}
+        {{ end }}
+        <p data-no-results class="hidden" style="padding:32px 0; color:var(--text-tertiary); font-size:14px; text-align:center;">No cases match your filters.</p>
+      </div>
+    </div>
+
+    <aside class="home-sidebar">
+      {{ partial "recent-updates.html" (dict "Cases" $cases) }}
+    </aside>
   </div>
 
   <div class="about-strip">
