@@ -8,9 +8,9 @@ deaths: 15000
 injured: 500000
 accused_count: 7
 accused_gap: "Seven former plant managers were convicted in 2010, but later reporting still described the compensation and accountability outcome as incomplete."
-summary: "A methyl isocyanate leak from the Union Carbide pesticide plant in Bhopal on 3 December 1984 became one of the world's worst industrial disasters. Public reporting and historical references place the death toll at more than 15,000 over time, with roughly half a million survivors suffering long-term effects, while later legal reporting noted seven former managers convicted in 2010 and a 2023 Supreme Court refusal to increase compensation."
+summary: "A methyl isocyanate leak from the Union Carbide pesticide plant in Bhopal on 3 December 1984 became one of the world's worst industrial disasters. Public reporting and historical references place the death toll at more than 15,000 over time, with roughly half a million survivors suffering long-term effects, while later legal reporting noted seven former managers convicted in 2010, a 2023 Supreme Court refusal to increase compensation, and a 2025 High Court warning about residual ash containment near homes."
 tags: ["bhopal", "gas-disaster", "industrial-disaster", "madhya-pradesh", "union-carbide"]
-last_updated: 2026-06-04
+last_updated: 2026-06-06
 
 accused:
   - name: "Seven former Union Carbide India plant managers"
@@ -41,8 +41,15 @@ timeline:
     event: "BBC's 40th-anniversary report said government estimates put deaths at around 3,500 within days and more than 15,000 in the years since, and that an Indian court convicted seven former managers in 2010."
     source: "https://www.bbc.com/news/articles/cp35vlg3zvxo"
     source_name: "BBC News"
+  - date: 2025-10-11
+    type: "gray"
+    event: "The Madhya Pradesh High Court directed the state to examine alternate sites far away from human habitation, vegetation, and water sources for disposing of residual ash from incinerated Bhopal Gas Tragedy waste, after noting mercury levels above permissible limits in a 2025 pollution-board report."
+    source: "https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/"
+    source_name: "The Indian Express"
 ---
 
 The Bhopal gas disaster is now framed as an industrial-disaster case rather than a generic tragedy placeholder. The strongest public record is clear on the event identity: a methyl isocyanate leak from the Union Carbide plant in Bhopal on 3 December 1984, with long-term casualties counted in the tens of thousands and survivors affected for decades.
 
 The accountability picture remains incomplete. BBC's 2024 retrospective says an Indian court convicted seven former managers in 2010, while BBC's 2023 reporting on the compensation ruling says the Supreme Court rejected the government's plea for more money and Dow maintained the 1989 settlement was fair and final.
+
+In 2025, the Madhya Pradesh High Court again pressed the state to move the residual ash containment site away from human habitation after warning that the ash was still toxic and that mercury levels remained above permissible limits.

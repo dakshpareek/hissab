@@ -1,0 +1,118 @@
+{
+  "case_registry": [
+    {
+      "case_id": "bhopal-gas-disaster",
+      "title": "Bhopal Gas Disaster",
+      "watch_terms": [
+        "Bhopal gas disaster verdict",
+        "Union Carbide conviction",
+        "Bhopal compensation order"
+      ],
+      "source_urls": [
+        "https://indianexpress.com/tag/bhopal-gas-tragedy/"
+      ],
+      "last_checked": null,
+      "notes": "legacy accountability case"
+    },
+    {
+      "case_id": "muzaffarpur-hospital-fire",
+      "title": "Muzaffarpur Hospital Fire",
+      "watch_terms": [
+        "Muzaffarpur hospital fire",
+        "Prasad Hospital fire",
+        "Muzaffarpur ICU fire"
+      ],
+      "source_urls": [
+        "https://www.thehindu.com/news/national/bihar/muzaffarpur-hospital-fire-in-bihar/article71059549.ece"
+      ],
+      "last_checked": null,
+      "notes": "active incident record"
+    }
+  ],
+  "candidate_articles": [
+    {
+      "case_id": "bhopal-gas-disaster",
+      "source_url": "https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/",
+      "title": "‘Once bitten, twice shy’ – Madhya Pradesh HC voices concerns on state govt site for disposal of residual Bhopal Gas Leak ash",
+      "published_at": "2025-10-10T11:04:17+05:30",
+      "source_name": "The Indian Express"
+    },
+    {
+      "case_id": "bhopal-gas-disaster",
+      "source_url": "https://indianexpress.com/article/india/madhya-pradesh-hc-asks-courts-to-wrap-up-bhopal-gas-leak-disaster-cases-cant-be-pending-for-40-years-10256291/",
+      "title": "Madhya Pradesh HC asks courts to wrap up Bhopal Gas leak disaster cases: ‘Can’t be pending for 40 years’",
+      "published_at": "2025-09-18T08:48:18+05:30",
+      "source_name": "The Indian Express"
+    },
+    {
+      "case_id": "bhopal-gas-disaster",
+      "source_url": "https://indianexpress.com/article/india/acquittal-of-guilty-in-bhopal-gas-tragedy-case-would-be-failure-of-justice-cbi-opposes-3-company-officials-retrial-plea-10238357/",
+      "title": "Acquitting the guilty in Bhopal gas tragedy case would be failure of justice: CBI opposes plea by 3 company officials seeking retrial",
+      "published_at": "2025-09-09T07:16:39+05:30",
+      "source_name": "The Indian Express"
+    },
+    {
+      "case_id": "bhopal-gas-disaster",
+      "source_url": "https://indianexpress.com/article/india/bhopal-gas-tragedy-union-carbide-waste-10097838/",
+      "title": "Months after it was moved away from Bhopal, incineration of 337 tonnes of Union Carbide waste ends",
+      "published_at": "2025-06-30T19:01:52+05:30",
+      "source_name": "The Indian Express"
+    }
+  ],
+  "scored_signals": [
+    {
+      "signal_id": "bhopal-gas-disaster-20251010-ash-site-concerns",
+      "case_id": "bhopal-gas-disaster",
+      "score": "high",
+      "reason_category": "court_order_remediation",
+      "source_url": "https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/",
+      "article_date": "2025-10-10T11:04:17+05:30",
+      "headline_snippet": "‘Once bitten, twice shy’ – Madhya Pradesh HC voices concerns on state govt site for disposal of residual Bhopal Gas Leak ash",
+      "captured_at": "2026-06-06T10:52:05+0530",
+      "status": "done",
+      "dedupe_key": "bhopal-gas-disaster|https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/"
+    },
+    {
+      "signal_id": "bhopal-gas-disaster-20250918-case-management",
+      "case_id": "bhopal-gas-disaster",
+      "score": "high",
+      "reason_category": "court_case_management",
+      "source_url": "https://indianexpress.com/article/india/madhya-pradesh-hc-asks-courts-to-wrap-up-bhopal-gas-leak-disaster-cases-cant-be-pending-for-40-years-10256291/",
+      "article_date": "2025-09-18T08:48:18+05:30",
+      "headline_snippet": "Madhya Pradesh HC asks courts to wrap up Bhopal Gas leak disaster cases: ‘Can’t be pending for 40 years’",
+      "captured_at": "2026-06-06T10:52:05+0530",
+      "status": "pending",
+      "dedupe_key": "bhopal-gas-disaster|https://indianexpress.com/article/india/madhya-pradesh-hc-asks-courts-to-wrap-up-bhopal-gas-leak-disaster-cases-cant-be-pending-for-40-years-10256291/"
+    },
+    {
+      "signal_id": "bhopal-gas-disaster-20250909-retrial-opposition",
+      "case_id": "bhopal-gas-disaster",
+      "score": "medium",
+      "reason_category": "prosecution_position",
+      "source_url": "https://indianexpress.com/article/india/acquittal-of-guilty-in-bhopal-gas-tragedy-case-would-be-failure-of-justice-cbi-opposes-3-company-officials-retrial-plea-10238357/",
+      "article_date": "2025-09-09T07:16:39+05:30",
+      "headline_snippet": "Acquitting the guilty in Bhopal gas tragedy case would be failure of justice: CBI opposes plea by 3 company officials seeking retrial",
+      "captured_at": "2026-06-06T10:52:05+0530",
+      "status": "pending",
+      "dedupe_key": "bhopal-gas-disaster|https://indianexpress.com/article/india/acquittal-of-guilty-in-bhopal-gas-tragedy-case-would-be-failure-of-justice-cbi-opposes-3-company-officials-retrial-plea-10238357/"
+    },
+    {
+      "signal_id": "bhopal-gas-disaster-20250630-waste-incineration-complete",
+      "case_id": "bhopal-gas-disaster",
+      "score": "high",
+      "reason_category": "remediation_completed",
+      "source_url": "https://indianexpress.com/article/india/bhopal-gas-tragedy-union-carbide-waste-10097838/",
+      "article_date": "2025-06-30T19:01:52+05:30",
+      "headline_snippet": "Months after it was moved away from Bhopal, incineration of 337 tonnes of Union Carbide waste ends",
+      "captured_at": "2026-06-06T10:52:05+0530",
+      "status": "pending",
+      "dedupe_key": "bhopal-gas-disaster|https://indianexpress.com/article/india/bhopal-gas-tragedy-union-carbide-waste-10097838/"
+    }
+  ],
+  "queue_write_result": {
+    "status": "skipped",
+    "written_count": 0,
+    "queue_path": null,
+    "reason": "No durable queue path or queue-writer tool was exposed in the case-watcher package; state was recorded locally only."
+  }
+}

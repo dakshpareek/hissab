@@ -1,0 +1,18 @@
+SOURCE_NAME: BBC News
+SOURCE_URL: https://www.bbc.com/news/world-asia-india-64899487
+PUBLICATION_NAME: BBC News
+
+TITLE: Bhopal gas tragedy: Supreme Court rejects more money for victims
+DESC: The court dismissed the government's plea for more compensation for victims of the 1984 Bhopal gas disaster.
+P1: British Broadcasting Corporation Home News Football 2026 Business Technology Health Culture Arts Travel Earth Sport Audio Video Live Home News US & Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Football 2026 Business World of Business Technology of Business NYSE Opening Bell Technology Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Culture Film & TV Music Art & Design Style Books Entertainment News Arts Arts in Motion Travel Destinations Africa Antarctica Asia Australia and Pacific Caribbean & Bermuda Central America Europe Middle East North America South America World’s Table Culture & Experiences Adventures The SpeciaList Earth Science Natural Wonders Climate Solutions Sustainable Business Green Living Sport Audio Podcast Categories Radio Audio FAQs Video BBC Maestro Discover the World Live Live News Live Sport Site search Home News Sport Football 2026 Business Technology Health Culture Arts Travel Earth Audio Video Live Weather Newsletters Bhopal gas tragedy: Supreme Court rejects more money for victims 14 March 2023 Share Save Add as preferred on Google Getty Images Thousands of people died after the leak from a chemical plant in Bhopal city in 1984 India's Supreme Court has rejected a plea seeking more compensation for victims of the 1984 Bhopal gas disaster.
+P2: The court said the issue could not be "raked up three decades after the settlement".
+P3: Thousands of people died after a leak from Union Carbide's plant in the Madhya Pradesh state capital.
+P4: Dow Chemicals, which bought Union Carbide in 1999, said that a settlement agreed upon in 1989 was fair and final.
+P5: The Bhopal gas disaster is considered the world's worst industrial disaster.
+P6: The Indian government says some 3,500 people died within days of the gas leak and more than 15,000 in the years since.
+P7: Campaigners put the death toll as high as 25,000 and say the effects of the gas continue to this day.
+P8: In 2010, an Indian court had convicted seven former managers at the plant, handing down minor fines and brief prison sentences.
+P9: But many victims and campaigners have felt justice has still not been served against Union Carbide.
+P10: In 1989, Union Carbide agreed to pay $470m (£386.5m) to settle the initial fight for compensation. The government, which argued on behalf of the survivors, had asked for $3.3bn (£2.7bn).
+P11: The victims appealed the judgement in the Supreme Court which upheld the settlement but ordered Union Carbide to fund a hospital for victims costing about $17m.
+P12: In June 2010, the government decided to review the compensation after an outcry over UCIL's former executives receiving just two-year prison sentences and minor fines.
