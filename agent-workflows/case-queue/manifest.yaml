@@ -1,0 +1,14 @@
+name: shared-case-update-queue
+version: 1.0.0
+description: >
+  Durable queue shared by case-watcher and case-editorial for structured update
+  signals.
+state:
+  backend: json_file
+  path: ./agent-workflows/case-queue/update-queue.json
+  schema: schemas/update-queue.schema.json
+operations:
+  append: python agent-workflows/case-queue/scripts/queue_manager.py append --queue-path ./agent-workflows/case-queue/update-queue.json
+  claim_oldest: python agent-workflows/case-queue/scripts/queue_manager.py claim --queue-path ./agent-workflows/case-queue/update-queue.json
+  complete: python agent-workflows/case-queue/scripts/queue_manager.py complete --queue-path ./agent-workflows/case-queue/update-queue.json
+  hold: python agent-workflows/case-queue/scripts/queue_manager.py hold --queue-path ./agent-workflows/case-queue/update-queue.json

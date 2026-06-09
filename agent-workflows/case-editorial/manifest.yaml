@@ -9,6 +9,10 @@ state:
   backend: json_file
   path: ./.case-editorial-state.json
   schema: schemas/state-store.schema.json
+queue:
+  backend: json_file
+  path: ./agent-workflows/case-queue/update-queue.json
+  schema: ./agent-workflows/case-queue/schemas/update-queue.schema.json
 stages:
   - id: queue-intake
     role: orchestrator

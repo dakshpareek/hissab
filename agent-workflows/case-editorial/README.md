@@ -39,6 +39,19 @@ It contains:
 - Critic pass before commit
 - Build verification after file write
 
+## Shared queue
+
+Queued case runs claim from the shared queue at:
+
+- `agent-workflows/case-queue/update-queue.json`
+
+Use the queue manager script to inspect or mutate the queue:
+
+- Claim oldest pending: `python agent-workflows/case-queue/scripts/queue_manager.py claim --queue-path agent-workflows/case-queue/update-queue.json`
+- List items: `python agent-workflows/case-queue/scripts/queue_manager.py list --queue-path agent-workflows/case-queue/update-queue.json`
+- Mark done: `python agent-workflows/case-queue/scripts/queue_manager.py complete --queue-path agent-workflows/case-queue/update-queue.json --signal-id <signal_id>`
+
+
 ## Repo-specific targets
 
 - Case content lives in `content/cases/*.md`

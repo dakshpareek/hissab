@@ -9,6 +9,10 @@ state:
   backend: json_file
   path: ./.case-watcher-state.json
   schema: schemas/watcher-state.schema.json
+queue:
+  backend: json_file
+  path: ./agent-workflows/case-queue/update-queue.json
+  schema: ./agent-workflows/case-queue/schemas/update-queue.schema.json
 stages:
   - id: index-reader
     role: orchestrator

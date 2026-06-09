@@ -1,0 +1,15 @@
+SOURCE_NAME: The Hindu
+SOURCE_URL: https://www.thehindu.com/news/national/madhya-pradesh/bhopal-gas-tragedy-madhya-pradesh-hc-asks-government-to-share-clean-up-plan/article70740415.ece
+PUBLICATION_NAME: The Hindu
+
+TITLE: Bhopal gas tragedy: Madhya Pradesh HC asks government to share clean-up plan
+DESC: Madhya Pradesh High Court directs government to submit a cleanup plan for the Bhopal gas tragedy site within five weeks.
+P1: Updated - March 14, 2026 10:37 am IST - Bhopal
+P2: Disposal of first batch of 10 tonnes of Union Carbide waste linked to the 1984 Bhopal gas tragedy at a facility in Pithampur in Madhya Pradesh's Dhar district. | Photo Credit: PTI
+P3: The Madhya Pradesh High Court on Friday (March 13, 2026) directed the State government to submit a plan within five weeks for the assessment and remediation of contaminated soil and groundwater at the defunct Union Carbide factory site, the epicentre of the 1984 gas tragedy, in Bhopal.
+P4: In an action taken report submitted by the Bhopal Gas Tragedy Relief and Rehabilitation Department, the government told the court that a meeting chaired by Additional Chief Secretary Ashok Barnwal was held on March 3 to discuss a time-bound remediation of the Union Carbide India Ltd. (UCIL) factory, as well as an assessment of the measures to be taken for the contaminated soil and groundwater on and around the site.
+P5: Detoxification and decontamination of the UCIL plant structure at the site were also discussed, the government said.
+P6: Rachna Dhingra, one of the intervention petitioners of the Bhopal Group of Information and Action, told The Hindu that the court had asked the government authorities to submit the plan within five weeks. “Although, we were pleading that the court direct the government to resolve the issue in a time-bound manner. However, the Bench has only sought the assessment and plan for now,” she said.
+P7: The court has listed the matter for April 13.
+P8: In 2025, about 358 tonnes of toxic chemical waste from the Union Carbide factory site was incinerated at a private waste treatment facility in Dhar district’s Pithampur, even as local residents protested against the move.
+P9: The Bhopal gas tragedy, on the night of December 2 and 3, 1984, killed 5,479 people after highly toxic methyl isocyanate gas leaked from the Union Carbide unit. Government estimates say the tragedy also caused serious health implications and disabilities among more than five lakh people over the years.

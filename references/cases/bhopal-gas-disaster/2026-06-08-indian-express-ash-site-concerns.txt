@@ -1,0 +1,20 @@
+Source name: The Indian Express
+Source URL: https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/
+Fetched at: 2026-06-08 12:42:20 IST
+
+Title: ‘Once bitten, twice shy’ – Madhya Pradesh HC voices concerns on state govt site for disposal of residual Bhopal Gas Leak ash
+Canonical title: Unflinching faith in Madhya Pradesh’s engineering prowess may be invitation to disaster: Court on disposal of Bhopal Gas Tragedy waste
+Published: 2025-10-10T11:04:17+05:30
+Modified: 2025-10-11T01:19:55+05:30
+Author: Anand Mohan J
+
+Meta description: Madhya Pradesh HC warns state to move Bhopal toxic ash site away from homes, citing engineering failures, high mercury levels and disaster risk.
+OpenGraph description: The court has now directed the state to examine alternate sites far away from human habitation, vegetation, and water sources.
+
+Key quote:
+- “The court has now directed the state to examine alternate sites far away from human habitation, vegetation, and water sources.”
+
+Context from page metadata:
+- articleId: 10298516
+- section: india
+- tags: bhopal-gas-tragedy, madhya-pradesh

@@ -10,6 +10,10 @@ writes_to_state: [queue_write_result]
 ## Objective
 Append eligible signals to the durable queue.
 
+## Queue target
+- `agent-workflows/case-queue/update-queue.json`
+- Script: `python agent-workflows/case-queue/scripts/queue_manager.py append --queue-path agent-workflows/case-queue/update-queue.json`
+
 ## Rules
 - Write only structured signals.
 - Use dedupe keys to avoid duplicate inserts.

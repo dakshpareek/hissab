@@ -1,0 +1,9 @@
+Publication: Deccan Herald
+URL: https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-stampede-injury-toll-goes-up-to-56-3572400
+Captured: 2026-06-06T00:39:26+05:30
+
+Frozen text:
+<title>Bengaluru Stampede: Injured Count Rises to 56, 11 Dead Confirmed</title>
+<meta name="description" content="City Tragedy Update: Bengaluru stadium stampede toll reaches 56 injured, 11 dead; victims from across Karnataka and Tamil Nadu."/>
+<meta property="og:title" content="Bengaluru stampede injury toll goes up to 56"/>
+<meta property="og:description" content="City Tragedy Update: Bengaluru stadium stampede toll reaches 56 injured, 11 dead; victims from across Karnataka and Tamil Nadu."/>

@@ -1,0 +1,13 @@
+Publication: Wikipedia
+URL: https://en.wikipedia.org/wiki/2025_Bengaluru_crowd_crush
+Captured: 2026-06-06T00:39:26+05:30
+
+Frozen text:
+"On 4 June 2025, a crowd crush occurred in Bengaluru, India, during the celebrations of Royal Challengers Bengaluru's maiden Indian Premier League cricket title win. Eleven people were killed and 56 others were injured in the crush, which took place outside the M. Chinnaswamy Stadium, the team's home ground, where a large number of fans had gathered for the team's felicitation event."
+
+Infobox values:
+Date: 4 June 2025
+Location: M. Chinnaswamy Stadium, Bengaluru, India
+Type: Crowd crush
+Deaths: 11
+Non-fatal injuries: 56

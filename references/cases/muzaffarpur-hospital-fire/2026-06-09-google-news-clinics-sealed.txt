@@ -1,0 +1,7 @@
+source_name: The Federal via Google News
+source_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5
+publication_name: The Federal
+freeze_mode: partial
+retrieval_note: Static fetch of the Google News wrapper did not expose the article body in plain text. Preserved the queue headline snippet as the exact text available from the signal payload and saved the wrapper HTML separately.
+headline_snippet: "After 7 deaths in hospital fire, 13 private clinics sealed in Muzaffarpur - The Federal"
+wrapper_html: "references/cases/muzaffarpur-hospital-fire/2026-06-09-google-news-clinics-sealed.html"

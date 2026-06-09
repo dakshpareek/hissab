@@ -27,7 +27,16 @@ This package defines a read-only watcher that scans public sources for material 
 5. Leave material editing to Case Explorer.
 
 ## Queue coupling
-The queue is the only shared coupling point between watcher and explorer. The watcher appends signals; the Case Explorer consumer claims one signal at a time and then runs the normal case editorial workflow.
+The queue is the only shared coupling point between watcher and explorer.
+
+**Queue path:** `agent-workflows/case-queue/update-queue.json`
+
+Use the queue manager script for all mutations:
+- Append: `python agent-workflows/case-queue/scripts/queue_manager.py append --queue-path agent-workflows/case-queue/update-queue.json`
+- Claim oldest: `python agent-workflows/case-queue/scripts/queue_manager.py claim --queue-path agent-workflows/case-queue/update-queue.json`
+- Mark done: `python agent-workflows/case-queue/scripts/queue_manager.py complete --queue-path agent-workflows/case-queue/update-queue.json --signal-id <signal_id>`
+
+The watcher appends signals; the Case Explorer consumer claims one signal at a time and then runs the normal case editorial workflow.
 
 ## Notes
 - This package is provider-neutral.

@@ -1,0 +1,8 @@
+Case: Gambhira bridge collapse
+Workflow mode: new-case
+Duplicate check: no matching case file found under content/cases/
+Closest existing cases: Morbi bridge collapse, Kundmala bridge collapse
+Identity anchors from frozen sources:
+- Outlook India: "Early on July 9, a section of the decades-old Gambhira Bridge near Mujpur in Padra taluka, Vadodara collapsed into the Mahisagar River"
+- Republic World: "Gujarat Gambhira Bridge Collapse: 17 Dead After Trucks, SUV Plunge Into Mahisagar River; Crucial Anand–Vadodara–Bharuch Corridor Cut Off"
+Conflict note: casualty counts conflict between the frozen sources (9 bodies in Outlook versus 17 dead in Republic World).

@@ -13,6 +13,10 @@ Normalize an optional watcher-emitted queue signal into the editorial workflow s
 ## Inputs
 - A queue signal supplied by the queue consumer, or null for manual/new-case runs
 
+## Queue source
+- `agent-workflows/case-queue/update-queue.json`
+- Script: `python agent-workflows/case-queue/scripts/queue_manager.py claim --queue-path agent-workflows/case-queue/update-queue.json`
+
 ## Rules
 - Claim exactly one queued item when present.
 - If no queue item is present, continue as a manual flow without inventing a signal.

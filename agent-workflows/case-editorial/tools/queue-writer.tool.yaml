@@ -1,8 +1,9 @@
 name: queue-writer
-description: Append a watcher-emitted signal to the durable queue.
+description: Append a watcher-emitted signal to the shared durable queue.
 inputs:
   - queue_path
   - signal
+  - queue_manager_command
 outputs:
   - queue_write_result
 required_behaviors:

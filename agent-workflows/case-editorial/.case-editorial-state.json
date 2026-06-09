@@ -1,132 +1,99 @@
 {
-  "case_slug": "bhopal-gas-disaster",
-  "case_file": "content/cases/bhopal-gas-disaster.md",
+  "case_slug": "muzaffarpur-hospital-fire",
+  "case_file": "content/cases/muzaffarpur-hospital-fire.md",
   "queue_signal": {
-    "signal_id": "bhopal-gas-disaster-20251010-ash-site-concerns",
-    "case_id": "bhopal-gas-disaster",
+    "signal_id": "muzaffarpur-hospital-fire-20260607-clinics-sealed",
+    "case_id": "muzaffarpur-hospital-fire",
     "score": "high",
-    "reason_category": "court_order_remediation",
-    "source_url": "https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/",
-    "article_date": "2025-10-10T11:04:17+05:30",
-    "headline_snippet": "‘Once bitten, twice shy’ – Madhya Pradesh HC voices concerns on state govt site for disposal of residual Bhopal Gas Leak ash",
-    "captured_at": "2026-06-06T10:52:05+0530",
-    "status": "done",
-    "dedupe_key": "bhopal-gas-disaster|https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/"
+    "reason_category": "official_action_enforcement",
+    "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
+    "article_date": "2026-06-07T07:07:29+05:30",
+    "headline_snippet": "After 7 deaths in hospital fire, 13 private clinics sealed in Muzaffarpur - The Federal",
+    "captured_at": "2026-06-07T15:51:47+05:30",
+    "status": "processing",
+    "dedupe_key": "muzaffarpur-hospital-fire|https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5"
   },
   "queue_claim": {
-    "claim_id": "bhopal-gas-disaster-20251010-ash-site-concerns",
-    "claimed_at": "2026-06-06T12:10 IST",
-    "queue_name": "case-watcher"
+    "claim_id": "muzaffarpur-hospital-fire-20260607-clinics-sealed",
+    "claimed_at": "2026-06-09T11:47:01+05:30",
+    "queue_name": "case-explorer"
   },
   "record_snapshot": {
-    "file_path": "content/cases/bhopal-gas-disaster.md",
-    "captured_at": "2026-06-06T12:10 IST",
-    "raw_frontmatter": "---\ntitle: \"Bhopal Gas Disaster\"\ndate: 1984-12-03\nlocation: \"Bhopal, Madhya Pradesh\"\ncategory: \"other\"\nstatus: \"partial-justice\"\ndeaths: 15000\ninjured: 500000\naccused_count: 7\naccused_gap: \"Seven former plant managers were convicted in 2010, but later reporting still described the compensation and accountability outcome as incomplete.\"\nsummary: \"A methyl isocyanate leak from the Union Carbide pesticide plant in Bhopal on 3 December 1984 became one of the world's worst industrial disasters. Public reporting and historical references place the death toll at more than 15,000 over time, with roughly half a million survivors suffering long-term effects, while later legal reporting noted seven former managers convicted in 2010 and a 2023 Supreme Court refusal to increase compensation.\"\ntags: [\"bhopal\", \"gas-disaster\", \"industrial-disaster\", \"madhya-pradesh\", \"union-carbide\"]\nlast_updated: 2026-06-04\n\naccused:\n  - name: \"Seven former Union Carbide India plant managers\"\n    role: \"Managers convicted by an Indian court in 2010 in the criminal case arising from the leak\"\n    type: \"private\"\n    status: \"convicted\"\n\ncompensation:\n  announced: false\n  announced_amount: \"\"\n  paid: \"partial\"\n  paid_note: \"BBC reported that Dow said the 1989 settlement was fair and final, while the Supreme Court dismissed the government's plea for more compensation in 2023.\"\n  source: \"https://www.bbc.com/news/world-asia-india-64899487\"\n\ntimeline:\n  - date: 1984-12-03\n    type: \"red\"\n    event: \"A poisonous gas leak from the Union Carbide pesticide plant in Bhopal killed thousands immediately and poisoned many more residents. Britannica identifies the disaster as a chemical leak in Bhopal, Madhya Pradesh, on 3 December 1984, and says the final death toll was estimated to be between 15,000 and 20,000.\"\n    source: \"https://www.britannica.com/event/Bhopal-disaster\"\n    source_name: \"Britannica\"\n  - date: 2023-03-14\n    type: \"blue\"\n    event: \"BBC reported that India's Supreme Court rejected the government's plea for more compensation for victims of the 1984 Bhopal gas disaster. The article said Dow called the 1989 settlement fair and final.\"\n    source: \"https://www.bbc.com/news/world-asia-india-64899487\"\n    source_name: \"BBC News\"\n  - date: 2024-12-02\n    type: \"gray\"\n    event: \"BBC's 40th-anniversary report said government estimates put deaths at around 3,500 within days and more than 15,000 in the years since, and that an Indian court convicted seven former managers in 2010.\"\n    source: \"https://www.bbc.com/news/articles/cp35vlg3zvxo\"\n    source_name: \"BBC News\"\n\n---",
-    "raw_body": "The Bhopal gas disaster is now framed as an industrial-disaster case rather than a generic tragedy placeholder. The strongest public record is clear on the event identity: a methyl isocyanate leak from the Union Carbide plant in Bhopal on 3 December 1984, with long-term casualties counted in the tens of thousands and survivors affected for decades.\n\nThe accountability picture remains incomplete. BBC's 2024 retrospective says an Indian court convicted seven former managers in 2010, while BBC's 2023 reporting on the compensation ruling says the Supreme Court rejected the government's plea for more money and Dow maintained the 1989 settlement was fair and final.\n",
-    "observed_syntax_issues": []
+    "file_path": "content/cases/muzaffarpur-hospital-fire.md",
+    "snapshot_path": "references/cases/muzaffarpur-hospital-fire/2026-06-09-run-snapshot.md",
+    "captured_at": "2026-06-09T11:55:25+05:30",
+    "note": "Copied current case record before editing."
   },
   "duplicate_guard": {
-    "matched": false,
-    "match_slug": null,
-    "reason": "queued case targets the existing Bhopal Gas Disaster record; no near-duplicate slug conflict found",
+    "matched": true,
+    "match_slug": "muzaffarpur-hospital-fire",
+    "reason": "Queued case targets an existing record with the same slug; no near-duplicate branch was created.",
     "evidence": [
-      "content/cases/bhopal-gas-disaster.md exists",
-      "queue_signal.case_id == bhopal-gas-disaster"
+      "content/cases/muzaffarpur-hospital-fire.md exists",
+      "queue_signal.case_id == muzaffarpur-hospital-fire"
     ]
   },
   "frozen_sources": [
     {
-      "source_name": "Britannica",
-      "source_url": "https://www.britannica.com/event/Bhopal-disaster",
-      "publication_name": "Britannica",
-      "frozen_path": "references/cases/bhopal-gas-disaster/2026-06-06-britannica.txt",
-      "frozen_at": "2026-06-06T12:10 IST",
-      "status": "frozen",
-      "sha256": "7707389d080bbf43daa196558bdfcbfcb68e8dacaf31d783f258e8e87a3a2bb7"
-    },
-    {
-      "source_name": "BBC News",
-      "source_url": "https://www.bbc.com/news/world-asia-india-64899487",
-      "publication_name": "BBC News",
-      "frozen_path": "references/cases/bhopal-gas-disaster/2026-06-06-bbc.txt",
-      "frozen_at": "2026-06-06T12:10 IST",
-      "status": "frozen",
-      "sha256": "ceaf0de3c86c2f9a1d5b10736dcb61a08d1bdce0301d2e46a340806bb46c07ae"
-    },
-    {
-      "source_name": "The Indian Express",
-      "source_url": "https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/",
-      "publication_name": "The Indian Express",
-      "frozen_path": "references/cases/bhopal-gas-disaster/2026-06-06-indian-express.txt",
-      "frozen_at": "2026-06-06T12:10 IST",
-      "status": "frozen",
-      "sha256": "9f11f4d4079544f8edf79976780ca5be97a851282412320a9c614c36e01e8603"
+      "source_name": "The Federal via Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
+      "publication_name": "The Federal",
+      "frozen_path": "references/cases/muzaffarpur-hospital-fire/2026-06-09-google-news-clinics-sealed.txt",
+      "frozen_at": "2026-06-09T11:55:25+05:30",
+      "status": "partial",
+      "sha256": "ee49f9cd84f11d9ca3792a034593242d2a8417a08993d411a3768283fc1cf49a"
     }
   ],
   "identity_gate": {
     "verdict": "MATCH",
-    "notes": "Frozen sources all describe the Bhopal gas disaster and the residual ash remediation as the same incident family; the queue article explicitly references incinerated Bhopal Gas Tragedy waste.",
+    "notes": "The queued headline stays within the same incident family as the existing Muzaffarpur hospital fire case. It adds a later enforcement action (clinic sealing) while the existing frozen The Hindu reports still support the six-death and arrest details.",
     "supporting_quotes": [
-      "\"The Bhopal disaster was a chemical leak that occurred on December 3, 1984, in the Indian city of Bhopal.\"",
-      "\"India's Supreme Court has rejected a plea seeking more compensation for victims of the 1984 Bhopal gas disaster.\"",
-      "\"the court government to explore alternate sites for disposing of residual ash from the incinerated Bhopal Gas Tragedy waste\""
+      "After 7 deaths in hospital fire, 13 private clinics sealed in Muzaffarpur - The Federal",
+      "Three staff members arrested after a deadly fire at a Muzaffarpur hospital led to the deaths of six ICU patients."
     ]
   },
   "extraction_record": {
     "changes": [
       {
-        "field_name": "last_updated",
-        "value": "2026-06-06",
-        "source_url": "https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/",
-        "exact_quote": "Bhopal Updated: Oct 11, 2025 01:19 AM IST"
-      },
-      {
         "field_name": "summary",
-        "value": "Append a note that in 2025 the Madhya Pradesh High Court pressed the state to find a residual-ash containment site farther from human habitation after warning that the current plan could be a disaster.",
-        "source_url": "https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/",
-        "exact_quote": "The court has now directed the state to examine alternate sites far away from human habitation, vegetation, and water sources."
+        "value": "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, and that 13 private clinics were sealed in Muzaffarpur after the fire.",
+        "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
+        "exact_quote": "After 7 deaths in hospital fire, 13 private clinics sealed in Muzaffarpur - The Federal"
       },
       {
-        "field_name": "timeline[3]",
+        "field_name": "conflict_notes[0]",
+        "value": "The queued Federal headline says the fire was followed by 7 deaths, but the frozen case sources still support 6 deaths, so the record keeps deaths: 6 and flags the discrepancy.",
+        "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
+        "exact_quote": "After 7 deaths in hospital fire, 13 private clinics sealed in Muzaffarpur - The Federal"
+      },
+      {
+        "field_name": "timeline[4]",
         "value": {
-          "date": "2025-10-11",
-          "type": "gray",
-          "event": "The Madhya Pradesh High Court directed the state to examine alternate sites far away from human habitation, vegetation, and water sources for disposing of residual ash from incinerated Bhopal Gas Tragedy waste, after noting mercury levels above permissible limits in a 2025 pollution-board report.",
-          "source": "https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/",
-          "source_name": "The Indian Express"
+          "date": "2026-06-07",
+          "type": "amber",
+          "event": "A Federal headline said 13 private clinics were sealed in Muzaffarpur after the hospital fire.",
+          "source": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
+          "source_name": "The Federal via Google News"
         },
-        "source_url": "https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/",
-        "exact_quote": "The court has now directed the state to examine alternate sites far away from human habitation, vegetation, and water sources."
-      }
-    ],
-    "evidence_map": [
-      {
-        "field_name": "identity_gate",
-        "value": "MATCH",
-        "source_url": "https://www.britannica.com/event/Bhopal-disaster",
-        "exact_quote": "Bhopal disaster, chemical leak in 1984 in the city of Bhopal, Madhya Pradesh state, India, during which about 45 tons of methyl isocyanate escaped from an insecticide plant."
-      },
-      {
-        "field_name": "identity_gate",
-        "value": "MATCH",
-        "source_url": "https://www.bbc.com/news/world-asia-india-64899487",
-        "exact_quote": "India's Supreme Court has rejected a plea seeking more compensation for victims of the 1984 Bhopal gas disaster."
-      },
-      {
-        "field_name": "timeline[3].event",
-        "value": "2025 residual ash remediation court direction",
-        "source_url": "https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/",
-        "exact_quote": "The court has now directed the state to examine alternate sites far away from human habitation, vegetation, and water sources."
+        "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
+        "exact_quote": "After 7 deaths in hospital fire, 13 private clinics sealed in Muzaffarpur - The Federal"
       }
     ]
   },
-  "conflict_notes": [],
-  "draft_diff": "--- a/C:/Users/rdpuser/projects/hissab/content/cases/bhopal-gas-disaster.md\n+++ b/C:/Users/rdpuser/projects/hissab/content/cases/bhopal-gas-disaster.md\n@@ -8,9 +8,9 @@\n injured: 500000\n accused_count: 7\n accused_gap: \"Seven former plant managers were convicted in 2010, but later reporting still described the compensation and accountability outcome as incomplete.\"\n-summary: \"A methyl isocyanate leak from the Union Carbide pesticide plant in Bhopal on 3 December 1984 became one of the world's worst industrial disasters. Public reporting and historical references place the death toll at more than 15,000 over time, with roughly half a million survivors suffering long-term effects, while later legal reporting noted seven former managers convicted in 2010 and a 2023 Supreme Court refusal to increase compensation.\"\n+summary: \"A methyl isocyanate leak from the Union Carbide pesticide plant in Bhopal on 3 December 1984 became one of the world's worst industrial disasters. Public reporting and historical references place the death toll at more than 15,000 over time, with roughly half a million survivors suffering long-term effects, while later legal reporting noted seven former managers convicted in 2010, a 2023 Supreme Court refusal to increase compensation, and a 2025 High Court warning about residual ash containment near homes.\"\n tags: [\"bhopal\", \"gas-disaster\", \"industrial-disaster\", \"madhya-pradesh\", \"union-carbide\"]\n-last_updated: 2026-06-04\n+last_updated: 2026-06-06\n \n accused:\n   - name: \"Seven former Union Carbide India plant managers\"\n@@ -41,8 +41,15 @@\n     event: \"BBC's 40th-anniversary report said government estimates put deaths at around 3,500 within days and more than 15,000 in the years since, and that an Indian court convicted seven former managers in 2010.\"\n     source: \"https://www.bbc.com/news/articles/cp35vlg3zvxo\"\n     source_name: \"BBC News\"\n+  - date: 2025-10-11\n+    type: \"gray\"\n+    event: \"The Madhya Pradesh High Court directed the state to examine alternate sites far away from human habitation, vegetation, and water sources for disposing of residual ash from incinerated Bhopal Gas Tragedy waste, after noting mercury levels above permissible limits in a 2025 pollution-board report.\"\n+    source: \"https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/\"\n+    source_name: \"The Indian Express\"\n ---\n \n The Bhopal gas disaster is now framed as an industrial-disaster case rather than a generic tragedy placeholder. The strongest public record is clear on the event identity: a methyl isocyanate leak from the Union Carbide plant in Bhopal on 3 December 1984, with long-term casualties counted in the tens of thousands and survivors affected for decades.\n \n The accountability picture remains incomplete. BBC's 2024 retrospective says an Indian court convicted seven former managers in 2010, while BBC's 2023 reporting on the compensation ruling says the Supreme Court rejected the government's plea for more money and Dow maintained the 1989 settlement was fair and final.\n+\n+In 2025, the Madhya Pradesh High Court again pressed the state to move the residual ash containment site away from human habitation after warning that the ash was still toxic and that mercury levels remained above permissible limits.\n",
+  "draft_diff": {
+    "updated_fields": [
+      "summary",
+      "conflict_notes",
+      "timeline[4]",
+      "last_updated"
+    ],
+    "notes": "Kept deaths at 6, kept injuries null, and added the later clinic-sealing headline as an amber follow-up with a conflict note for the 6-vs-7 death count."
+  },
   "critic_review": {
     "verdict": "APPROVED",
     "rejected_claims": [],
     "required_fixes": [],
-    "notes": "All new and modified claims are directly supported by the frozen Indian Express, BBC, and Britannica texts; the diff stays minimal and only adds the 2025 High Court update plus metadata refresh."
+    "notes": "The new clinic-sealing statement is limited to the preserved headline snippet, and the record explicitly flags the death-toll discrepancy instead of reconciling it by guesswork."
   },
   "validation": {
     "yaml_valid": true,
@@ -134,7 +101,7 @@
     "build_ok": true,
     "duplicate_check_ok": true,
     "passed": true,
-    "notes": "Frontmatter parsed cleanly, required case fields present, source URLs are specific non-homepage article pages, and hugo --gc --minify completed successfully."
+    "notes": "Frontmatter parses cleanly, the case file is build-safe, the source URLs are specific, the record remains one case only, and the new claim is bounded to the frozen headline while the 6-vs-7 conflict is flagged."
   },
   "commit_ready": true
 }

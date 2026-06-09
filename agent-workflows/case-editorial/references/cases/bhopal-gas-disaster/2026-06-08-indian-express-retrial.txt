@@ -1,0 +1,12 @@
+SOURCE_NAME: The Indian Express
+SOURCE_URL: https://indianexpress.com/article/india/acquittal-of-guilty-in-bhopal-gas-tragedy-case-would-be-failure-of-justice-cbi-opposes-3-company-officials-retrial-plea-10238357/
+PUBLICATION_NAME: The Indian Express
+
+TITLE: Acquitting the guilty in Bhopal gas tragedy case would be failure of justice: CBI opposes plea by 3 company officials seeking retrial
+DESC: The CBI told the court that ‘it has to be shown that the accused has suffered some disability or detriment in respect of the protections available to him under the Indian criminal jurisprudence’ for them to be allowed a retrial.
+P1: The CBI reply was submitted before the Principal District and Sessions Judge Manoj Kumar Shrivastava in Bhopal.
+P2: The three who filed the plea were Kishore Kamdar, who was a vice-president of the Indian arm of Union Carbide; J Mukund, a works manager; and S P Chowdhury, a production manager. They filed an appeal against their conviction in the Bhopal gas tragedy case investigated by the CBI and sought a retrial.
+P3: Calling for the application of the three accused to be rejected, the CBI said, “Failure of justice is an extremely pliable or facile expression, which can be made to fit into any situation in any case.” The CBI urged the “court must endeavour to find the truth”.
+P4: “There would be ‘failure of justice’; not only by unjust conviction, but also by acquittal of the guilty, as a result of unjust failure to produce requisite evidence. Of course, the rights of the accused have to be kept in mind and also safeguarded, but they should not be overemphasised to the extent of forgetting that the victims also have rights,” the agency submitted.
+P5: The CBI told the court that “it has to be shown that the accused has suffered some disability or detriment in respect of the protections available to him under the Indian criminal jurisprudence”.
+P6: “Prejudice is incapable of being interpreted in its generic sense and applied to criminal jurisprudence. The plea of prejudice has to be in relation to investigation or trial, and not with respect to matters falling outside their scope,” the agency submitted.

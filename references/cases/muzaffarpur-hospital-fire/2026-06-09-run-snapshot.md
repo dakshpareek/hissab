@@ -8,7 +8,7 @@ deaths: 6
 injured: null
 accused_count: 3
 accused_gap: null
-summary: "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, and that 13 private clinics were sealed in Muzaffarpur after the fire."
+summary: "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients and that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested."
 tags: ["muzaffarpur", "bihar", "hospital", "fire", "arrest", "investigation"]
 last_updated: 2026-06-09
 
@@ -36,9 +36,6 @@ compensation:
   paid_note: "The frozen reports mention an announcement, not confirmed payment."
   source: "https://www.thehindu.com/news/national/bihar/muzaffarpur-hospital-fire-in-bihar/article71059549.ece"
 
-conflict_notes:
-  - "The queued Federal headline says the fire was followed by 7 deaths, but the frozen case sources still support 6 deaths, so the record keeps deaths: 6 and flags the discrepancy."
-
 timeline:
   - date: 2026-06-04
     type: "red"
@@ -60,11 +57,6 @@ timeline:
     event: "The Hindu reported that three staff members — Pankaj, Ram Kumar, and Ajit Kumar — were held in connection with the fire, and its subhead said the fire had led to the deaths of six ICU patients."
     source: "https://www.thehindu.com/news/national/bihar/three-held-in-connection-with-fire-at-private-hospital-in-muzaffarpur/article71066037.ece"
     source_name: "The Hindu"
-  - date: 2026-06-07
-    type: "amber"
-    event: "A Federal headline said 13 private clinics were sealed in Muzaffarpur after the hospital fire."
-    source: "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5"
-    source_name: "The Federal via Google News"
 ---
 
-The frozen reports now describe an active accountability case. I have left injuries as null because the public text still does not give a clean count, and I have flagged the 6-vs-7 death-toll discrepancy rather than guessing.
+The frozen reports now describe an active accountability case. I have left injuries as null because the public text still does not give a clean count.

@@ -1,6 +1,12 @@
 baseURL = "https://hissab.daksh.be/"
-languageCode = "en-in"
+defaultContentLanguage = "en"
 title = "Hissab"
+enableRobotsTXT = true
+enableGitInfo = true
+
+[languages]
+  [languages.en]
+    locale = "en-IN"
 
 [params]
   description = "India's accountability gap, documented."
@@ -17,6 +23,14 @@ title = "Hissab"
   section = ["HTML"]
   taxonomy = ["HTML"]
   term = ["HTML"]
+
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [pagination]
   pagerSize = 20

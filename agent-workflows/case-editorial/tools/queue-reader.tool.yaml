@@ -1,8 +1,9 @@
 name: queue-reader
-description: Claim a single queued signal for case-editorial review.
+description: Claim a single queued signal for case-editorial review from the shared durable queue.
 inputs:
   - queue_path
   - consumer_name
+  - queue_manager_command
 outputs:
   - queue_signal
   - queue_claim

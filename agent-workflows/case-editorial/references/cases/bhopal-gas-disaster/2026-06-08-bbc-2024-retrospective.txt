@@ -1,0 +1,11 @@
+SOURCE_NAME: BBC News
+SOURCE_URL: https://www.bbc.com/news/articles/cp35vlg3zvxo
+PUBLICATION_NAME: BBC News
+
+TITLE: Bhopal gas leak in pictures: 40 years since the tragedy killed thousands in India
+DESC: In 1984, a poisonous gas leaked in the middle of the night from a pesticide factory in central India, killing thousands within days.
+P1: On the night of 2 December, 1984, a poisonous gas leaked from Union Carbide India's pesticide plant in Bhopal, enveloping the central Indian city in a deadly fog which killed thousands and poisoned about half-a-million people.
+P2: According to government estimates, around 3,500 people died within days of the gas leak and more than 15,000 in the years since. But activists say that the death toll is much higher, and that victims continue to suffer from the side-effects of being poisoned.
+P3: In 2010, an Indian court convicted seven former managers at the plant, handing down minor fines and brief prison sentences. But many victims and campaigners say that justice has still not been served, given the magnitude of the tragedy.
+P4: Union Carbide was a US company which Dow Chemicals bought in 1999.
+P5: Warning: This story contains details and photos that some readers may find distressing.

@@ -43,12 +43,20 @@ Open http://localhost:1313 in your browser.
 
 1. Push this repo to GitHub
 2. Go to **Settings → Pages → Source** → select **GitHub Actions**
-3. The workflow in `.github/workflows/deploy.yml` handles everything on every push to `main`
+3. The workflow in `.github/workflows/deploy.yml` handles the Hugo build and deploy on every push to `main`
 
 Update `baseURL` in `hugo.toml` to your actual GitHub Pages URL:
 ```toml
 baseURL = "https://hissab.daksh.be/"
 ```
+
+### 4. Crawl/indexing setup
+
+Hissab now generates:
+- `sitemap.xml`
+- `robots.txt`
+
+Those are built automatically by Hugo during deploy, so when a new case markdown file lands in `content/cases/` and gets pushed, the sitemap updates on the next build without any manual edit.
 
 ---
 

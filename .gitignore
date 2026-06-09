@@ -1,4 +1,5 @@
 public/
 .hugo_build.lock
 .DS_Store
+agent-workflows/case-queue/update-queue.json
 
