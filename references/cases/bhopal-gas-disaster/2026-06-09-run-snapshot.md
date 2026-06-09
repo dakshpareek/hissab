@@ -11,7 +11,7 @@ accused_gap: "Seven former plant managers were convicted in 2010, but later repo
 summary: "A methyl isocyanate leak from the Union Carbide pesticide plant in Bhopal on 3 December 1984 became one of the world's worst industrial disasters. Public reporting and historical references place the death toll at more than 15,000 over time, with roughly half a million survivors suffering long-term effects, while later legal reporting noted seven former managers convicted in 2010, a 2023 Supreme Court refusal to increase compensation, a 2025 High Court order to expedite the remaining criminal revision appeals, a 2025 CBI opposition to a retrial plea by three company officials, a 2025 High Court warning about residual ash containment near homes, a 2026 High Court direction to submit a cleanup and remediation plan within five weeks, and the 337 tonnes of Union Carbide waste being fully incinerated in Pithampur."
 
 tags: ["bhopal", "gas-disaster", "industrial-disaster", "madhya-pradesh", "union-carbide"]
-last_updated: 2026-06-09
+last_updated: 2026-06-08
 
 accused:
   - name: "Seven former Union Carbide India plant managers"
