@@ -8,7 +8,7 @@ deaths: 6
 injured: null
 accused_count: 3
 accused_gap: null
-summary: "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, that the Bihar government suspended the hospital licence, and that 13 health facilities were sealed in Muzaffarpur after the fire."
+summary: "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, that the Bihar government suspended the hospital licence, and that 13 private clinics were sealed in Muzaffarpur after the fire."
 tags: ["muzaffarpur", "bihar", "hospital", "fire", "arrest", "investigation"]
 last_updated: 2026-06-10
 
@@ -65,11 +65,6 @@ timeline:
     event: "India Today via Google News reported that the Bihar government suspended the hospital licence after the ICU fire in Muzaffarpur."
     source: "https://news.google.com/rss/articles/CBMixwFBVV95cUxPanJOUnMyenRVMXNETWVYRUpudmFtSEluTDFtM2N5Y2x1XzFIOVFVOWptUERXUTd4YmwzaEN5NFBUdWtnM0xFTWtmUWotNFQ3cVlVaU5JMWZJUThESnhndlUyUGk0RlY0TGxqclV4SFFoVDZuVnNpaUUwUzd6VE54emwtZF91SE5PeXhTNlhXNnh6V3ViUlJNYWpUaWNVX2U5TkZmdXJibzZKSGxVMWZIS0sycjhqMW9OR1FlaHhtNXY2cmRSMk8w0gHMAUFVX3lxTFBHWGFpMG1ycjRMaS00Vl9HY29zWjhXa0x0cWhKWVhrSWRiNkV5YVVkYW1MY3BXUWMzbjEyRnZVYndnM3M0NHJEY2RCMEwyMUJUcEgwUUJLSWxzZEY0OFNMYkY2T2NlR2JjdVpaTUFJN0VjNGZKaXd5WElvUkItdWJsSXQ3eVU4RlJEUS1zbGhXem5QZDdpeVNzMUc4RVFYcjhZcGxJVHFFTzFkRklBbEZ4OTNxTEV4N2c1ODVZX1JWM0UzUXJEdWR2amZHaQ?oc=5"
     source_name: "India Today via Google News"
-  - date: 2026-06-06
-    type: "amber"
-    event: "The Times of India via Google News reported that 13 health facilities were sealed in Muzaffarpur for violation of fire safety norms."
-    source: "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOXIwWFhmNWFKMUFrcGhST1VqZFBzMDVSNnpwcGdWTkptQXpZSGpyRHIwaG5zZmhRSDQwRGtReGZKSUU2amE5VXNZNkJhUUoyYzNhY2hvZi1xQlNHeEpfVFBJMXJKUDhPTmVjVUdsa0RsLVNWc1dlWVZ6c05oRW5tQUVvMTJRTzQxRjN4Ykw5a19RVTZjd2RHRjdaaVVnZ2lXR3c2cV81bTJhdmxzd1RidFlzTndYVFNqeTZkVDh3d3FMME1kMHE0YlhacEZJOXlXeEEwbmhtSE9rckl5ZWFsSUJlbE3SAeoBQVVfeXFMUFBGdjRVeW5BREd0bTNiUURHeThnaXRnRnd4aTU2dnREWVpyUmsyTjdwWWMzYi1XNnJQVjNPdW1ZTFlXYVZXNWl3Z1VUcjFtdFVDWFd3TExSaUhqdFFPZ19oRktBY0JDd1JpLXJzeWg1V3p0ckVSOXR6TktfTkYxV0xDVkxRZ1NVcGljRGdMblVybjFkc1ZMenJReUc0NDI3cXZQSmI5WWpqNXp1WXBwMnBUMUpQNUxpeGFNTkk1ZWVrX2MxVkhlR05yWTc3VDZFbjhpN3g0amdVeVhhWjhEU2ljR0Z2QV9jS0JR?oc=5"
-    source_name: "The Times of India via Google News"
   - date: 2026-06-07
     type: "amber"
     event: "A Federal headline said 13 private clinics were sealed in Muzaffarpur after the hospital fire."
