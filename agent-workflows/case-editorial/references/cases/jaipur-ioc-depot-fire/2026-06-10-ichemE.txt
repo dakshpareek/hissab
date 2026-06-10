@@ -1,0 +1,20 @@
+Source freeze
+URL: https://www.icheme.org/media/9070/xxiii-paper-74.pdf
+Publication: IChemE / GL Noble Denton
+Frozen at: 2026-06-10T17:01:42+05:30
+
+Captured text:
+VAPOUR CLOUD EXPLOSION AT THE IOC TERMINAL IN JAIPUR
+D.M. Johnson, GL Noble Denton, Loughborough, Leics, LE11 3GR
+At approximately 6:10pm on 29th October 2009, a leak of gasoline occurred on the Indian Oil Corporation's (IOC) Petroleum Oil Lubricants Terminal at Jaipur, India. This leak continued for some 75 minutes, when the vapour cloud ignited, resulting in a severe vapour cloud explosion (VCE), eleven fatalities and many tank fires.
+
+1. INTRODUCTION The vapour cloud explosion (VCE) and fires on the Indian Oil Corporation's (IOC) Petroleum Oil Lubricants Terminal caused eleven fatalities, six on the IOC site and five offsite. The fires continued to burn for eleven days.
+
+2.2 SEQUENCE OF EVENTS During the evening of the 29th October 2009, preparations were being made for the transfer of kerosene and gasoline to a neighbouring terminal. At approximately 6:10 pm, during the process of preparing Tank 401-A for pumping, a large leak occurred from a `Hammer Blind Valve' on the tank outlet. The leak resulted in a jet of gasoline directed upwards from the valve.
+
+The leak continued for some 75 minutes, in calm, low wind speed, conditions. The IIC estimated that of the order of 1000 Tonnes of gasoline were released from the tank prior to ignition.
+
+4.2 OVERPRESSURE DAMAGE The incident on the IOC Jaipur terminal involved widespread severe pressure damage over almost the entire site.
+
+7. CONCLUSION The evidence obtained from the IOC Jaipur site has a high degree of consistency with the observations made following the Buncefield incident, both in terms of overpressure damage and directional indicators.
+The overpressure damage and the directional indicators are consistent with a detonation propagating through a dense vapour cloud that covered almost the entire site.

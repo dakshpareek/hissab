@@ -1,0 +1,16 @@
+SOURCE_NAME: India Today
+SOURCE_URL: https://www.indiatoday.in/india/story/12-dead-over-200-injured-in-indian-oil-depot-fire-in-jaipur-59623-2009-10-28
+PUBLICATION_NAME: India Today
+
+TITLE: 12 dead, over 200 hurt in Jaipur oil depot fire - India Today
+DESC: Police and state officials said a massive fire erupted at Indian Oil's fuel depot in Sitapura industrial area and killed 12 people while injuring over 200.
+P1: A massive fire erupted on Thursday night at Indian Oil Coporation's fuel depot in Sitapura industrial area on the outskirts of the city killing 12 persons and injuring over 200, police and state officials said.
+P2: IOC experts and more than 35 fire-fighters have been pressed into service and 300 military men had begun the rescue work at the depot in Sanganer area, which is on a highway near the airport, shortly before midnight.
+P3: Rajasthan Health Minister Immamuddin Ahmed said two bodies recovered from the fire site were taken to Sawai Man Singh (SMS) Hospital and another one to Fortis.
+P4: According to media reports, in all 80 victims have been hospitalised, out of which 50 have been admitted to SMS Hospital.
+P5: District administration sources said residents of about ten nearby villages, which house an estimated five lakh people, and inmates of hostels in 10 engineering and technical colleges and a medical college have been evacuated in the wake of the incident after which power supply in the area was cut off.
+P6: IOC Chairman Sarthak Behuria told media persons that the fire broke out at a petrol storage tank and quickly spread to other tanks. Police said several explosions were heard.
+P7: The walls and glass panes of some of the colleges were damaged by the explosions that followed the fire in the depot.
+P8: After visiting the injured in the Sawai Mansingh Hospital, Chief Minister Ashok Gehlot announced a compensation of Rs two lakh for the dead of the kin, Rs 50,000 for those seriously injured and said that the government would bear the cost of treatment of the injured.
+P9: The fire broke out at around 7.30 pm when petrol was being transferred from the depot to a pipeline and it swiftly spread out of control.
+P10: However, the exact cause of the fire-whether it was a pure accident or negligence- has not been established so far.
