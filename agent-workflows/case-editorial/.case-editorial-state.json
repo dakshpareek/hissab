@@ -2,98 +2,102 @@
   "case_slug": "muzaffarpur-hospital-fire",
   "case_file": "content/cases/muzaffarpur-hospital-fire.md",
   "queue_signal": {
-    "signal_id": "muzaffarpur-hospital-fire-20260607-clinics-sealed",
+    "signal_id": "muzaffarpur-hospital-fire-20260609-ima-revocation",
     "case_id": "muzaffarpur-hospital-fire",
-    "score": "high",
-    "reason_category": "official_action_enforcement",
-    "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
-    "article_date": "2026-06-07T07:07:29+05:30",
-    "headline_snippet": "After 7 deaths in hospital fire, 13 private clinics sealed in Muzaffarpur - The Federal",
-    "captured_at": "2026-06-07T15:51:47+05:30",
-    "status": "processing",
-    "dedupe_key": "muzaffarpur-hospital-fire|https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5"
+    "score": "medium",
+    "reason_category": "official_scrutiny",
+    "source_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTVMyZzJGMFRwRXNyRlNFOE5GZU02TFpJRndKRjhPTk52Y0UxeEhZSUxVSjczZzhXUVBOTjRnNUFPN2c1dTlnRGNtSjVOODJiVkF2NWQwbG4xZHFuWUdjOG93VHBaallGZFlaWDl4MlNscHdYRVg1T3R0MzRoVnNGWllzbjRuZW1sUHZaOTdYTm43SGVDdldIbUxXRnh3MlIzak0zQXQ1N1F3QU1PQ3NQTWZKSms0U1daVXRpUXhJaVNWM19ndlVJTHJ5Zm50SV9yOXZRN3VSU1hoQlBmRHBrTEFneUtvSzZTY1dv0gHrAUFVX3lxTE5NUzJnMkYwVHBFc3JGU0U4TkZlTTZMWklGd0pGOE9OTnZjRTF4SFlJTFVKNzNnOFdRUE5ONGc1QU83ZzV1OWdEY21KNU44MmJWQXY1ZDBsbjFkcW5ZR2M4b3dUcFpqWUZkWVpYOXgyU2xwd1hFWDVPdHQzNGhWc0ZaWXNuNG5lbWxQdlo5N1hObjdIZUN2V0htTFdGeHcyUjNqTTNBdDU3UXdBTU9Dc1BNZkpKazRTV1pVdGlReElpU1YzX2d2VUlMcnlmbnRJX3I5dlE3dVJTWGhCUGZEcGtMQWd5S29LNlNjV28?oc=5",
+    "article_date": "Tue, 09 Jun 2026 06:41:27 GMT",
+    "headline_snippet": "Muzaffarpur Hospital ICU Fire: IMA demands revocation of hospital licence suspension - Medical Dialogues",
+    "captured_at": "2026-06-09T22:22:42+05:30",
+    "status": "done",
+    "dedupe_key": "muzaffarpur-hospital-fire|https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTVMyZzJGMFRwRXNyRlNFOE5GZU02TFpJRndKRjhPTk52Y0UxeEhZSUxVSjczZzhXUVBOTjRnNUFPN2c1dTlnRGNtSjVOODJiVkF2NWQwbG4xZHFuWUdjOG93VHBaallGZFlaWDl4MlNscHdYRVg1T3R0MzRoVnNGWllzbjRuZW1sUHZaOTdYTm43SGVDdldIbUxXRnh3MlIzak0zQXQ1N1F3QU1PQ3NQTWZKSms0U1daVXRpUXhJaVNWM19ndlVJTHJ5Zm50SV9yOXZRN3VSU1hoQlBmRHBrTEFneUtvSzZTY1dv0gHrAUFVX3lxTE5NUzJnMkYwVHBFc3JGU0U4TkZlTTZMWklGd0pGOE9OTnZjRTF4SFlJTFVKNzNnOFdRUE5ONGc1QU83ZzV1OWdEY21KNU44MmJWQXY1ZDBsbjFkcW5ZR2M4b3dUcFpqWUZkWVpYOXgyU2xwd1hFWDVPdHQzNGhWc0ZaWXNuNG5lbWxQdlo5N1hObjdIZUN2V0htTFdGeHcyUjNqTTNBdDU3UXdBTU9Dc1BNZkpKazRTV1pVdGlReElpU1YzX2d2VUlMcnlmbnRJX3I5dlE3dVJTWGhCUGZEcGtMQWd5S29LNlNjV28?oc=5"
   },
   "queue_claim": {
-    "claim_id": "muzaffarpur-hospital-fire-20260607-clinics-sealed",
-    "claimed_at": "2026-06-09T11:47:01+05:30",
+    "claim_id": "muzaffarpur-hospital-fire-20260609-ima-revocation",
+    "claimed_at": "2026-06-12T23:47:20+05:30",
     "queue_name": "case-explorer"
   },
   "record_snapshot": {
+    "title": "Muzaffarpur Hospital Fire",
+    "date": "2026-06-04",
+    "location": "Muzaffarpur, Bihar",
     "file_path": "content/cases/muzaffarpur-hospital-fire.md",
-    "snapshot_path": "references/cases/muzaffarpur-hospital-fire/2026-06-09-run-snapshot.md",
-    "captured_at": "2026-06-09T11:55:25+05:30",
-    "note": "Copied current case record before editing."
+    "snapshot_path": "references/cases/muzaffarpur-hospital-fire/2026-06-12-run-snapshot.md",
+    "captured_at": "2026-06-12T23:47:20+05:30",
+    "note": "Copied the current case record before editing."
   },
   "duplicate_guard": {
-    "matched": true,
-    "match_slug": "muzaffarpur-hospital-fire",
-    "reason": "Queued case targets an existing record with the same slug; no near-duplicate branch was created.",
-    "evidence": [
-      "content/cases/muzaffarpur-hospital-fire.md exists",
-      "queue_signal.case_id == muzaffarpur-hospital-fire"
-    ]
+    "matched": false,
+    "match_slug": null,
+    "reason": "no duplicate found; this is a distinct follow-up accountability update for the same incident"
   },
   "frozen_sources": [
     {
-      "source_name": "The Federal via Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
-      "publication_name": "The Federal",
-      "frozen_path": "references/cases/muzaffarpur-hospital-fire/2026-06-09-google-news-clinics-sealed.txt",
-      "frozen_at": "2026-06-09T11:55:25+05:30",
-      "status": "partial",
-      "sha256": "ee49f9cd84f11d9ca3792a034593242d2a8417a08993d411a3768283fc1cf49a"
+      "source_name": "Medical Dialogues",
+      "source_url": "https://medicaldialogues.in/news/health/hospital-diagnostics/muzaffarpur-hospital-icu-fire-ima-demands-revocation-of-hospital-licence-suspension-172407",
+      "publication_name": "Medical Dialogues",
+      "frozen_path": "references/cases/muzaffarpur-hospital-fire/2026-06-09-medical-dialogues-ima-revocation.txt",
+      "frozen_at": "2026-06-12T23:52:51+05:30",
+      "status": "success",
+      "sha256": "66295bdf6d4de66a6ebb330335e691c51b1e0f70883e4ce32fa88949b3fe71ff"
     }
   ],
   "identity_gate": {
     "verdict": "MATCH",
-    "notes": "The queued headline stays within the same incident family as the existing Muzaffarpur hospital fire case. It adds a later enforcement action (clinic sealing) while the existing frozen The Hindu reports still support the six-death and arrest details.",
+    "notes": "The frozen Medical Dialogues article describes the same Muzaffarpur Prasad Hospital fire and the regulatory response to it; it adds an IMA protest over the licence suspension rather than a different incident.",
     "supporting_quotes": [
-      "After 7 deaths in hospital fire, 13 private clinics sealed in Muzaffarpur - The Federal",
-      "Three staff members arrested after a deadly fire at a Muzaffarpur hospital led to the deaths of six ICU patients."
+      "Muzaffarpur Hospital ICU Fire: IMA demands revocation of hospital licence suspension",
+      "Following the suspension of Prasad Hospital's registration and the arrest of the three staff members after a fire claimed six lives"
     ]
   },
   "extraction_record": {
     "changes": [
       {
         "field_name": "summary",
-        "value": "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, and that 13 private clinics were sealed in Muzaffarpur after the fire.",
-        "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
-        "exact_quote": "After 7 deaths in hospital fire, 13 private clinics sealed in Muzaffarpur - The Federal"
+        "value": "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, that the Bihar government suspended the hospital licence, that Telegraph India later reported the hospital's registration was cancelled after the fire, that 13 health facilities were sealed in Muzaffarpur after the fire, that Ram Kripal Yadav demanded a probe into the hospital's fire safety standards, and that Medical Dialogues reported the IMA Muzaffarpur demanded immediate revocation of the hospital-registration suspension and withdrawal of action against the ICU doctor.",
+        "source_url": "https://medicaldialogues.in/news/health/hospital-diagnostics/muzaffarpur-hospital-icu-fire-ima-demands-revocation-of-hospital-licence-suspension-172407",
+        "exact_quote": "The medical body also sought the withdrawal of administrative action against the doctor in-charge of the ICU, and warned of agitation if its demands were not met."
       },
       {
-        "field_name": "conflict_notes[0]",
-        "value": "The queued Federal headline says the fire was followed by 7 deaths, but the frozen case sources still support 6 deaths, so the record keeps deaths: 6 and flags the discrepancy.",
-        "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
-        "exact_quote": "After 7 deaths in hospital fire, 13 private clinics sealed in Muzaffarpur - The Federal"
+        "field_name": "conflict_notes",
+        "value": [
+          "The Telegraph India fallback headline says the hospital registration was cancelled after the fire and renders the death count as seven, while the source URL slug says kills six and the case record still supports 6 deaths, so the record keeps deaths: 6.",
+          "Medical Dialogues' article is internally inconsistent on fatalities: the intro says the fire claimed six lives, while a later paragraph says seven lives. This update does not change the existing deaths count."
+        ],
+        "source_url": "https://medicaldialogues.in/news/health/hospital-diagnostics/muzaffarpur-hospital-icu-fire-ima-demands-revocation-of-hospital-licence-suspension-172407",
+        "exact_quote": "Following the fire incident at the hospital, which claimed seven lives, police arrested three staff members on Friday for negligence."
       },
       {
-        "field_name": "timeline[4]",
+        "field_name": "timeline[9]",
         "value": {
-          "date": "2026-06-07",
+          "date": "2026-06-09",
           "type": "amber",
-          "event": "A Federal headline said 13 private clinics were sealed in Muzaffarpur after the hospital fire.",
-          "source": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
-          "source_name": "The Federal via Google News"
+          "event": "Medical Dialogues reported that the IMA Muzaffarpur termed the hospital-registration suspension unconstitutional and demanded its immediate revocation, along with withdrawal of administrative action against the ICU doctor.",
+          "source": "https://medicaldialogues.in/news/health/hospital-diagnostics/muzaffarpur-hospital-icu-fire-ima-demands-revocation-of-hospital-licence-suspension-172407",
+          "source_name": "Medical Dialogues"
         },
-        "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMVVxdlJDUGZvSWtDdnJwQ1gwb0ZYanNiaXVRRUo0cWhwRjBXdEhNME1pYXhkWkpma0JVOEpfUGl4V21zOTZmSzlBS1ozYXlpQVV5cVJ6NjZPYWJaekZmbmFfdi1rVkJDYVVwZW4yNDIzOWNWWXdUcDJXZnF1R3pqRlc4WDlUV1ZrSHZzTE5xbjlGLWtaRWlVTkMtMkN6TzdNU0x0RzktTU1BYkt2TkMxVlZCaVgzb1dmWDZIaGFpS0JjU3U3OFhfdHZ3?oc=5",
-        "exact_quote": "After 7 deaths in hospital fire, 13 private clinics sealed in Muzaffarpur - The Federal"
+        "source_url": "https://medicaldialogues.in/news/health/hospital-diagnostics/muzaffarpur-hospital-icu-fire-ima-demands-revocation-of-hospital-licence-suspension-172407",
+        "exact_quote": "\"The civil surgeon's decision to suspend the hospital's registration without seeking an explanation from the management is unconstitutional. We demand its immediate reversal,\""
       }
     ]
   },
+  "conflict_notes": [
+    "The Telegraph India fallback headline says the hospital registration was cancelled after the fire and renders the death count as seven, while the source URL slug says kills six and the case record still supports 6 deaths, so the record keeps deaths: 6.",
+    "Medical Dialogues' article is internally inconsistent on fatalities: the intro says the fire claimed six lives, while a later paragraph says seven lives. This update does not change the existing deaths count."] ,
   "draft_diff": {
     "updated_fields": [
       "summary",
       "conflict_notes",
-      "timeline[4]",
-      "last_updated"
+      "timeline[9]"
     ],
-    "notes": "Kept deaths at 6, kept injuries null, and added the later clinic-sealing headline as an amber follow-up with a conflict note for the 6-vs-7 death count."
+    "notes": "Added the June 9 IMA revocation update, preserved the existing fatality count, and recorded the Medical Dialogues internal inconsistency as a conflict instead of inferring a new death total."
   },
   "critic_review": {
     "verdict": "APPROVED",
     "rejected_claims": [],
     "required_fixes": [],
-    "notes": "The new clinic-sealing statement is limited to the preserved headline snippet, and the record explicitly flags the death-toll discrepancy instead of reconciling it by guesswork."
+    "notes": "All populated claims are directly supported by the frozen Medical Dialogues text or existing frozen case sources. The new entry stays within the same Muzaffarpur hospital fire incident family."
   },
   "validation": {
     "yaml_valid": true,
@@ -101,7 +105,7 @@
     "build_ok": true,
     "duplicate_check_ok": true,
     "passed": true,
-    "notes": "Frontmatter parses cleanly, the case file is build-safe, the source URLs are specific, the record remains one case only, and the new claim is bounded to the frozen headline while the 6-vs-7 conflict is flagged."
+    "notes": "Frontmatter parses cleanly, the Medical Dialogues source is specific and frozen, the Hugo build succeeded, and the new entry is a distinct follow-up update rather than a duplicate incident record."
   },
   "commit_ready": true
 }

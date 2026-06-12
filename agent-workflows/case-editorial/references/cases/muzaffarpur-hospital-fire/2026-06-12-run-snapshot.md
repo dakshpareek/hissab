@@ -8,7 +8,7 @@ deaths: 6
 injured: null
 accused_count: 3
 accused_gap: null
-summary: "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, that the Bihar government suspended the hospital licence, that Telegraph India later reported the hospital's registration was cancelled after the fire, that 13 health facilities were sealed in Muzaffarpur after the fire, that Ram Kripal Yadav demanded a probe into the hospital's fire safety standards, and that Medical Dialogues reported the IMA Muzaffarpur demanded immediate revocation of the hospital-registration suspension and withdrawal of action against the ICU doctor."
+summary: "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, that the Bihar government suspended the hospital licence, that Telegraph India later reported the hospital's registration was cancelled after the fire, that 13 health facilities were sealed in Muzaffarpur after the fire, and that Ram Kripal Yadav demanded a probe into the hospital's fire safety standards."
 tags: ["muzaffarpur", "bihar", "hospital", "fire", "arrest", "investigation"]
 last_updated: 2026-06-12
 
@@ -38,7 +38,6 @@ compensation:
 
 conflict_notes:
   - "The Telegraph India fallback headline says the hospital registration was cancelled after the fire and renders the death count as seven, while the source URL slug says kills six and the case record still supports 6 deaths, so the record keeps deaths: 6."
-  - "Medical Dialogues' article is internally inconsistent on fatalities: the intro says the fire claimed six lives, while a later paragraph says seven lives. This update does not change the existing deaths count."
 
 timeline:
   - date: 2026-06-04
@@ -86,11 +85,6 @@ timeline:
     event: "Ram Kripal Yadav demanded a probe into Muzaffarpur hospital fire safety standards."
     source: "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVjl2cjZnYmpiaHM4TkZqMUs0QnAwY2ZrZ0JLLVVGMGdfODEwWWU2Q1hqVzV5ZHoyOWxtdEtCZ3YxMml0NEZsLXlyVHIyLW1WZzhvUW5BVm9tNW1pTHFRZGZHOS16RE1ZMTQ5d0hXcmxSb1dfbm91dTlmdGNGUnBvNGkyN1Q4RlljYlZ2SU1DbXZFZHJobnhfT0hXU3hKeE1DZnBOaEkxUExsNDR3My04NQ?oc=5"
     source_name: "The News Mill via Google News"
-  - date: 2026-06-09
-    type: "amber"
-    event: "Medical Dialogues reported that the IMA Muzaffarpur termed the hospital-registration suspension unconstitutional and demanded its immediate revocation, along with withdrawal of administrative action against the ICU doctor."
-    source: "https://medicaldialogues.in/news/health/hospital-diagnostics/muzaffarpur-hospital-icu-fire-ima-demands-revocation-of-hospital-licence-suspension-172407"
-    source_name: "Medical Dialogues"
 ---
 
-The frozen reports now describe an active accountability case. I have left injuries as null because the public text still does not give a clean count, and I have added the licence-suspension report, the Telegraph India registration-cancellation fallback headline, the later probe-demand report, and the Medical Dialogues IMA revocation report as follow-up actions.
+The frozen reports now describe an active accountability case. I have left injuries as null because the public text still does not give a clean count, and I have added the licence-suspension report, the Telegraph India registration-cancellation fallback headline, and the later probe-demand report as follow-up actions.
