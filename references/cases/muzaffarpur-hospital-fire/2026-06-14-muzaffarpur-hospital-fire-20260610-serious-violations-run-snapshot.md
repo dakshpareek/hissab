@@ -8,9 +8,9 @@ deaths: 6
 injured: null
 accused_count: 3
 accused_gap: null
-summary: "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, that the Bihar government suspended the hospital licence, that Telegraph India later reported the hospital's registration was cancelled after the fire, that 13 health facilities were sealed in Muzaffarpur after the fire, that Ram Kripal Yadav demanded a probe into the hospital's fire safety standards, that Medical Dialogues reported the IMA Muzaffarpur demanded immediate revocation of the hospital-registration suspension and withdrawal of action against the ICU doctor, and that a 10 June 2026 Times of India report said a probe into the fire found serious violations."
+summary: "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, that the Bihar government suspended the hospital licence, that Telegraph India reported the death toll had risen to five and that a probe was ordered with Rs 4 lakh ex gratia announced, that Telegraph India later reported the hospital's registration was cancelled after the fire, that 13 health facilities were sealed in Muzaffarpur after the fire, that Ram Kripal Yadav demanded a probe into the hospital's fire safety standards, that Medical Dialogues reported the IMA Muzaffarpur demanded immediate revocation of the hospital-registration suspension and withdrawal of action against the ICU doctor, and that a republished Times of India report said the health department suspended Dr Pankaj Kumar with immediate effect."
 tags: ["muzaffarpur", "bihar", "hospital", "fire", "arrest", "investigation"]
-last_updated: 2026-06-14
+last_updated: 2026-06-13
 
 accused:
   - name: "Pankaj"
@@ -99,14 +99,9 @@ timeline:
     source_name: "Medical Dialogues"
   - date: 2026-06-09
     type: "amber"
-    event: "The health department suspended Dr Pankaj Kumar with immediate effect after the Muzaffarpur hospital fire, according to a republished Times of India report."
+    event: "A republished Times of India report said the health department suspended Dr Pankaj Kumar with immediate effect after the Muzaffarpur hospital fire."
     source: "https://article.wn.com/view/2026/06/09/Muzaffarpur_hospital_fire_Doctor_suspended/"
     source_name: "Times of India via WN"
-  - date: 2026-06-10
-    type: "amber"
-    event: "The Times of India reported that a probe into the Muzaffarpur hospital fire found serious violations."
-    source: "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRDhLel9PbHZGdjZaRE1SSk1Sb2FTTU9PX2NyeEZrX0lvWU5YdzVJd1RUYWtlZ05BQnltQjhheWlZRVpORXlSNmRDSmdjUFBQTWJlTGlFeEZTTjhpYnFUOGYtcTFTSHJNeG1oSnMwc0tXNG9wMks2NFNnb1ZJMkxiX3NhOG5hNXBHV1Q1WWtZdGJBQk95cHNMbklqRjV6S0hUTFR4S2JGcTh2N2ZoeXpmSXlWeVRqVTdqWkNQdlM0T2o2dURhOUo4V3EwRHNnTlnSAdQBQVVfeXFMT0VBMFR6cTFHU3hFNzNUanY2dGxMRFpXLXBnbzFFdFctQVI5lVGQVVmOGtqWUVTTnRncllpWXhNbTY4bVdXUXZNbENNaFc5b21vZU9YYWE0OExERy10WWpfV0F0MFNzNmtiYkx1QzJhcjFIRmppTHV4c2VEVEY1UC1SajZYOXItYXVZYTRPaTNLbXhCQWc4MTFZNFFGcU8wcTA4ZS1BMVE1TlBXWE5jTHVsOURRZVRsXzdkWl8tU3IxYl9sekZnZUhFNE9UYXZhNks2dlQ?oc=5"
-    source_name: "The Times of India via Google News"
 ---
 
-The frozen reports now describe an active accountability case. I have left injuries as null because the public text still does not give a clean count, and I have added the licence-suspension report, the Telegraph India registration-cancellation fallback headline, the later probe-demand report, the Medical Dialogues IMA revocation report, the doctor-suspension report, and the 10 June Times of India serious-violations report as follow-up actions.
+The frozen reports now describe an active accountability case. I have left injuries as null because the public text still does not give a clean count, and I have added the licence-suspension report, the Telegraph India registration-cancellation fallback headline, the later probe-demand report, the Medical Dialogues IMA revocation report, and the doctor-suspension report as follow-up actions.

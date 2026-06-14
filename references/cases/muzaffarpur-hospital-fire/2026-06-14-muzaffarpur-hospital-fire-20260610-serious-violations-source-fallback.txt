@@ -1,0 +1,14 @@
+source_name: Queue-intake fallback for The Times of India Google News item
+source_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxNRDhLel9PbHZGdjZaRE1SSk1Sb2FTTU9PX2NyeEZrX0lvWU5YdzVJd1RUYWtlZ05BQnltQjhheWlZRVpORXlSNmRDSmdjUFBQTWJlTGlFeEZTTjhpYnFUOGYtcTFTSHJNeG1oSnMwc0tXNG9wMks2NFNnb1ZJMkxiX3NhOG5hNXBHV1Q1WWtZdGJBQk95cHNMbklqRjV6S0hUTFR4S2JGcTh2N2ZoeXpmSXlWeVRqVTdqWkNQdlM0T2o2dURhOUo4V3EwRHNnTlnSAdQBQVVfeXFMT0VBMFR6cTFHU3hFNzNUanY2dGxMRFpXLXBnbzFFdFctQVI5lVGQVVmOGtqWUVTTnRncllpWXhNbTY4bVdXUXZNbENNaFc5b21vZU9YYWE0OExERy10WWpfV0F0MFNzNmtiYkx1QzJhcjFIRmppTHV4c2VEVEY1UC1SajZYOXItYXVZYTRPaTNLbXhCQWc4MTFZNFFGcU8wcTA4ZS1BMVE1TlBXWE5jTHVsOURRZVRsXzdkWl8tU3IxYl9sekZnZUhFNE9UYXZhNks2dlQ?oc=5
+frozen_at: 2026-06-14T05:47:24+05:30
+status: fallback
+fetch_attempts:
+  - method: requests.get
+    result: 302 redirect to the same news.google.com/rss/articles URL with hl=en-IN&gl=IN&ceid=IN:en
+  - method: browser-followed redirect
+    result: generic Google News shell; no article text surfaced in HTML
+frozen_quote: "Probe into Muzaffarpur hospital fire finds serious violations - The Times of India"
+headline_snippet: "Probe into Muzaffarpur hospital fire finds serious violations - The Times of India"
+article_date: "2026-06-10T14:36:00+00:00"
+captured_at: "2026-06-11T04:36:35+05:30"
+notes: Direct article text was not recoverable from the Google News redirect in this environment, so the queue signal headline was retained as the frozen fallback artifact.
