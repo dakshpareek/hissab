@@ -6,6 +6,8 @@
 - `content/cases/_index.md` — cases section intro
 - `hugo.toml` — site configuration and taxonomies
 - `public/` — generated site output; do not edit manually
+- `agent-workflows/case-finder/README.md` — upstream discovery and triage workflow
+- `agent-workflows/case-finder/manifest.yaml` — case finder stage graph and queue contract
 - `agent-workflows/case-editorial/stages/00-queue-intake.md` — queue claim normalization stage
 - `agent-workflows/case-editorial/references/queue-policy.md` — queue coupling policy
 

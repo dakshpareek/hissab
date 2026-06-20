@@ -1,0 +1,44 @@
+name: case-finder-workflow
+version: 1.0.0
+description: >
+  Provider-neutral read-only discovery workflow that scans public sources
+  for new incident candidates and meaningful follow-up leads, clusters them
+  against known cases, and emits structured queue signals for Case Explorer.
+entry_stage: registry-reader
+scope_constraint: read_only_discovery_producer
+state:
+  backend: json_file
+  path: ./.case-finder-state.json
+  schema: schemas/finder-state.schema.json
+queue:
+  backend: json_file
+  path: ./agent-workflows/case-queue/update-queue.json
+  schema: ./agent-workflows/case-queue/schemas/update-queue.schema.json
+stages:
+  - id: registry-reader
+    role: orchestrator
+    next: source-scan
+  - id: source-scan
+    role: worker
+    next: identity-cluster
+  - id: identity-cluster
+    role: worker
+    next: signal-score
+    on_ambiguous: source-scan
+  - id: signal-score
+    role: critic
+    next: queue-write
+    on_noise: registry-reader
+  - id: queue-write
+    role: worker
+    final: true
+required_tools:
+  - web-search
+  - web-fetch
+  - json-validator
+  - queue-writer
+required_references:
+  - README.md
+  - references/source-policy.md
+  - references/queue-policy.md
+  - schemas/source-registry.yaml

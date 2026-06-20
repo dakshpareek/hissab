@@ -1,0 +1,69 @@
+version: 1
+generated_from: canonical case library
+maintenance_note: >
+  This registry is the watcher/finder input list. It can be regenerated
+  from the canonical case files and should stay small, explicit, and easy
+  to review.
+sources:
+  - source_id: official_agency
+    name: Official agency releases and notices
+    type: official
+    trust: high
+    enabled: true
+    scope: legal_status, compensation, investigation, incident confirmation
+    query_templates:
+      - site:gov.in incident name
+      - site:police.* incident name
+      - site:district.* incident name
+    notes: Prefer direct notices, circulars, and releases.
+  - source_id: court_records
+    name: Court orders and hearing notes
+    type: official
+    trust: high
+    enabled: true
+    scope: hearings, orders, charges, judicial updates
+    query_templates:
+      - site:ecourts.* incident name
+      - site:highcourt.* incident name
+      - incident name hearing order
+    notes: Use for legal-status and timeline updates.
+  - source_id: named_news
+    name: Named newsroom articles
+    type: news
+    trust: high
+    enabled: true
+    scope: new incidents and material follow-ups
+    query_templates:
+      - incident name publication
+      - incident location date
+    notes: Prefer direct article URLs.
+  - source_id: wire_reports
+    name: Wire reports on publisher pages
+    type: news
+    trust: medium
+    enabled: true
+    scope: fast follow-up discovery
+    query_templates:
+      - incident name Reuters
+      - incident name PTI
+    notes: Good discovery leads, but still require confirmation.
+  - source_id: feeds
+    name: RSS and topic feeds
+    type: discovery
+    trust: medium
+    enabled: true
+    scope: broad candidate discovery
+    query_templates:
+      - incident name RSS
+      - site feed incident name
+    notes: Use to find articles, not to finalize facts.
+  - source_id: official_social
+    name: Official social posts from agencies or companies
+    type: discovery
+    trust: medium
+    enabled: true
+    scope: urgent incident leads
+    query_templates:
+      - incident name site:x.com
+      - incident name site:linkedin.com
+    notes: Accept only when the account is clearly official and the post is incident-relevant.

@@ -18,7 +18,7 @@ It contains:
 
 - **new-case**: no existing case file is present; start with duplicate checking, then snapshot incident identity inputs, freeze sources, confirm identity, extract, critic review, validate, and commit.
 - **repair-existing-case**: an existing case file is present; snapshot the file first, then freeze sources, confirm identity, extract, critic review, validate, and commit.
-- **queued-case**: a watcher-emitted queue signal is present; claim one queued item, then run the same one-case-at-a-time editorial flow.
+- **queued-case**: a finder- or watcher-emitted queue signal is present; claim one queued item, then run the same one-case-at-a-time editorial flow.
 
 ## How an agent should use it
 

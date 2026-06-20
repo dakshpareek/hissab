@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CaseFinderCandidateSignal",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "signal_id": { "type": "string" },
+    "candidate_type": {
+      "type": "string",
+      "enum": ["new-case", "follow-up-update", "identity-clarification", "duplicate-near-duplicate", "legal-status-update", "compensation-update", "noise"]
+    },
+    "case_id": { "type": ["string", "null"] },
+    "score": { "type": "string", "enum": ["high", "medium", "noise"] },
+    "reason_category": { "type": ["string", "null"] },
+    "source_name": { "type": "string" },
+    "source_url": { "type": "string" },
+    "article_date": { "type": ["string", "null"] },
+    "headline_snippet": { "type": ["string", "null"] },
+    "incident_guess": { "type": ["string", "null"] },
+    "location_guess": { "type": ["string", "null"] },
+    "captured_at": { "type": ["string", "null"] },
+    "dedupe_key": { "type": "string" },
+    "status": { "type": "string", "enum": ["pending", "processing", "done", "held"] },
+    "notes": { "type": ["string", "null"] }
+  },
+  "required": [
+    "signal_id",
+    "candidate_type",
+    "score",
+    "source_name",
+    "source_url",
+    "dedupe_key",
+    "status"
+  ]
+}

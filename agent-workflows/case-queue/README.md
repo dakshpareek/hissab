@@ -1,11 +1,12 @@
 # Shared Case Update Queue
 
-This package defines the durable queue shared by `case-watcher` and `case-editorial`.
+This package defines the durable queue shared by `case-finder`, `case-watcher`, and `case-editorial`.
 
 ## Purpose
-- `case-watcher` appends structured signals here.
+- `case-finder` appends discovery signals here.
+- `case-watcher` appends tracked-case update signals here.
 - `case-editorial` claims one pending signal at a time from here.
-- The queue is the only coupling point between watcher and explorer.
+- The queue is the only coupling point between upstream discovery and explorer/editorial work.
 
 ## Durable queue path
 - `agent-workflows/case-queue/update-queue.json`

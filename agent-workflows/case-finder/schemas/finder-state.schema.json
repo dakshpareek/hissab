@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CaseFinderState",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "integer", "default": 1 },
+    "updated_at": { "type": ["string", "null"] },
+    "registry_path": { "type": ["string", "null"] },
+    "last_run_at": { "type": ["string", "null"] },
+    "source_cursors": {
+      "type": "object",
+      "additionalProperties": { "type": ["string", "null"] }
+    },
+    "last_emitted_signal_id": { "type": ["string", "null"] },
+    "queued_count": { "type": "integer", "minimum": 0, "default": 0 }
+  },
+  "required": ["version"]
+}
