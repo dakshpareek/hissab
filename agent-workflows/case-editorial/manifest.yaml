@@ -52,6 +52,9 @@ stages:
     next: commit
   - id: commit
     role: orchestrator
+    next: push
+  - id: push
+    role: orchestrator
     final: true
 required_tools:
   - queue-reader

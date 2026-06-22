@@ -9,6 +9,8 @@
 - `agent-workflows/case-finder/README.md` — upstream discovery and triage workflow
 - `agent-workflows/case-finder/manifest.yaml` — case finder stage graph and queue contract
 - `agent-workflows/case-editorial/stages/00-queue-intake.md` — queue claim normalization stage
+- `agent-workflows/case-editorial/stages/09-commit.md` — local commit stage
+- `agent-workflows/case-editorial/stages/10-push.md` — remote push stage
 - `agent-workflows/case-editorial/references/queue-policy.md` — queue coupling policy
 
 ## Case file shape

@@ -19,6 +19,7 @@
 11. Never edit `public/` by hand.
 12. Never rely on model memory for factual case data.
 13. If the case file needs a rename, treat it as a rename, not a silent content edit.
+14. A successful remote push is required before the run is considered finished.
 
 ## Required gate outputs
 - **duplicate_guard**: `matched`, `match_slug`, `reason`, `evidence`

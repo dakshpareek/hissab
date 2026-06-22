@@ -202,6 +202,10 @@
     "commit_ready": {
       "type": "boolean",
       "default": false
+    },
+    "pushed_to_remote": {
+      "type": "boolean",
+      "default": false
     }
   },
   "required": [

@@ -23,5 +23,6 @@
   "draft_diff": null,
   "critic_review": null,
   "validation": null,
-  "commit_ready": false
+  "commit_ready": false,
+  "pushed_to_remote": false
 }

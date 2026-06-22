@@ -16,9 +16,9 @@ It contains:
 
 ## Workflow modes
 
-- **new-case**: no existing case file is present; start with duplicate checking, then snapshot incident identity inputs, freeze sources, confirm identity, extract, critic review, validate, and commit.
-- **repair-existing-case**: an existing case file is present; snapshot the file first, then freeze sources, confirm identity, extract, critic review, validate, and commit.
-- **queued-case**: a finder- or watcher-emitted queue signal is present; claim one queued item, then run the same one-case-at-a-time editorial flow.
+- **new-case**: no existing case file is present; start with duplicate checking, then snapshot incident identity inputs, freeze sources, confirm identity, extract, critic review, validate, commit, and push.
+- **repair-existing-case**: an existing case file is present; snapshot the file first, then freeze sources, confirm identity, extract, critic review, validate, commit, and push.
+- **queued-case**: a finder- or watcher-emitted queue signal is present; claim one queued item, then run the same one-case-at-a-time editorial flow through push.
 
 ## How an agent should use it
 
@@ -29,6 +29,7 @@ It contains:
 5. Pass through the defined gates before moving on.
 6. Validate the final file against the checklist before commit.
 7. Commit exactly one corrected case file only after validation passes.
+8. Push the commit to the remote branch and confirm it landed on `origin`.
 
 ## Scope
 
@@ -38,6 +39,7 @@ It contains:
 - Identity gate before extraction
 - Critic pass before commit
 - Build verification after file write
+- Remote push after commit
 
 ## Shared queue
 
