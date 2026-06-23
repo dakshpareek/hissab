@@ -1,0 +1,26 @@
+Source freeze record
+====================
+
+Source URL:
+https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338
+
+Publication:
+ETManufacturing / Reuters
+
+Published On:
+Jun 19, 2026 at 02:03 PM IST
+
+Title:
+Tata's iPhone parts factory faces India health probe after farmer contamination complaints
+
+Frozen text excerpts:
+
+1. "An Indian state health authority is investigating how liquid discharged from Apple supplier Tata's iPhone components factory has affected farmers, some of whom complained about skin issues from contamination in their farmlands, according to three officials and a document reviewed by Reuters."
+
+2. "The Tata Electronics plant in Tamil Nadu's Hosur was sent a warning notice by the state pollution control board on May 25 for allegedly contaminating groundwater in adjacent farms."
+
+3. "Tata said in a statement this week that the pollution board had dropped its scrutiny after confirming its analysis of recently collected water samples from inside the facility did \"not indicate any contamination\"."
+
+4. "Two water samples from the farms have been submitted by health officials to a state government laboratory for testing, a government source said."
+
+5. Page metadata on the ETManufacturing article says: "Tata Iphone Factory News: The investigation adds to environmental concerns for Apple's manufacturing expansion in India. Water samples tested positive for E. coli. Tata states its analysis shows no contamination."

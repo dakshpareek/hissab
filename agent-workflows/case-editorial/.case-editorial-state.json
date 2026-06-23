@@ -1,104 +1,148 @@
 {
-  "case_slug": "muzaffarpur-hospital-fire",
-  "case_file": "content/cases/muzaffarpur-hospital-fire.md",
+  "case_slug": "tata-iphone-parts-factory-health-probe",
+  "case_file": "content/cases/tata-iphone-parts-factory-health-probe.md",
   "queue_signal": {
-    "signal_id": "muzaffarpur-hospital-fire-20260610-serious-violations",
-    "case_id": "muzaffarpur-hospital-fire",
+    "signal_id": "tata-iphone-parts-factory-health-probe-20260619-reuters",
+    "case_id": "tata-iphone-parts-factory-health-probe",
     "score": "medium",
-    "reason_category": "official_scrutiny",
-    "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRDhLel9PbHZGdjZaRE1SSk1Sb2FTTU9PX2NyeEZrX0lvWU5YdzVJd1RUYWtlZ05BQnltQjhheWlZRVpORXlSNmRDSmdjUFBQTWJlTGlFeEZTTjhpYnFUOGYtcTFTSHJNeG1oSnMwc0tXNG9wMks2NFNnb1ZJMkxiX3NhOG5hNXBHV1Q1WWtZdGJBQk95cHNMbklqRjV6S0hUTFR4S2JGcTh2N2ZoeXpmSXlWeVRqVTdqWkNQdlM0T2o2dURhOUo4V3EwRHNnTlnSAdQBQVVfeXFMT0VBMFR6cTFHU3hFNzNUanY2dGxMRFpXLXBnbzFFdFctQVI5lVGQVVmOGtqWUVTTnRncllpWXhNbTY4bVdXUXZNbENNaFc5b21vZU9YYWE0OExERy10WWpfV0F0MFNzNmtiYkx1QzJhcjFIRmppTHV4c2VEVEY1UC1SajZYOXItYXVZYTRPaTNLbXhCQWc4MTFZNFFGcU8wcTA4ZS1BMVE1TlBXWE5jTHVsOURRZVRsXzdkWl8tU3IxYl9sekZnZUhFNE9UYXZhNks2dlQ?oc=5",
-    "article_date": "2026-06-10T14:36:00+00:00",
-    "headline_snippet": "Probe into Muzaffarpur hospital fire finds serious violations - The Times of India",
-    "captured_at": "2026-06-11T04:36:35+05:30",
-    "dedupe_key": "muzaffarpur-hospital-fire|https://news.google.com/rss/articles/CBMizwFBVV95cUxNRDhLel9PbHZGdjZaRE1SSk1Sb2FTTU9PX2NyeEZrX0lvWU5YdzVJd1RUYWtlZ05BQnltQjhheWlZRVpORXlSNmRDSmdjUFBQTWJlTGlFeEZTTjhpYnFUOGYtcTFTSHJNeG1oSnMwc0tXNG9wMks2NFNnb1ZJMkxiX3NhOG5hNXBHV1Q1WWtZdGJBQk95cHNMbklqRjV6S0hUTFR4S2JGcTh2N2ZoeXpmSXlWeVRqVTdqWkNQdlM0T2o2dURhOUo4V3EwRHNnTlnSAdQBQVVfeXFMT0VBMFR6cTFHU3hFNzNUanY2dGxMRFpXLXBnbzFFdFctQVI5lVGQVVmOGtqWUVTTnRncllpWXhNbTY4bVdXUXZNbENNaFc5b21vZU9YYWE0OExERy10WWpfV0F0MFNzNmtiYkx1QzJhcjFIRmppTHV4c2VEVEY1UC1SajZYOXItYXVZYTRPaTNLbXhCQWc4MTFZNFFGcU8wcTA4ZS1BMVE1TlBXWE5jTHVsOURRZVRsXzdkWl8tU3IxYl9sekZnZUhFNE9UYXZhNks2dlQ?oc=5|2026-06-10T14:36:00+00:00|probe-into-muzaffarpur-hospital-fire-finds-serious-violations-the-times-of-india",
-    "status": "done",
-    "claimed_at": "2026-06-14T05:47:24+05:30",
+    "reason_category": "regulatory_probe",
+    "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTlBLXNWZnQ3UlRQZ0RXMXU0eUFhYjhzR2pvMDJSVnFaRHN3RHliMV9zcjliQWhpWmVxN2JQXzNDZXVFcS1IUlhzT29jOUtxZ19fNldDdFZHUTZQV1Rvcnd0SUo5T0ZUTFdKMUJrOTFKZVpjeVFtemxlQkZIamh5ZzVFaDBZMkF1VUhzcU1IZVBOMjdXSS1TY0p0eWJEbk9HSzlrT3NNdDh2cEZucG5hWjM0alVjOE5DU0ZBV1hVa3pzMGp0ZjFMRTd2NkxOeGNr?oc=5",
+    "article_date": "Fri, 19 Jun 2026 07:30:00 GMT",
+    "headline_snippet": "EXCLUSIVE: Tata's iPhone parts factory faces India health probe after farmer contamination complaints - Reuters",
+    "captured_at": "2026-06-21T10:26:45+05:30",
+    "dedupe_key": "tata-iphone-parts-factory-health-probe|2026-06-19",
+    "status": "processing",
+    "claimed_at": "2026-06-23T06:40:31+05:30",
     "claimed_by": "case-explorer",
-    "processed_at": "2026-06-14T05:55:53+05:30",
+    "processed_at": null,
     "held_reason": null
   },
   "queue_claim": {
-    "claim_id": "muzaffarpur-hospital-fire-20260610-serious-violations",
-    "claimed_at": "2026-06-14T05:47:24+05:30",
-    "queue_name": "case-explorer"
+    "claim_id": "tata-iphone-parts-factory-health-probe-20260619-reuters",
+    "claimed_at": "2026-06-23T06:40:31+05:30",
+    "queue_name": "agent-workflows/case-queue/update-queue.json"
   },
   "record_snapshot": {
-    "title": "Muzaffarpur Hospital Fire",
-    "date": "2026-06-04",
-    "location": "Muzaffarpur, Bihar",
-    "file_path": "content/cases/muzaffarpur-hospital-fire.md",
-    "snapshot_path": "references/cases/muzaffarpur-hospital-fire/2026-06-14-muzaffarpur-hospital-fire-20260610-serious-violations-run-snapshot.md",
-    "captured_at": "2026-06-14T05:54:31.293035100+05:30",
-    "note": "Copied the current case record before editing."
+    "incident_name": "Tata iPhone Parts Factory Health Probe",
+    "incident_location": "Hosur, Tamil Nadu",
+    "incident_date": "2026-06-19",
+    "known_aliases": [
+      "Tata's iPhone parts factory faces health probe",
+      "Tata Electronics Hosur health probe",
+      "Hosur factory contamination probe"
+    ],
+    "selected_identity_source": "queue signal plus Reuters headline republished by ETManufacturing",
+    "current_case_file": null,
+    "snapshot_at": "2026-06-23T06:45:38+05:30"
   },
   "duplicate_guard": {
-    "matched": true,
-    "match_slug": "muzaffarpur-hospital-fire",
-    "reason": "The queued Times of India probe/serious-violations update belongs to the existing Muzaffarpur Hospital Fire case, so it was merged into the existing record instead of creating a second case.",
+    "matched": false,
+    "match_slug": null,
+    "reason": "No exact or near-duplicate case file was found for tata-iphone-parts-factory-health-probe during repo search.",
     "evidence": [
-      "case file: content/cases/muzaffarpur-hospital-fire.md",
-      "queued headline_snippet: Probe into Muzaffarpur hospital fire finds serious violations - The Times of India"
+      "repo search found no content/cases/tata-iphone-parts-factory-health-probe.md file before creation",
+      "repo search found no exact or near-duplicate Tata/iPhone factory contamination case file in content/cases"
     ]
   },
   "frozen_sources": [
     {
-      "source_name": "Queue-intake fallback for The Times of India Google News item",
-      "publication_name": "The Times of India",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRDhLel9PbHZGdjZaRE1SSk1Sb2FTTU9PX2NyeEZrX0lvWU5YdzVJd1RUYWtlZ05BQnltQjhheWlZRVpORXlSNmRDSmdjUFBQTWJlTGlFeEZTTjhpYnFUOGYtcTFTSHNNeG1oSnMwc0tXNG9wMks2NFNnb1ZJMkxiX3NhOG5hNXBHV1Q1WWtZdGJBQk95cHNMbklqRjV6S0hUTFR4S2JGcTh2N2ZoeXpmSXlWeVRqVTdqWkNQdlM0T2o2dURhOUo4V3EwRHNnTlnSAdQBQVVfeXFMT0VBMFR6cTFHU3hFNzNUanY2dGxMRFpXLXBnbzFFdFctQVI5lVGQVVmOGtqWUVTTnRncllpWXhNbTY4bVdXUXZNbENNaFc5b21vZU9YYWE0OExERy10WWpfV0F0MFNzNmtiYkx1QzJhcjFIRmppTHV4c2VEVEY1UC1SajZYOXItYXVZYTRPaTNLbXhCQWc4MTFZNFFGcU8wcTA4ZS1BMVE1TlBXWE5jTHVsOURRZVRsXzdkWl8tU3IxYl9sekZnZUhFNE9UYXZhNks2dlQ?oc=5",
-      "frozen_path": "references/cases/muzaffarpur-hospital-fire/2026-06-14-muzaffarpur-hospital-fire-20260610-serious-violations-source-fallback.txt",
-      "frozen_at": "2026-06-14T05:54:41.323828600+05:30",
-      "status": "fallback",
-      "sha256": "109f4c0b8e0507e2e1d4a73f4b0334fda80d3a7274b0a3377306dee46e94fe01"
+      "source_name": "ETManufacturing / Reuters",
+      "publication_name": "ETManufacturing / Reuters",
+      "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
+      "frozen_path": "agent-workflows/case-editorial/references/cases/tata-iphone-parts-factory-health-probe/2026-06-23-tata-iphone-parts-factory-health-probe-etmanufacturing-frozen.txt",
+      "frozen_at": "2026-06-23T06:46:00+05:30",
+      "status": "ok",
+      "sha256": "02f4b4300b2d53706da162bf568593991fd3d01e42f3a248704ba408a324cb93"
     }
   ],
   "identity_gate": {
     "verdict": "MATCH",
-    "notes": "The frozen fallback artifact preserves the queued Times of India headline snippet, which matches the existing Muzaffarpur Hospital Fire incident and adds no competing date or location.",
+    "notes": "The ETManufacturing Reuters republication identifies the Tata Electronics iPhone components factory in Hosur, Tamil Nadu, the May 25 warning notice, and the same contamination complaint cluster referenced by the queue headline. The location and date anchors are sufficient for a MATCH.",
     "supporting_quotes": [
-      "Probe into Muzaffarpur hospital fire finds serious violations - The Times of India"
+      "An Indian state health authority is investigating how liquid discharged from Apple supplier Tata's iPhone components factory has affected farmers, some of whom complained about skin issues from contamination in their farmlands, according to three officials and a document reviewed by Reuters.",
+      "The Tata Electronics plant in Tamil Nadu's Hosur was sent a warning notice by the state pollution control board on May 25 for allegedly contaminating groundwater in adjacent farms.",
+      "Tata said in a statement this week that the pollution board had dropped its scrutiny after confirming its analysis of recently collected water samples from inside the facility did \"not indicate any contamination\"."
     ]
   },
   "extraction_record": {
     "field_updates": {
-      "last_updated": "2026-06-14"
+      "title": "Tata iPhone Parts Factory Health Probe",
+      "date": "2026-06-19",
+      "location": "Hosur, Tamil Nadu",
+      "category": "other",
+      "status": "no-action",
+      "deaths": null,
+      "injured": null,
+      "accused_count": null,
+      "accused_gap": "No accused, arrests, or prosecution details were identified in the frozen source set.",
+      "summary": "Reuters, via ETManufacturing, reported that an Indian state health authority is investigating complaints from farmers near Tata Electronics' iPhone components factory in Hosur, Tamil Nadu, after a May 25 warning notice from the state pollution control board over alleged groundwater contamination in adjacent farms. The report said some farmers complained of skin issues, two water samples from the farms were sent for testing, and Tata said its analysis of recently collected water samples did not indicate contamination.",
+      "tags": ["tata", "hosur", "tamil-nadu", "apple", "iphone", "health-probe", "contamination", "pollution-board"],
+      "last_updated": "2026-06-23",
+      "accused": [],
+      "compensation": {
+        "announced": false,
+        "announced_amount": "",
+        "paid": "none",
+        "paid_note": "No compensation reporting was frozen.",
+        "source": ""
+      },
+      "timeline": [
+        {
+          "date": "2026-05-25",
+          "type": "gray",
+          "event": "The state pollution control board sent Tata Electronics' Hosur plant a warning notice for allegedly contaminating groundwater in adjacent farms.",
+          "source": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
+          "source_name": "ETManufacturing / Reuters"
+        },
+        {
+          "date": "2026-06-19",
+          "type": "blue",
+          "event": "Reuters reported that an Indian state health authority was investigating how liquid discharged from Tata's iPhone components factory had affected farmers, some of whom complained about skin issues from contamination in their farmlands; the report also said two water samples from the farms were sent for testing and Tata said its analysis did not indicate contamination.",
+          "source": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
+          "source_name": "ETManufacturing / Reuters"
+        }
+      ]
     },
-    "timeline_additions": [
-      {
-        "date": "2026-06-10",
-        "type": "amber",
-        "event": "The Times of India reported that a probe into the Muzaffarpur hospital fire found serious violations.",
-        "source_name": "The Times of India via Google News",
-        "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRDhLel9PbHZGdjZaRE1SSk1Sb2FTTU9PX2NyeEZrX0lvWU5YdzVJd1RUYWtlZ05BQnltQjhheWlZRVpORXlSNmRDSmdjUFBQTWJlTGlFeEZTTjhpYnFUOGYtcTFTSHNNeG1oSnMwc0tXNG9wMks2NFNnb1ZJMkxiX3NhOG5hNXBHV1Q1WWtZdGJBQk95cHNMbklqRjV6S0hUTFR4S2JGcTh2N2ZoeXpmSXlWeVRqVTdqWkNQdlM0T2o2dURhOUo4V3EwRHNnTlnSAdQBQVVfeXFMT0VBMFR6cTFHU3hFNzNUanY2dGxMRFpXLXBnbzFFdFctQVI5lVGQVVmOGtqWUVTTnRncllpWXhNbTY4bVdXUXZNbENNaFc5b21vZU9YYWE0OExERy10WWpfV0F0MFNzNmtiYkx1QzJhcjFIRmppTHV4c2VEVEY1UC1SajZYOXItYXVZYTRPaTNLbXhCQWc4MTFZNFFGcU8wcTA4ZS1BMVE1TlBXWE5jTHVsOURRZVRsXzdkWl8tU3IxYl9sekZnZUhFNE9UYXZhNks2dlQ?oc=5"
-      }
-    ],
     "evidence_map": [
       {
-        "field_name": "summary",
-        "value": "A 10 June 2026 Times of India report said a probe into the fire found serious violations.",
-        "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRDhLel9PbHZGdjZaRE1SSk1Sb2FTTU9PX2NyeEZrX0lvWU5YdzVJd1RUYWtlZ05BQnltQjhheWlZRVpORXlSNmRDSmdjUFBQTWJlTGlFeEZTTjhpYnFUOGYtcTFTSHNNeG1oSnMwc0tXNG9wMks2NFNnb1ZJMkxiX3NhOG5hNXBHV1Q1WWtZdGJBQk95cHNMbklqRjV6S0hUTFR4S2JGcTh2N2ZoeXpmSXlWeVRqVTdqWkNQdlM0T2o2dURhOUo4V3EwRHNnTlnSAdQBQVVfeXFMT0VBMFR6cTFHU3hFNzNUanY2dGxMRFpXLXBnbzFFdFctQVI5lVGQVVmOGtqWUVTTnRncllpWXhNbTY4bVdXUXZNbENNaFc5b21vZU9YYWE0OExERy10WWpfV0F0MFNzNmtiYkx1QzJhcjFIRmppTHV4c2VEVEY1UC1SajZYOXItYXVZYTRPaTNLbXhCQWc4MTFZNFFGcU8wcTA4ZS1BMVE1TlBXWE5jTHVsOURRZVRsXzdkWl8tU3IxYl9sekZnZUhFNE9UYXZhNks2dlQ?oc=5",
-        "exact_quote": "Probe into Muzaffarpur hospital fire finds serious violations - The Times of India"
+        "field_name": "title",
+        "value": "Tata iPhone Parts Factory Health Probe",
+        "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
+        "exact_quote": "Tata's iPhone parts factory faces India health probe after farmer contamination complaints"
       },
       {
-        "field_name": "timeline",
-        "value": "The Times of India reported that a probe into the Muzaffarpur hospital fire found serious violations.",
-        "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRDhLel9PbHZGdjZaRE1SSk1Sb2FTTU9PX2NyeEZrX0lvWU5YdzVJd1RUYWtlZ05BQnltQjhheWlZRVpORXlSNmRDSmdjUFBQTWJlTGlFeEZTTjhpYnFUOGYtcTFTSHNNeG1oSnMwc0tXNG9wMks2NFNnb1ZJMkxiX3NhOG5hNXBHV1Q1WWtZdGJBQk95cHNMbklqRjV6S0hUTFR4S2JGcTh2N2ZoeXpmSXlWeVRqVTdqWkNQdlM0T2o2dURhOUo4V3EwRHNnTlnSAdQBQVVfeXFMT0VBMFR6cTFHU3hFNzNUanY2dGxMRFpXLXBnbzFFdFctQVI5lVGQVVmOGtqWUVTTnRncllpWXhNbTY4bVdXUXZNbENNaFc5b21vZU9YYWE0OExERy10WWpfV0F0MFNzNmtiYkx1QzJhcjFIRmppTHV4c2VEVEY1UC1SajZYOXItYXVZYTRPaTNLbXhCQWc4MTFZNFFGcU8wcTA4ZS1BMVE1TlBXWE5jTHVsOURRZVRsXzdkWl8tU3IxYl9sekZnZUhFNE9UYXZhNks2dlQ?oc=5",
-        "exact_quote": "Probe into Muzaffarpur hospital fire finds serious violations - The Times of India"
+        "field_name": "date",
+        "value": "2026-06-19",
+        "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
+        "exact_quote": "Published On Jun 19, 2026 at 02:03 PM IST"
+      },
+      {
+        "field_name": "location",
+        "value": "Hosur, Tamil Nadu",
+        "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
+        "exact_quote": "The Tata Electronics plant in Tamil Nadu's Hosur was sent a warning notice by the state pollution control board on May 25 for allegedly contaminating groundwater in adjacent farms."
+      },
+      {
+        "field_name": "deaths",
+        "value": null,
+        "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
+        "exact_quote": "An Indian state health authority is investigating how liquid discharged from Apple supplier Tata's iPhone components factory has affected farmers, some of whom complained about skin issues from contamination in their farmlands"
+      },
+      {
+        "field_name": "status",
+        "value": "no-action",
+        "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
+        "exact_quote": "Tata said in a statement this week that the pollution board had dropped its scrutiny after confirming its analysis of recently collected water samples from inside the facility did \"not indicate any contamination\""
       }
     ]
   },
-  "conflict_notes": [
-    "The Telegraph India fallback headline says the hospital registration was cancelled after the fire and renders the death count as seven, while the source URL slug says kills six and the case record still supports 6 deaths, so the record keeps deaths: 6.",
-    "Medical Dialogues' article is internally inconsistent on fatalities: the intro says the fire claimed six lives, while a later paragraph says seven lives. This update does not change the existing deaths count.",
-    "News Arena India via Google News also rendered the Muzaffarpur hospital fire death toll as seven; this matches the Telegraph India fallback headline and keeps the record's deaths field at 6 because the public sources in the frozen set still conflict."
-  ],
-  "draft_diff": {
-    "summary": "Added a June 10 Times of India serious-violations timeline entry, refreshed the summary, and bumped last_updated."
-  },
+  "conflict_notes": [],
+  "draft_diff": "Created a new case record for the Tata iPhone parts factory health probe, populated only source-backed facts from the frozen ETManufacturing / Reuters republication, left deaths, injuries, and accused details null, and used a conservative no-action status because no accused, arrests, or prosecution details were identified in the frozen source set.",
   "critic_review": {
     "verdict": "APPROVED",
     "rejected_claims": [],
     "required_fixes": [],
-    "notes": "The new claim is limited to the frozen fallback headline snippet and does not introduce any new counts or unsupported allegations."
+    "notes": "Every populated field is backed by an exact quote from the frozen ETManufacturing article. Unsupported items remain null or empty, and the no-action status is a conservative choice because the source set describes a probe rather than charges or arrests."
   },
   "validation": {
     "yaml_valid": true,
@@ -106,7 +150,8 @@
     "build_ok": true,
     "duplicate_check_ok": true,
     "passed": true,
-    "notes": "Frontmatter parsed cleanly and hugo --minify completed successfully. The source URL is specific and non-homepage."
+    "notes": "Frontmatter parses cleanly, required fields exist, the timeline uses a specific non-homepage URL, counts are non-negative or null, the duplicate check stayed negative before creation, and `hugo --minify` completed successfully."
   },
-  "commit_ready": true
+  "commit_ready": true,
+  "pushed_to_remote": false
 }
