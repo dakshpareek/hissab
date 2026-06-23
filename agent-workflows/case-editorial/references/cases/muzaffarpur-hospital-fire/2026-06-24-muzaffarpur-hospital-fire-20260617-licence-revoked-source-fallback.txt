@@ -1,0 +1,7 @@
+source_name: The News Mill via Google News
+source_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ04ycm1RRDVucHd1WWcxZl91R0xlR2tQRnNicVB4RUpyYVhXZEctd2stdkE3ZnBzNGFnRzlwZzNBWXJucTZ2d3k1WWFtc3lfZDAtVG0yd2ZfdjBWeWZhMFVCQm00VDNZQkc0OGlOMnpkZERqcWpIY2RmdXVKNW5oeVp6cnU0OWszV2JKcTQwdHN3d1VrS0ZGLVFTNFY0dTVFLXRmT2VGWjRuUQ?oc=5
+publication_name: The News Mill
+freeze_mode: partial
+retrieval_note: Google News wrapper HTML did not expose readable article body text in this environment. Preserved the queue headline snippet as the exact text available from the signal payload.
+headline_snippet: "Bihar hospital licence revoked after Muzaffarpur fire kills five patients - The News Mill"
+queue_signal_id: muzaffarpur-hospital-fire-20260617-licence-revoked
