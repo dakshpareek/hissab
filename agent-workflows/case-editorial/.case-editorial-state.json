@@ -1,148 +1,168 @@
 {
-  "case_slug": "tata-iphone-parts-factory-health-probe",
-  "case_file": "content/cases/tata-iphone-parts-factory-health-probe.md",
+  "case_slug": "air-india-flight-ai171-crash",
+  "case_file": "content/cases/air-india-flight-ai171-crash.md",
   "queue_signal": {
-    "signal_id": "tata-iphone-parts-factory-health-probe-20260619-reuters",
-    "case_id": "tata-iphone-parts-factory-health-probe",
+    "signal_id": "air-india-flight-ai171-crash-20260619-systems-failure",
+    "case_id": "air-india-flight-ai171-crash",
     "score": "medium",
-    "reason_category": "regulatory_probe",
-    "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTlBLXNWZnQ3UlRQZ0RXMXU0eUFhYjhzR2pvMDJSVnFaRHN3RHliMV9zcjliQWhpWmVxN2JQXzNDZXVFcS1IUlhzT29jOUtxZ19fNldDdFZHUTZQV1Rvcnd0SUo5T0ZUTFdKMUJrOTFKZVpjeVFtemxlQkZIamh5ZzVFaDBZMkF1VUhzcU1IZVBOMjdXSS1TY0p0eWJEbk9HSzlrT3NNdDh2cEZucG5hWjM0alVjOE5DU0ZBV1hVa3pzMGp0ZjFMRTd2NkxOeGNr?oc=5",
-    "article_date": "Fri, 19 Jun 2026 07:30:00 GMT",
-    "headline_snippet": "EXCLUSIVE: Tata's iPhone parts factory faces India health probe after farmer contamination complaints - Reuters",
-    "captured_at": "2026-06-21T10:26:45+05:30",
-    "dedupe_key": "tata-iphone-parts-factory-health-probe|2026-06-19",
+    "reason_category": "follow-up-update",
+    "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOE5Ma2lGLW90VUNVUmhVeUt6aThmOWZ5alZiSVF4TzE0MEZPTG01TzhBbVdkQll6dEdZUFRoZDhrUDZwV1JRZEYxMlBWZ2FRUWJzZWJhTnlwY2tBM3AxekpnMGQyRkxJUi05M0FIU0JSZ0M5Y2phVXF1dmxpZDhENlFUdG1hVHNnOTlZb2NsdjdGdVM4RmdCR1R0cmVrZEhya1ZONFRHX2NzOHN1VElCeEl0Z0dveTBMWUlUQk9OdGNHMDdjeUVKbU1vVktkeFVueHN0cTZwVUlKNGVsQ21KTTlR0gHvAUFVX3lxTE1JWDB2dGNqbld0eERTS3VNMEhIVXRqOVVMdXVocjZtZW1XZDFvOXJqLVZGVjZJOXYxWDg5a2NjNUFVQWNHSFJZekc0cHJNTDFjTFppdHRMMmhOVk9sTnRNTHFQcEZtbkJ5NldkY0drZ2R2VmJINVI3R1VzNG9GcGRRbk16N21YZVFqZmYzLXFldXNsaHVXN3djQUlXcy0zM2RFQ0RHVVp3VDBvaDRVUjB3WnFFV3I1Nm5HRnJPR0tUR0JyNXZpUjJoQUdwelBOV0VNeW5DczdUS0tsYk9pWExaODlZaHU0TXhMT2x1bVNJ?oc=5",
+    "article_date": "Sat, 20 Jun 2026 07:10:07 GMT",
+    "headline_snippet": "Pilots' body raises questions, seeks simulator tests in AI-171 crash probe - Business Standard",
+    "captured_at": "2026-06-21T14:36:31+05:30",
+    "dedupe_key": "air-india-flight-ai171-crash|https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOE5Ma2lGLW90VUNVUmhVeUt6aThmOWZ5alZiSVF4TzE0MEZPTG01TzhBbVdkQll6dEdZUFRoZDhrUDZwV1JRZEYxMlBWZ2FRUWJzZWJhTnlwY2tBM3AxekpnMGQyRkxJUi05M0FIU0JSZ0M5Y2phVXF1dmxpZDhENlFUdG1hVHNnOTlZb2NsdjdGdVM4RmdCR1R0cmVrZEhya1ZONFRHX2NzOHN1VElCeEl0Z0dveTBMWUlUQk9OdGNHMDdjeUVKbU1vVktkeFVueHN0cTZwVUlKNGVsQ21KTTlR0gHvAUFVX3lxTE1JWDB2dGNqbld0eERTS3VNMEhIVXRqOVVMdXVocjZtZW1XZDFvOXJqLVZGVjZJOXYxWDg5a2NjNUFVQWNHSFJZekc0cHJNTDFjTFppdHRMMmhOVk9sTnRNTHFQcEZtbkJ5NldkY0drZ2R2VmJINVI3R1VzNG9GcGRRbk16N21YZVFqZmYzLXFldXNsaHVXN3djQUlXcy0zM2RFQ0RHVVp3VDBvaDRVUjB3WnFFV3I1Nm5HRnJPR0tUR0JyNXZpUjJoQUdwelBOV0VNeW5DczdUS0tsYk9pWExaODlZaHU0TXhMT2x1bVNJ?oc=5",
     "status": "processing",
-    "claimed_at": "2026-06-23T06:40:31+05:30",
+    "claimed_at": "2026-06-23T22:22:49+05:30",
     "claimed_by": "case-explorer",
     "processed_at": null,
     "held_reason": null
   },
   "queue_claim": {
-    "claim_id": "tata-iphone-parts-factory-health-probe-20260619-reuters",
-    "claimed_at": "2026-06-23T06:40:31+05:30",
+    "claim_id": "air-india-flight-ai171-crash-20260619-systems-failure",
+    "claimed_at": "2026-06-23T22:22:49+05:30",
     "queue_name": "agent-workflows/case-queue/update-queue.json"
   },
   "record_snapshot": {
-    "incident_name": "Tata iPhone Parts Factory Health Probe",
-    "incident_location": "Hosur, Tamil Nadu",
-    "incident_date": "2026-06-19",
-    "known_aliases": [
-      "Tata's iPhone parts factory faces health probe",
-      "Tata Electronics Hosur health probe",
-      "Hosur factory contamination probe"
-    ],
-    "selected_identity_source": "queue signal plus Reuters headline republished by ETManufacturing",
-    "current_case_file": null,
-    "snapshot_at": "2026-06-23T06:45:38+05:30"
+    "title": "Air India Flight AI171 Crash",
+    "date": "2025-06-12",
+    "location": "Ahmedabad"
   },
   "duplicate_guard": {
     "matched": false,
     "match_slug": null,
-    "reason": "No exact or near-duplicate case file was found for tata-iphone-parts-factory-health-probe during repo search.",
-    "evidence": [
-      "repo search found no content/cases/tata-iphone-parts-factory-health-probe.md file before creation",
-      "repo search found no exact or near-duplicate Tata/iPhone factory contamination case file in content/cases"
-    ]
+    "reason": "The queue signal targets the existing Air India Flight AI171 case; no separate near-duplicate case record was found.",
+    "evidence": ["content/cases/air-india-flight-ai171-crash.md"]
   },
   "frozen_sources": [
     {
-      "source_name": "ETManufacturing / Reuters",
-      "publication_name": "ETManufacturing / Reuters",
-      "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
-      "frozen_path": "agent-workflows/case-editorial/references/cases/tata-iphone-parts-factory-health-probe/2026-06-23-tata-iphone-parts-factory-health-probe-etmanufacturing-frozen.txt",
-      "frozen_at": "2026-06-23T06:46:00+05:30",
+      "source_name": "Outlook India via Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOE5Ma2lGLW90VUNVUmhVeUt6aThmOWZ5alZiSVF4TzE0MEZPTG01TzhBbVdkQll6dEdZUFRoZDhrUDZwV1JRZEYxMlBWZ2FRUWJzZWJhTnlwY2tBM3AxekpnMGQyRkxJUi05M0FIU0JSZ0M5Y2phVXF1dmxpZDhENlFUdG1hVHNnOTlZb2NsdjdGdVM4RmdCR1R0cmVrZEhya1ZONFRHX2NzOHN1VElCeEl0Z0dveTBMWUlUQk9OdGNHMDdjeUVKbU1vVktkeFVueHN0cTZwVUlKNGVsQ21KTTlR0gHvAUFVX3lxTE1JWDB2dGNqbld0eERTS3VNMEhIVXRqOVVMdXVocjZtZW1XZDFvOXJqLVZGVjZJOXYxWDg5a2NjNUFVQWNHSFJZekc0cHJNTDFjTFppdHRMMmhOVk9sTnRNTHFQcEZtbkJ5NldkY0drZ2R2VmJINVI3R1VzNG9GcGRRbk16N21YZVFqZmYzLXFldXNsaHVXN3djQUlXcy0zM2RFQ0RHVVp3VDBvaDRVUjB3WnFFV3I1Nm5HRnJPR0tUR0JyNXZpUjJoQUdwelBOV0VNeW5DczdUS0tsYk9pWExaODlZaHU0TXhMT2x1bVNJ?oc=5",
+      "publication_name": "Outlook India",
+      "frozen_path": "agent-workflows/case-editorial/references/cases/air-india-flight-ai171-crash/2026-06-21-air-india-flight-ai171-crash-20260619-systems-failure-run-snapshot.md",
+      "frozen_at": "2026-06-21T23:29:00+05:30",
       "status": "ok",
-      "sha256": "02f4b4300b2d53706da162bf568593991fd3d01e42f3a248704ba408a324cb93"
+      "sha256": "afb6b0c3b9815e35a1cb9c9958135dde7489f0e21492f074242d2b7ba22dd00e"
+    },
+    {
+      "source_name": "Business Standard via Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSG8yQV9vTzliMDE1V1RzVXVaa2M5WkxYcHVPZ01xRWttTUUtcEYzT0d2bWd0aG9SUXgyMzdiYXd2djZ0MVlqOW1Iblk1THVpcWVnMG40RXBmbU1mdTEzTTN5a3NNelV3T2ZXakFUR0lVQTJ6Zmd2VGlqQ3F2WlRrd3dpVDh5a1JqWnltWTVlSUt1WjQzdFY5d1BtZzVILUZlTGNxM2pmN1VpY3RmUzA3N1ZYRUNBYWQ4RVFTLVo4UmdyWXB6OXZzZW9NZ3BfNWFNVG9VeFF1aERzUHI0TnhPZERRWVdLX2PSAewBQVVfeXFMT3hjbC1OcU9fUkxhMXVUUGlrdUF2ZGc5bHJRSzdjSEdGczY1NC1ITnR2dG9pZmx6VmhZWjFtNVE3eXcwOHoyMmFPdWxUczdrRTd2SDVrdmFhMlY1Rmt6N3ptWnBLVGxvMUJTYkN5LXZWRVpnYmc5bXhpSkg2QTZHZ19HR2ppOFFxWnZQNnFrelduOXJsLWloVWJYSXY0c084bmZMc3pvVHJXRnREanlycUNKaTdhR0F3RlMzVHNwalJHNlFmNDQ1QjRxemNIcUNnU0RpN3JCcFpod2FEcHQtQ3NOa3g1YXk4ZDJHQm0?oc=5",
+      "publication_name": "Business Standard",
+      "frozen_path": "agent-workflows/case-editorial/references/cases/air-india-flight-ai171-crash/2026-06-23-air-india-flight-ai171-crash-20260620-pilots-body-questions-google-news.txt",
+      "frozen_at": "2026-06-23T22:22:24+05:30",
+      "status": "ok",
+      "sha256": "f035bb4389020d27b42215446b4b57cc377cadba8ceed4fa156f06eaf3a75274"
     }
   ],
   "identity_gate": {
     "verdict": "MATCH",
-    "notes": "The ETManufacturing Reuters republication identifies the Tata Electronics iPhone components factory in Hosur, Tamil Nadu, the May 25 warning notice, and the same contamination complaint cluster referenced by the queue headline. The location and date anchors are sufficient for a MATCH.",
+    "notes": "The frozen Outlook India and Business Standard follow-up headlines both refer to the same Air India Flight AI171 crash case already identified in the case record; the new Business Standard item adds no conflicting identity anchors.",
     "supporting_quotes": [
-      "An Indian state health authority is investigating how liquid discharged from Apple supplier Tata's iPhone components factory has affected farmers, some of whom complained about skin issues from contamination in their farmlands, according to three officials and a document reviewed by Reuters.",
-      "The Tata Electronics plant in Tamil Nadu's Hosur was sent a warning notice by the state pollution control board on May 25 for allegedly contaminating groundwater in adjacent farms.",
-      "Tata said in a statement this week that the pollution board had dropped its scrutiny after confirming its analysis of recently collected water samples from inside the facility did \"not indicate any contamination\"."
+      "Ahmedabad Air India Crash: New Simulator Data, Timelines In AAIB Report Point To Systems Failure, Not Pilot Error - Outlook India",
+      "Pilots' body raises questions, seeks simulator tests in AI-171 crash probe - Business Standard"
     ]
   },
   "extraction_record": {
     "field_updates": {
-      "title": "Tata iPhone Parts Factory Health Probe",
-      "date": "2026-06-19",
-      "location": "Hosur, Tamil Nadu",
+      "title": "Air India Flight AI171 Crash",
+      "date": "2025-06-12",
+      "location": "Ahmedabad",
       "category": "other",
       "status": "no-action",
-      "deaths": null,
-      "injured": null,
-      "accused_count": null,
-      "accused_gap": "No accused, arrests, or prosecution details were identified in the frozen source set.",
-      "summary": "Reuters, via ETManufacturing, reported that an Indian state health authority is investigating complaints from farmers near Tata Electronics' iPhone components factory in Hosur, Tamil Nadu, after a May 25 warning notice from the state pollution control board over alleged groundwater contamination in adjacent farms. The report said some farmers complained of skin issues, two water samples from the farms were sent for testing, and Tata said its analysis of recently collected water samples did not indicate contamination.",
-      "tags": ["tata", "hosur", "tamil-nadu", "apple", "iphone", "health-probe", "contamination", "pollution-board"],
+      "deaths": 260,
+      "injured": 1,
+      "accused_count": 0,
+      "accused_gap": "No accused named in the frozen sources.",
+      "summary": "Air India Flight AI171, a Boeing 787-8 operating from Ahmedabad to Gatwick, crashed at Ahmedabad on 12 June 2025. The AAIB preliminary report lists fatality counts of 12 crew, 229 passengers, and 19 others, and one serious injury, while Reuters' graphics coverage says the crash killed 241 people on board and 19 on the ground, with one passenger surviving. A June 2026 Outlook India follow-up said new simulator data and timeline details in the AAIB report point to systems failure rather than pilot error, and a 20 June 2026 Business Standard headline said the pilots' body raised questions and sought simulator tests in the AI-171 crash probe.",
+      "tags": ["air-india", "ai171", "ahmedabad", "aviation"],
       "last_updated": "2026-06-23",
       "accused": [],
       "compensation": {
         "announced": false,
         "announced_amount": "",
         "paid": "none",
-        "paid_note": "No compensation reporting was frozen.",
+        "paid_note": "The frozen sources do not mention compensation.",
         "source": ""
       },
       "timeline": [
         {
-          "date": "2026-05-25",
+          "date": "2025-06-12",
+          "type": "red",
+          "event": "The AAIB preliminary report says Air India's B787-8 VT-ANB was operating Flight AI171 from Ahmedabad to Gatwick.",
+          "source": "https://www.aaib.gov.in/What%27s%20New%20Assets/Preliminary%20Report%20VT-ANB.pdf",
+          "source_name": "AAIB preliminary report"
+        },
+        {
+          "date": "2025-06-12",
+          "type": "red",
+          "event": "The AAIB injuries table records 12 crew fatalities, 229 passenger fatalities, and 19 other fatalities, with one passenger listed as seriously injured.",
+          "source": "https://www.aaib.gov.in/What%27s%20New%20Assets/Preliminary%20Report%20VT-ANB.pdf",
+          "source_name": "AAIB preliminary report"
+        },
+        {
+          "date": "2025-06-12",
           "type": "gray",
-          "event": "The state pollution control board sent Tata Electronics' Hosur plant a warning notice for allegedly contaminating groundwater in adjacent farms.",
-          "source": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
-          "source_name": "ETManufacturing / Reuters"
+          "event": "Reuters' illustrated timeline says the crash near Ahmedabad airport killed 241 people on board and 19 on the ground, and that just one passenger survived.",
+          "source": "https://www.reuters.com/graphics/INDIA-CRASH/TIMELINE/xmvjelqwlpr/",
+          "source_name": "Reuters"
         },
         {
           "date": "2026-06-19",
-          "type": "blue",
-          "event": "Reuters reported that an Indian state health authority was investigating how liquid discharged from Tata's iPhone components factory had affected farmers, some of whom complained about skin issues from contamination in their farmlands; the report also said two water samples from the farms were sent for testing and Tata said its analysis did not indicate contamination.",
-          "source": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
-          "source_name": "ETManufacturing / Reuters"
+          "type": "gray",
+          "event": "Outlook India reported that new simulator data and timeline details in the AAIB report point to systems failure, not pilot error.",
+          "source": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOE5Ma2lGLW90VUNVUmhVeUt6aThmOWZ5alZiSVF4TzE0MEZPTG01TzhBbVdkQll6dEdZUFRoZDhrUDZwV1JRZEYxMlBWZ2FRUWJzZWJhTnlwY2tBM3AxekpnMGQyRkxJUi05M0FIU0JSZ0M5Y2phVXF1dmxpZDhENlFUdG1hVHNnOTlZb2NsdjdGdVM4RmdCR1R0cmVrZEhya1ZONFRHX2NzOHN1VElCeEl0Z0dveTBMWUlUQk9OdGNHMDdjeUVKbU1vVktkeFVueHN0cTZwVUlKNGVsQ21KTTlR0gHvAUFVX3lxTE1JWDB2dGNqbld0eERTS3VNMEhIVXRqOVVMdXVocjZtZW1XZDFvOXJqLVZGVjZJOXYxWDg5a2NjNUFVQWNHSFJZekc0cHJNTDFjTFppdHRMMmhOVk9sTnRNTHFQcEZtbkJ5NldkY0drZ2R2VmJINVI3R1VzNG9GcGRRbk16N21YZVFqZmYzLXFldXNsaHVXN3djQUlXcy0zM2RFQ0RHVVp3VDBvaDRVUjB3WnFFV3I1Nm5HRnJPR0tUR0JyNXZpUjJoQUdwelBOV0VNeW5DczdUS0tsYk9pWExaODlZaHU0TXhMT2x1bVNJ?oc=5",
+          "source_name": "Outlook India via Google News"
+        },
+        {
+          "date": "2026-06-20",
+          "type": "gray",
+          "event": "Business Standard's headline says the pilots' body raised questions and sought simulator tests in the AI-171 crash probe.",
+          "source": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSG8yQV9vTzliMDE1V1RzVXVaa2M5WkxYcHVPZ01xRWttTUUtcEYzT0d2bWd0aG9SUXgyMzdiYXd2djZ0MVlqOW1Iblk1THVpcWVnMG40RXBmbU1mdTEzTTN5a3NNelV3T2ZXakFUR0lVQTJ6Zmd2VGlqQ3F2WlRrd3dpVDh5a1JqWnltWTVlSUt1WjQzdFY5d1BtZzVILUZlTGNxM2pmN1VpY3RmUzA3N1ZYRUNBYWQ4RVFTLVo4UmdyWXB6OXZzZW9NZ3BfNWFNVG9VeFF1aERzUHI0TnhPZERRWVdLX2PSAewBQVVfeXFMT3hjbC1OcU9fUkxhMXVUUGlrdUF2ZGc5bHJRSzdjSEdGczY1NC1ITnR2dG9pZmx6VmhZWjFtNVE3eXcwOHoyMmFPdWxUczdrRTd2SDVrdmFhMlY1Rmt6N3ptWnBLVGxvMUJTYkN5LXZWRVpnYmc5bXhpSkg2QTZHZ19HR2ppOFFxWnZQNnFrelduOXJsLWloVWJYSXY0c084bmZMc3pvVHJXRnREanlycUNKaTdhR0F3RlMzVHNwalJHNlFmNDQ1QjRxemNIcUNnU0RpN3JCcFpod2FEcHQtQ3NOa3g1YXk4ZDJHQm0?oc=5",
+          "source_name": "Business Standard via Google News"
+        }
+      ],
+      "evidence_map": [
+        {
+          "field_name": "summary",
+          "value": "Air India Flight AI171, a Boeing 787-8 operating from Ahmedabad to Gatwick, crashed at Ahmedabad on 12 June 2025. The AAIB preliminary report lists fatality counts of 12 crew, 229 passengers, and 19 others, and one serious injury, while Reuters' graphics coverage says the crash killed 241 people on board and 19 on the ground, with one passenger surviving. A June 2026 Outlook India follow-up said new simulator data and timeline details in the AAIB report point to systems failure rather than pilot error, and a 20 June 2026 Business Standard headline said the pilots' body raised questions and sought simulator tests in the AI-171 crash probe.",
+          "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSG8yQV9vTzliMDE1V1RzVXVaa2M5WkxYcHVPZ01xRWttTUUtcEYzT0d2bWd0aG9SUXgyMzdiYXd2djZ0MVlqOW1Iblk1THVpcWVnMG40RXBmbU1mdTEzTTN5a3NNelV3T2ZXakFUR0lVQTJ6Zmd2VGlqQ3F2WlRrd3dpVDh5a1JqWnltWTVlSUt1WjQzdFY5d1BtZzVILUZlTGNxM2pmN1VpY3RmUzA3N1ZYRUNBYWQ4RVFTLVo4UmdyWXB6OXZzZW9NZ3BfNWFNVG9VeFF1aERzUHI0TnhPZERRWVdLX2PSAewBQVVfeXFMT3hjbC1OcU9fUkxhMXVUUGlrdUF2ZGc5bHJRSzdjSEdGczY1NC1ITnR2dG9pZmx6VmhZWjFtNVE3eXcwOHoyMmFPdWxUczdrRTd2SDVrdmFhMlY1Rmt6N3ptWnBLVGxvMUJTYkN5LXZWRVpnYmc5bXhpSkg2QTZHZ19HR2ppOFFxWnZQNnFrelduOXJsLWloVWJYSXY0c084bmZMc3pvVHJXRnREanlycUNKaTdhR0F3RlMzVHNwalJHNlFmNDQ1QjRxemNIcUNnU0RpN3JCcFpod2FEcHQtQ3NOa3g1YXk4ZDJHQm0?oc=5",
+          "exact_quote": "Pilots' body raises questions, seeks simulator tests in AI-171 crash probe - Business Standard"
+        },
+        {
+          "field_name": "timeline",
+          "value": "2026-06-19 and 2026-06-20 gray follow-ups",
+          "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOE5Ma2lGLW90VUNVUmhVeUt6aThmOWZ5alZiSVF4TzE0MEZPTG01TzhBbVdkQll6dEdZUFRoZDhrUDZwV1JRZEYxMlBWZ2FRUWJzZWJhTnlwY2tBM3AxekpnMGQyRkxJUi05M0FIU0JSZ0M5Y2phVXF1dmxpZDhENlFUdG1hVHNnOTlZb2NsdjdGdVM4RmdCR1R0cmVrZEhya1ZONFRHX2NzOHN1VElCeEl0Z0dveTBMWUlUQk9OdGNHMDdjeUVKbU1vVktkeFVueHN0cTZwVUlKNGVsQ21KTTlR0gHvAUFVX3lxTE1JWDB2dGNqbld0eERTS3VNMEhIVXRqOVVMdXVocjZtZW1XZDFvOXJqLVZGVjZJOXYxWDg5a2NjNUFVQWNHSFJZekc0cHJNTDFjTFppdHRMMmhOVk9sTnRNTHFQcEZtbkJ5NldkY0drZ2R2VmJINVI3R1VzNG9GcGRRbk16N21YZVFqZmYzLXFldXNsaHVXN3djQUlXcy0zM2RFQ0RHVVp3VDBvaDRVUjB3WnFFV3I1Nm5HRnJPR0tUR0JyNXZpUjJoQUdwelBOV0VNeW5DczdUS0tsYk9pWExaODlZaHU0TXhMT2x1bVNJ?oc=5",
+          "exact_quote": "New simulator data and timelines in AAIB report point to systems failure, not pilot error"
         }
       ]
     },
     "evidence_map": [
       {
         "field_name": "title",
-        "value": "Tata iPhone Parts Factory Health Probe",
-        "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
-        "exact_quote": "Tata's iPhone parts factory faces India health probe after farmer contamination complaints"
+        "value": "Air India Flight AI171 Crash",
+        "source_url": "https://www.aaib.gov.in/What%27s%20New%20Assets/Preliminary%20Report%20VT-ANB.pdf",
+        "exact_quote": "Air India's B787-8 aircraft bearing registration VT-ANB at Ahmedabad on 12 June 2025"
       },
       {
         "field_name": "date",
-        "value": "2026-06-19",
-        "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
-        "exact_quote": "Published On Jun 19, 2026 at 02:03 PM IST"
+        "value": "2025-06-12",
+        "source_url": "https://www.aaib.gov.in/What%27s%20New%20Assets/Preliminary%20Report%20VT-ANB.pdf",
+        "exact_quote": "12 June 2025"
       },
       {
         "field_name": "location",
-        "value": "Hosur, Tamil Nadu",
-        "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
-        "exact_quote": "The Tata Electronics plant in Tamil Nadu's Hosur was sent a warning notice by the state pollution control board on May 25 for allegedly contaminating groundwater in adjacent farms."
-      },
-      {
-        "field_name": "deaths",
-        "value": null,
-        "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
-        "exact_quote": "An Indian state health authority is investigating how liquid discharged from Apple supplier Tata's iPhone components factory has affected farmers, some of whom complained about skin issues from contamination in their farmlands"
-      },
-      {
-        "field_name": "status",
-        "value": "no-action",
-        "source_url": "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-complaints/131853338",
-        "exact_quote": "Tata said in a statement this week that the pollution board had dropped its scrutiny after confirming its analysis of recently collected water samples from inside the facility did \"not indicate any contamination\""
+        "value": "Ahmedabad",
+        "source_url": "https://www.aaib.gov.in/What%27s%20New%20Assets/Preliminary%20Report%20VT-ANB.pdf",
+        "exact_quote": "at Ahmedabad on 12 June 2025"
       }
     ]
   },
   "conflict_notes": [],
-  "draft_diff": "Created a new case record for the Tata iPhone parts factory health probe, populated only source-backed facts from the frozen ETManufacturing / Reuters republication, left deaths, injuries, and accused details null, and used a conservative no-action status because no accused, arrests, or prosecution details were identified in the frozen source set.",
+  "draft_diff": "Added the 20 June 2026 Business Standard follow-up to the Air India AI171 case, updated the summary and timeline evidence, and kept unsupported facts unchanged.",
   "critic_review": {
     "verdict": "APPROVED",
     "rejected_claims": [],
     "required_fixes": [],
-    "notes": "Every populated field is backed by an exact quote from the frozen ETManufacturing article. Unsupported items remain null or empty, and the no-action status is a conservative choice because the source set describes a probe rather than charges or arrests."
+    "notes": "The update stays within the frozen headline evidence. It adds a Business Standard follow-up line, preserves null/empty unsupported fields, and does not introduce conflicting identity or casualty claims."
   },
   "validation": {
     "yaml_valid": true,
@@ -150,7 +170,7 @@
     "build_ok": true,
     "duplicate_check_ok": true,
     "passed": true,
-    "notes": "Frontmatter parses cleanly, required fields exist, the timeline uses a specific non-homepage URL, counts are non-negative or null, the duplicate check stayed negative before creation, and `hugo --minify` completed successfully."
+    "notes": "Frontmatter parses cleanly, the new source URL is specific, Hugo builds successfully, and the queue selection did not create a duplicate case record."
   },
   "commit_ready": true,
   "pushed_to_remote": false

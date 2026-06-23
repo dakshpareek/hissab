@@ -1,0 +1,10 @@
+Source name: Business Standard via Google News
+Source URL: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSG8yQV9vTzliMDE1V1RzVXVaa2M5WkxYcHVPZ01xRWttTUUtcEYzT0d2bWd0aG9SUXgyMzdiYXd2djZ0MVlqOW1Iblk1THVpcWVnMG40RXBmbU1mdTEzTTN5a3NNelV3T2ZXakFUR0lVQTJ6Zmd2VGlqQ3F2WlRrd3dpVDh5a1JqWnltWTVlSUt1WjQzdFY5d1BtZzVILUZlTGNxM2pmN1VpY3RmUzA3N1ZYRUNBYWQ4RVFTLVo4UmdyWXB6OXZzZW9NZ3BfNWFNVG9VeFF1aERzUHI0TnhPZERRWVdLX2PSAewBQVVfeXFMT3hjbC1OcU9fUkxhMXVUUGlrdUF2ZGc5bHJRSzdjSEdGczY1NC1ITnR2dG9pZmx6VmhZWjFtNVE3eXcwOHoyMmFPdWxUczdrRTd2SDVrdmFhMlY1Rmt6N3ptWnBLVGxvMUJTYkN5LXZWRVpnYmc5bXhpSkg2QTZHZ19HR2ppOFFxWnZQNnFrelduOXJsLWloVWJYSXY0c084bmZMc3pvVHJXRnREanlycUNKaTdhR0F3RlMzVHNwalJHNlFmNDQ1QjRxemNIcUNnU0RpN3JCcFpod2FEcHQtQ3NOa3g1YXk4ZDJHQm0?oc=5
+Publication name: Business Standard
+Fetched at: 2026-06-23 22:22 IST
+Published: Sat, 20 Jun 2026 07:10:07 GMT
+Title: Pilots' body raises questions, seeks simulator tests in AI-171 crash probe - Business Standard
+Frozen text:
+Pilots' body raises questions, seeks simulator tests in AI-171 crash probe - Business Standard
+Fallback note: Google News wrapper did not expose the underlying article body in plain text in this environment, so the exact retrievable headline snippet from the signal payload was frozen as the source text.
+Wrapper HTML: C:/Users/rdpuser/projects/hissab/references/cases/air-india-flight-ai171-crash/2026-06-21-air-india-flight-ai171-crash-20260619-systems-failure-google-news.html
