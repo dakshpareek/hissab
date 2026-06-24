@@ -1,0 +1,15 @@
+source_name: ANI News via Webindia123
+source_url: https://www.aninews.in/news/national/general-news/up-massive-fire-breaks-out-at-pipe-storage-yard-near-babatpur-cng-station-in-varanasi20260620033219/
+publication_name: ANI News
+freeze_mode: fallback
+retrieval_note: Original ANI URL returned 403 in this environment; preserved the article text from a Webindia123 mirror that carried the ANI story and article metadata.
+headline: "UP: Massive fire breaks out at pipe storage yard near Babatpur CNG station in Varanasi"
+article_date: 2026-06-20T03:55:58+05:30
+article_text:
+  - "Varanasi (Uttar Pradesh) | June 20, 2026 3:55:58 AM IST"
+  - "A massive fire broke out at a pipe storage yard located behind a CNG station in the Babatpur area of Varanasi, officials said."
+  - "Several fire tenders rushed to the spot and launched firefighting operations to control the blaze on Friday. The fire has now been brought under control, and no casualties have been reported so far."
+  - "According to local eyewitnesses, the fire broke out in a storage yard where plastic pipes were kept behind the CNG gas station. The site reportedly belonged to a GAIL pipe storage facility and was located around 100 metres away from the CNG station under Phulpur police station limits near Karkhiyaon village."
+  - "Since the fire involved plastic pipes, it took nearly two hours of continuous firefighting operations to completely extinguish the flames. However, officials confirmed that the situation is now fully under control."
+  - "The exact cause of the fire is yet to be ascertained and an investigation has been initiated to determine the circumstances leading to the incident."
+sha256: 40981b8c3cb1ead312eec2e746f98eebe783f7a5a9d344500251767854957a1b
