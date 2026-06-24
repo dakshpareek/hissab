@@ -121,5 +121,5 @@
     "notes": "The case file frontmatter parsed cleanly, the frozen source artifact was written directly from the source article, duplicate search found no near-match in content/cases, and the Hugo build completed successfully."
   },
   "commit_ready": true,
-  "pushed_to_remote": false
+  "pushed_to_remote": true
 }
