@@ -1,0 +1,9 @@
+source_name: The Indian Express via Google News
+source_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcFBXcTEwaGNTNThYRW9nZkgyX2gyeVlXc2N4ZUtGekRfRlVWNzJGQXUyUlBzQ2FjcWt5NWdRTG9DdWEwSy1taVZBa3VZb0ZHQ1Q1X0hVaDNsRW1jWFgzTnVkUXVkOS1vSXdoRml2eU9BN3ktY25OZ2FHVGpVZ05LRGJYa1NQOUhYMmxqcEgxa3RRUVlsNVpLTnh0OHRweGZRTURYR1BNZUx1Q3PSAbIBQVVfeXFMTUVPdzZwbW5IZGxPVU1WTWpYY0FGSjU1cE15cFVTU0FhTmJ5dnJjNWVkZUxKaDgzTmJ3UWVSSTRJVl8xc0huQTBQZlZheVEzZHJoS1FiZFFMOU14LVZfOU16ZHZ4WkJVNGVLb1ZvRUZqbEs5d0pxMmFBY1FUaTB6SkhrMFNhNzZsNkoxYjBuMWEzampGekVvVzQ3Ni01Z0ZDUEFxTGxhRUo3VVRCdHRpWDdGQQ?oc=5
+publication_name: The Indian Express
+freeze_mode: partial
+retrieval_note: Google News wrapper HTML did not expose readable article body text in this environment. Preserved the queue headline snippet as the exact text available from the signal payload.
+headline_snippet: "4 killed by oncoming train after passengers jump onto nearby tracks over fire rumour in MP - The Indian Express"
+queue_signal_id: morena-train-fire-rumour-fatalities-20260621
+article_date: 2026-06-14T15:40:49Z
+sha256: fcf9b2786a09f54fcfb760eab8848316d8b43efb62aaa036cf1cce9bc5480364
