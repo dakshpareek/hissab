@@ -1,0 +1,10 @@
+source_name: Akashvani News
+source_url: https://newsonair.gov.in/railway-ministry-orders-high-level-inquiry-into-trivandrum-new-delhi-rajdhani-express-fire-incident/
+publication_name: Akashvani News
+freeze_timestamp: 2026-06-24T14:01:31+05:30
+retrieval_method: direct_http_fetch
+fallback_path: null
+article_title: Railway Ministry orders high-level inquiry into Trivandrum | Akashvani News
+
+News On AIR | May 17, 2026 2:27 PM
+The Railway Ministry has ordered a high-level inquiry into the fire incident involving two rear coaches of the Trivandrum-New Delhi Rajdhani Express. At around 5:15 this morning, there was a fire in two rear coaches, which included one guard coach and one AC 3 Tier in the Trivandrum-New Delhi Rajdhani near Nagda of the Kota Division. The Ministry said the safety system in the coach immediately worked, and the train was automatically stopped. The train crew promptly detached the two affected rear coaches, and no passengers were injured in the incident. An audit of various systems for fire in coaches and drivers has been launched across Indian Railways.
