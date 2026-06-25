@@ -38,8 +38,8 @@
       {{ partial "search-filter.html" (dict "Cases" $cases) }}
 
       <div class="cases-list" id="cases-list">
-        <p class="section-label">Most watched</p>
-        {{ range sort $cases "Params.deaths" "desc" }}
+        <p class="section-label">Most recent</p>
+        {{ range sort $cases "Params.date" "desc" }}
           {{ partial "case-card.html" . }}
         {{ end }}
         <p data-no-results class="hidden" style="padding:32px 0; color:var(--text-tertiary); font-size:14px; text-align:center;">No cases match your filters.</p>
