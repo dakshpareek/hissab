@@ -1,0 +1,15 @@
+source_name: Queue-intake fallback for MSN Google News item
+source_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYm5zUkFqbFpZQ29rSmY2VTliZ2hYRG9lc2FleHh0bnNOaHBBTTZiYnBrLXRmbzFhcmZHX0VPUGpqN0pyVGxNR0NnU01Oa202NmVMazJWVlQ1WXZjd3RYWnN2UTRYcWxOcEV5SWhjUU80OXQxamZPbjdsc0FheWJIYnNkS0tfNmRYZ19fVFBPWFFpSDA4UFpVSnpOMkJHU1pzb2JiTGxhQjFhNVNOSlQ0cUtZd3U5MVFiMEc4a0JaWnJSanJZc0lDZWpwaDJNZ3dRZ21j?oc=5
+publication_name: Google News shell
+frozen_at: 2026-06-25T15:03:28+05:30
+status: fallback
+fetch_attempts:
+  - method: requests.get
+    result: 200 OK from generic Google News shell; article text not surfaced in HTML
+  - method: browser-followed redirect
+    result: generic Google News shell; no article text surfaced in HTML
+frozen_quote: "Muzaffarpur hospital fire: Death toll rises to seven, another ICU patient dies | Top updates - MSN"
+headline_snippet: "Muzaffarpur hospital fire: Death toll rises to seven, another ICU patient dies | Top updates - MSN"
+article_date: "2026-06-21T11:26:06+00:00"
+captured_at: "2026-06-21T21:04:55+05:30"
+notes: Direct article text was not recoverable from the Google News redirect in this environment, so the queue signal headline was retained as the frozen fallback artifact.

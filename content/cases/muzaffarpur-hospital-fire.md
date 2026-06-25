@@ -8,9 +8,9 @@ deaths: 6
 injured: null
 accused_count: 3
 accused_gap: null
-summary: "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, that the Bihar government suspended the hospital licence, that Telegraph India later reported the hospital's registration was cancelled after the fire, that 13 health facilities were sealed in Muzaffarpur after the fire, that Ram Kripal Yadav demanded a probe into the hospital's fire safety standards, that Medical Dialogues reported the IMA Muzaffarpur demanded immediate revocation of the hospital-registration suspension and withdrawal of action against the ICU doctor, that a 10 June 2026 Times of India report said a probe into the fire found serious violations, that News Arena India reported on 6 June 2026 that the death toll had risen to seven after another patient died, that an 11 June 2026 MSN via Google News report said the death toll rose to seven after another ICU patient died, that a 12 June 2026 The News Mill via Google News report said the Bihar government announced Rs 4 lakh ex-gratia for victims, and that a 17 June 2026 The News Mill via Google News headline said the hospital licence was revoked and rendered the toll as five patients."
+summary: "A fire broke out in the ICU of Prasad Hospital in Muzaffarpur, Bihar, on 4 June 2026. Later reporting said the death toll rose to six ICU patients, that three staff members — doctor Pankaj, admin manager Ram Kumar, and maintenance manager Ajit Kumar — were arrested, that the Bihar government suspended the hospital licence, that Telegraph India later reported the hospital's registration was cancelled after the fire, that 13 health facilities were sealed in Muzaffarpur after the fire, that Ram Kripal Yadav demanded a probe into the hospital's fire safety standards, that Medical Dialogues reported the IMA Muzaffarpur demanded immediate revocation of the hospital-registration suspension and withdrawal of action against the ICU doctor, that a 10 June 2026 Times of India report said a probe into the fire found serious violations, that News Arena India reported on 6 June 2026 that the death toll had risen to seven after another patient died, that an 11 June 2026 MSN via Google News report said the death toll rose to seven after another ICU patient died, that a 21 June 2026 MSN via Google News wrapper repeated the same seven-count headline, that a 12 June 2026 The News Mill via Google News report said the Bihar government announced Rs 4 lakh ex-gratia for victims, that a 17 June 2026 The News Mill via Google News headline said the hospital licence was revoked and rendered the toll as five patients, and that a 21 June 2026 Mid-day via Google News headline repeated the same Rs 4 lakh aid announcement while rendering the death count as four."
 tags: ["muzaffarpur", "bihar", "hospital", "fire", "arrest", "investigation"]
-last_updated: 2026-06-24
+last_updated: 2026-06-25
 
 accused:
   - name: "Pankaj"
@@ -43,6 +43,8 @@ conflict_notes:
   - "An 11 June 2026 MSN via Google News report also said the death toll rose to seven after another ICU patient died, reinforcing the existing conflict without changing the maintained deaths field."
   - "News Arena India independently reported on 6 June 2026 that the death toll had risen to seven after another patient died on Saturday, which corroborates the existing seven-count reports but does not resolve the maintained deaths field conflict."
   - "A 17 June 2026 The News Mill via Google News headline said the hospital licence was revoked after the fire and rendered the death count as five patients, which conflicts with the maintained deaths field and does not change it."
+  - "A 21 June 2026 MSN via Google News wrapper repeated the same seven-count headline; the direct article text was not recoverable, so this is treated as a near-duplicate follow-up and does not change the maintained deaths field."
+  - "A 21 June 2026 Mid-day via Google News headline repeated the Rs 4 lakh aid announcement but rendered the death count as four; this follow-up is treated as a near-duplicate and does not change the maintained deaths field."
 
 timeline:
   - date: 2026-06-04
@@ -122,9 +124,14 @@ timeline:
     source_name: "ETV Bharat via Google News"
   - date: 2026-06-17
     type: "amber"
-    event: "The News Mill via Google News headline said the hospital licence was revoked after the fire and rendered the toll as five patients."
+    event: "The News Mill via Google News headline said the hospital licence was revoked after the fire and rendered the death count as five patients."
     source: "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ04ycm1RRDVucHd1WWcxZl91R0xlR2tQRnNicVB4RUpyYVhXZEctd2stdkE3ZnBzNGFnRzlwZzNBWXJucTZ2d3k1WWFtc3lfZDAtVG0yd2ZfdjBWeWZhMFVCQm00VDNZQkc0OGlOMnpkZERqcWpIY2RmdXVKNW5oeVp6cnU0OWszV2JKcTQwdHN3d1VrS0ZGLVFTNFY0dTVFLXRmT2VGWjRuUQ?oc=5"
     source_name: "The News Mill via Google News"
+  - date: 2026-06-21
+    type: "gray"
+    event: "A Mid-day via Google News headline repeated the Muzaffarpur hospital-fire compensation announcement, saying four people were dead and that Bihar announced Rs 4 lakh aid."
+    source: "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWnoyZU95Qy1DbklQVHYtMTdCV0NWLUxHMFBFZVRISm5GdVhGdUJocDQxaEpBSmZJQjBCNDBXZlpCc0FKak5EMjBnUlAxVHdfOWg1SHhpMUg0V3BtNkxDUXVnaGFCTzZIZDg3Rm5fMzc5cnhhS1RGQ1h0LXRVTjYzYnl5bWJRNUxOc3NwRXYxM05YOGxCMFdpcmRmY25PSklzWEktRjFROE01WEFSTTRLWGIzSGFzc3lvVkwwYV9lZmhpQmZXYVFMTGwtR185R1NCcXc?oc=5"
+    source_name: "Mid-day via Google News"
 ---
 
-The frozen reports now describe an active accountability case. I have left injuries as null because the public text still does not give a clean count, and I have added the licence-suspension report, the Telegraph India registration-cancellation fallback headline, the later probe-demand report, the Medical Dialogues IMA revocation report, the doctor-suspension report, the 6 June News Arena India death-toll-seven report, the 10 June Times of India serious-violations report, the 11 June MSN death-toll-seven report, the 12 June The News Mill ex-gratia report, the 16 June ETV Bharat illegal-ICU probe report, and the 17 June The News Mill licence-revocation headline as follow-up actions.
+The frozen reports now describe an active accountability case. I have left injuries as null because the public text still does not give a clean count, and I have added the licence-suspension report, the Telegraph India registration-cancellation fallback headline, the later probe-demand report, the Medical Dialogues IMA revocation report, the doctor-suspension report, the 6 June News Arena India death-toll-seven report, the 10 June Times of India serious-violations report, the 11 June MSN death-toll-seven report, the 12 June The News Mill ex-gratia report, the 16 June ETV Bharat illegal-ICU probe report, the 17 June The News Mill licence-revocation headline, and the 21 June Mid-day Google News rerun as follow-up actions.
