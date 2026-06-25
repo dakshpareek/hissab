@@ -1,32 +1,33 @@
 {
-  "case_slug": "trivandrum-new-delhi-rajdhani-fire-incident",
-  "case_file": "content/cases/trivandrum-new-delhi-rajdhani-fire-incident.md",
+  "case_slug": "west-bengal-govt-building-fire-20260612",
+  "case_file": "content/cases/west-bengal-govt-building-fire-20260612.md",
   "queue_signal": {
-    "signal_id": "trivandrum-new-delhi-rajdhani-fire-incident-20260621",
-    "case_id": "trivandrum-new-delhi-rajdhani-fire-incident",
-    "score": "medium",
-    "reason_category": "official_inquiry",
-    "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNanV0QWhhZkRDTEVDeUp3N01iUGNlclhZbWpmSzk5d25XdHNqVzRQa1dZZ05kTllibEZQcEZYQWU5Z2xJb0IzV0UtajJhVkZHMG5pZWlRSjVUM0t0X0FlMDJMT3JKSXFZOFd5VkxFVjlFRVFqRE5ZV2EzenlsNEU3aDB1NWVQcWpMX3puamRDSjB5UTJ3RjZZc2ZEbDk2RjI2R1dJb0VJc2F6NlNoaDczUnpqYnlqRjh5SkQyNklLaE5IUzg?oc=5",
-    "article_date": "2026-06-20T18:12:38Z",
-    "headline_snippet": "Railway Ministry orders high-level inquiry into Trivandrum-New Delhi Rajdhani Express fire incident - Newsonair",
-    "captured_at": "2026-06-24T13:57:08+05:30",
-    "status": "processing",
-    "dedupe_key": "trivandrum-new-delhi-rajdhani-fire-incident|https://news.google.com/rss/articles/CBMiwwFBVV95cUxNanV0QWhhZkRDTEVDeUp3N01iUGNlclhZbWpmSzk5d25XdHNqVzRQa1dZZ05kTllibEZQcEZYQWU5Z2xJb0IzV0UtajJhVkZHMG5pZWlRSjVUM0t0X0FlMDJMT3JKSXFZOFd5VkxFVjlFRVFqRE5ZV2EzenlsNEU3aDB1NWVQcWpMX3puamRDSjB5UTJ3RjZZc2ZEbDk2RjI2R1dJb0VJc2F6NlNoaDczUnpqYnlqRjh5SkQyNklLaE5IUzg?oc=5"
+    "signal_id": "west-bengal-govt-building-fire-20260612-evms-gutted",
+    "case_id": "west-bengal-govt-building-fire-20260612",
+    "score": "high",
+    "reason_category": "public_asset_damage",
+    "source_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWHIxRVhWZkNFemxjUHpkQ3MtYkpSUFR6WVBQcVFVNjY0YVBXckRpWlg2TzZGT1lKQUZXTURJcXR1Yk9fNjBQWkhlVkFVTVpmNVV1T1JMamJjdUFrTWZqVnhiSzEzeFJWcGV1SzA1cm00akp4QmRwU1pyZ0lZWDlrZkVrODgzZVJNWUhpQzlfMmh6TWxDVFlRVlZqak93VlZMYXdLR1hfZlVfb3NjaVZwbzk0aHhHWXRWaDAxdnVCQkotdElCX1hnc3FKdndNMEpkNlE1Mk4yX1BCXzluQWFjZVI5R0puVHM5ZnB2cXBxdG80Q1ppemU4VFQ3X3o1QXZl0gGHAkFVX3lxTE4zOUNCU0puT1I1T093M3FibFl0ZVgtdjZVQWYzMlZCdXFGbGs3VF9uN19xV0d4MXA3R3hCOG1LTXlrVXNzV2c3ajZZemF5UXczbW1pSktKc1NkUFpNZE9MVElyLUtGTUYzZWRWV3RibUtkLUVSZnZXZDM5Y193RF9vaFViQnBlYm05TlJkeDhPajNWY0lKNzhsZnlESmpOVXR2UXhyWUI0dG5BRHBYb01PSVN1cGU2a3BvbWRJV1YzZDJoSG96Q3hYX1NNTjliTVljNGJHUlVOeWl2NDFmTHJ0ckNPMjZ4cHFrVWdDYkVZSVNpaDhfc0tuN3RnSDhELWNJQ3hrVU1z?oc=5",
+    "article_date": "2026-06-12T07:00:00Z",
+    "headline_snippet": "Around 4,000 EVMs gutted as Bengal govt. building catches fire; Minister flags possibility of foul play - The Hindu",
+    "captured_at": "2026-06-21T22:58:30+0530",
+    "status": "done",
+    "dedupe_key": "west-bengal-govt-building-fire-20260612|https://news.google.com/rss/articles/CBMigAJBVV95cUxPWHIxRVhWZkNFemxjUHpkQ3MtYkpSUFR6WVBQcVFVNjY0YVBXckRpWlg2TzZGT1lKQUZXTURJcXR1Yk9fNjBQWkhlVkFVTVpmNVV1T1JMamJjdUFrTWZqVnhiSzEzeFJWcGV1SzA1cm00akp4QmRwU1pyZ0lZWDlrZkVrODgzZVJNWUhpQzlfMmh6TWxDVFlRVlZqak93VlZMYXdLR1hfZlVfb3NjaVZwbzk0aHhHWXRWaDAxdnVCQkotdElCX1hnc3FKdndNMEpkNlE1Mk4yX1BCXzluQWFjZVI5R0puVHM5ZnB2cXBxdG80Q1ppemU4VFQ3X3o1QXZl0gGHAkFVX3lxTE4zOUNCU0puT1I1T093M3FibFl0ZVgtdjZVQWYzMlZCdXFGbGs3VF9uN19xV0d4MXA3R3hCOG1LTXlrVXNzV2c3ajZZemF5UXczbW1pSktKc1NkUFpNZE9MVElyLUtGTUYzZWRWV3RibUtkLUVSZnZXZDM5Y193RF9vaFViQnBlYm05TlJkeDhPajNWY0lKNzhsZnlESmpOVXR2UXhyWUI0dG5BRHBYb01PSVN1cGU2a3BvbWRJV1YzZDJoSG96Q3hYX1NNTjliTVljNGJHUlVOeWl2NDFmTHJ0ckNPMjZ4cHFrVWdDYkVZSVNpaDhfc0tuN3RnSDhELWNJQ3hrVU1z?oc=5"
   },
   "queue_claim": {
-    "claim_id": "trivandrum-new-delhi-rajdhani-fire-incident-20260621",
-    "claimed_at": "2026-06-24T13:57:08+05:30",
+    "claim_id": "west-bengal-govt-building-fire-20260612-evms-gutted",
+    "claimed_at": "2026-06-25T18:10:33+05:30",
     "queue_name": "agent-workflows/case-queue/update-queue.json"
   },
   "record_snapshot": {
-    "incident_name": "Trivandrum-New Delhi Rajdhani Express fire incident",
-    "incident_location": "Near Nagda, Kota Division",
-    "incident_date": "2026-05-17",
+    "incident_name": "Kolkata Government Building Fire",
+    "incident_location": "Alipore, Kolkata, West Bengal",
+    "incident_date": "2026-06-10",
     "known_aliases": [
-      "Rajdhani Express fire incident",
-      "Trivandrum Rajdhani fire"
+      "Kolkata EVM fire",
+      "Alipore govt building fire",
+      "West Bengal govt building fire"
     ],
-    "selected_identity_source": "queue signal headline snippet only",
+    "selected_identity_source": "queue signal headline plus The Hindu article title and lead paragraph",
     "current_case_file": null
   },
   "duplicate_guard": {
@@ -34,83 +35,94 @@
     "match_slug": null,
     "reason": "No exact or near-duplicate case record was found in content/cases.",
     "evidence": [
-      "Repo search for Rajdhani, Trivandrum, Thiruvananthapuram, and train fire terms returned no matching case file.",
-      "The nearest existing train-fire case in the repo is morena-train-fire-rumour-fatalities, which concerns a different incident and location."
+      "Repo search for west bengal government building fire and EVM fire terms found no existing case file.",
+      "The closest related files in the repo are unrelated fire, crash, or explosion cases in other states."
     ]
   },
   "frozen_sources": [
     {
-      "source_name": "Akashvani News",
-      "source_url": "https://newsonair.gov.in/railway-ministry-orders-high-level-inquiry-into-trivandrum-new-delhi-rajdhani-express-fire-incident/",
-      "publication_name": "Akashvani News",
-      "frozen_path": "agent-workflows/case-editorial/references/cases/trivandrum-new-delhi-rajdhani-fire-incident/2026-06-24-trivandrum-new-delhi-rajdhani-fire-incident-20260517-akashvani-news.txt",
-      "frozen_at": "2026-06-24T14:01:31+05:30",
+      "source_name": "The Hindu",
+      "source_url": "https://www.thehindu.com/news/national/west-bengal/around-4000-evms-gutted-as-bengal-govt-building-catches-fire-minister-flags-possibility-of-foul-play/article71094242.ece",
+      "publication_name": "The Hindu",
+      "frozen_path": "agent-workflows/case-editorial/references/cases/west-bengal-govt-building-fire-20260612/2026-06-25-west-bengal-govt-building-fire-20260612-the-hindu-frozen.txt",
+      "frozen_at": "2026-06-25T18:13:50+0530",
       "status": "frozen",
-      "sha256": "41b09c08044f63e0419e51fde8436f1bf59941ea360eda72d9a0908ef3c056bd"
+      "sha256": "8ccb1a0f85a2ad7c7c56aec001c3fdbe8eb6515544631513dd2e2b33b4eb9728"
     }
   ],
   "identity_gate": {
     "verdict": "MATCH",
-    "notes": "The frozen Akashvani News article matches the queue signal on incident type, date, and railway route. It describes a fire in two rear coaches of the Trivandrum-New Delhi Rajdhani Express near Nagda of the Kota Division, with no passengers injured.",
+    "notes": "The frozen The Hindu article matches the queue signal on geography, incident type, and the EVM fire narrative.",
     "supporting_quotes": [
-      "The Railway Ministry has ordered a high-level inquiry into the fire incident involving two rear coaches of the Trivandrum-New Delhi Rajdhani Express.",
-      "At around 5:15 this morning, there was a fire in two rear coaches, which included one guard coach and one AC 3 Tier in the Trivandrum-New Delhi Rajdhani near Nagda of the Kota Division.",
-      "no passengers were injured in the incident"
+      "Around 4,000 electronic voting machines (EVMs) were gutted after a government building in Kolkata’s Alipore area... caught fire on Wednesday (June 10, 2026)",
+      "It’s a nine-storey building in Alipore... The EVMs were stored in a room on the ninth floor. All of those EVMs have been gutted.",
+      "the additional district magistrate has lodged an FIR based on which a four-member special investigating team (SIT) was also formed"
     ]
   },
   "extraction_record": {
     "field_updates": {
-      "title": "Trivandrum-New Delhi Rajdhani Express Fire Incident",
-      "date": "2026-05-17",
-      "location": "Near Nagda, Kota Division",
+      "title": "Kolkata Government Building Fire",
+      "date": "2026-06-10",
+      "location": "Alipore, Kolkata, West Bengal",
       "category": "fire",
       "status": "no-action",
       "deaths": null,
-      "injured": 0,
-      "accused_count": 0,
-      "accused_gap": "No public accused named or arrests reported in the frozen source set.",
-      "summary": "A fire broke out in the two rear coaches of the Trivandrum-New Delhi Rajdhani Express near Nagda on 17 May 2026. The Railway Ministry ordered a high-level inquiry, the train stopped automatically after the safety system worked, the crew detached the affected coaches, no passengers were injured, and an audit of coach fire systems and drivers was launched across Indian Railways.",
+      "injured": null,
+      "accused_count": null,
+      "accused_gap": "No named accused, arrests, or prosecution details were identified in the frozen source set.",
+      "summary": "The Hindu reported that around 4,000 electronic voting machines were gutted when a nine-storey government building in Kolkata's Alipore area caught fire on 10 June 2026. The article said officials flagged a possibility of sabotage, an FIR was lodged, a four-member SIT was formed, and forensic experts were collecting samples to determine whether the fire was accidental or deliberate.",
       "tags": [
-        "trivandrum",
-        "rajdhani",
-        "railways",
+        "west-bengal",
+        "kolkata",
+        "alipore",
         "fire",
-        "nagda"
+        "evm",
+        "government-building",
+        "investigation"
       ],
-      "last_updated": "2026-06-24",
+      "last_updated": "2026-06-25",
       "accused": [],
       "compensation": {
         "announced": false,
         "announced_amount": "",
         "paid": "none",
-        "paid_note": "No compensation reporting was frozen.",
+        "paid_note": "No compensation reporting was frozen for this draft.",
         "source": ""
       },
       "timeline": [
         {
-          "date": "2026-05-17",
+          "date": "2026-06-10",
           "type": "red",
-          "event": "News On AIR reported a fire in two rear coaches of the Trivandrum-New Delhi Rajdhani Express near Nagda of the Kota Division.",
-          "source": "https://newsonair.gov.in/railway-ministry-orders-high-level-inquiry-into-trivandrum-new-delhi-rajdhani-express-fire-incident/",
-          "source_name": "Akashvani News"
+          "event": "The Hindu reported that around 4,000 electronic voting machines were gutted after a government building in Kolkata's Alipore area caught fire on Wednesday, 10 June 2026.",
+          "source": "https://www.thehindu.com/news/national/west-bengal/around-4000-evms-gutted-as-bengal-govt-building-catches-fire-minister-flags-possibility-of-foul-play/article71094242.ece",
+          "source_name": "The Hindu"
         },
         {
-          "date": "2026-05-17",
+          "date": "2026-06-10",
+          "type": "amber",
+          "event": "The article said the nine-storey building in Alipore housed the South 24 Parganas Zila Parishad, the local District Forest Officer's office, and Sarva Shiksha Abhiyaan, and that the EVMs were stored on the ninth floor.",
+          "source": "https://www.thehindu.com/news/national/west-bengal/around-4000-evms-gutted-as-bengal-govt-building-catches-fire-minister-flags-possibility-of-foul-play/article71094242.ece",
+          "source_name": "The Hindu"
+        },
+        {
+          "date": "2026-06-10",
           "type": "gray",
-          "event": "The Ministry said the coach safety system worked immediately, the train automatically stopped, the two affected rear coaches were detached, no passengers were injured, and a railways-wide audit of coach fire systems and drivers was launched.",
-          "source": "https://newsonair.gov.in/railway-ministry-orders-high-level-inquiry-into-trivandrum-new-delhi-rajdhani-express-fire-incident/",
-          "source_name": "Akashvani News"
+          "event": "The article said an FIR was lodged, a four-member special investigating team was formed, and forensic experts collected samples to determine whether the fire was accidental or deliberate.",
+          "source": "https://www.thehindu.com/news/national/west-bengal/around-4000-evms-gutted-as-bengal-govt-building-catches-fire-minister-flags-possibility-of-foul-play/article71094242.ece",
+          "source_name": "The Hindu"
         }
       ]
     }
   },
-  "conflict_notes": [],
-  "draft_diff": "Created a new no-action case from the Akashvani News fire report, keeping deaths null because the article does not state a death count and recording injured as 0 because it explicitly says no passengers were injured.",
   "critic_review": {
     "verdict": "APPROVED",
     "rejected_claims": [],
     "required_fixes": [],
-    "notes": "The case file is conservative where needed: deaths remain null, injured is supported as 0, and no unsupported accused or compensation claims were introduced."
+    "notes": [
+      "The draft stays within the frozen The Hindu article and does not invent any casualty or accused details.",
+      "Deaths and injuries remain null because the source does not report casualty counts.",
+      "The FIR, SIT, and forensic-probe language is source-backed and does not overstate legal action."
+    ]
   },
   "validation": {
     "yaml_valid": true,
@@ -118,8 +130,12 @@
     "build_ok": true,
     "duplicate_check_ok": true,
     "passed": true,
-    "notes": "The case file frontmatter parsed cleanly, the frozen source artifact was written directly from the source article, duplicate search found no near-match in content/cases, and the Hugo build completed successfully."
+    "notes": [
+      "YAML frontmatter parsed cleanly in the Hugo build.",
+      "The direct The Hindu source was frozen successfully and matched the queue signal.",
+      "Repo search found no exact or near-duplicate case record in content/cases.",
+      "The case update keeps unsupported casualty and accused facts at null."
+    ]
   },
-  "commit_ready": true,
-  "pushed_to_remote": true
+  "commit_ready": true
 }
