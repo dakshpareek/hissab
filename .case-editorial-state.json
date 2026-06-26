@@ -189,5 +189,5 @@
     "notes": "The case file frontmatter parses cleanly, the Reuters article was frozen successfully via the accessible Yahoo News UK mirror and hashed, the duplicate search found no exact or near-duplicate case record in content/cases, and Hugo built cleanly after the case file write."
   },
   "commit_ready": true,
-  "pushed_to_remote": false
+  "pushed_to_remote": true
 }
