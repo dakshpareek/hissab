@@ -1,91 +1,79 @@
 {
-  "case_slug": "mumbai-vadodara-highway-bmw-crash-20260622",
-  "case_file": "content/cases/mumbai-vadodara-highway-bmw-crash-20260622.md",
+  "case_slug": "munich-freight-train-collision-20260620",
+  "case_file": "content/cases/munich-freight-train-collision-20260620.md",
   "queue_signal": {
-    "signal_id": "mumbai-vadodara-highway-bmw-crash-20260622",
-    "case_id": "mumbai-vadodara-highway-bmw-crash-20260622",
-    "score": "medium",
-    "reason_category": "new-case",
-    "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaGdFeHh0WUJTeTJiX1d2WkVZeXhaMl9YSVpVLU5Sd1A0dFRHd1hXVXJfQ0pxbjNoZE40YkxqZnpFRnhFRExCaExIZkFmaHlvWlBJOHk1NkhOYWhRSmJHdXN0X1VrMlFTUzlPQnJURWx2RVlSaTI2OGdiaXBuX0FaTG1JSEtrdGVIS3R2ckw1WEx2WkhhTUJfQlJtNFlUU1FiR2VYN1h6ZjFnM2cyVFdPZWpaZHBWXzVEZU1ValkxWVlFZDZpb0tVSNIBzgFBVV95cUxQVk9FZGwteTR2ZV9pVUo3RnJfZDRfcWhYYl9xeE5fcEs2ei1sNUZub2UtSnk4R2MyS0NyUjdDaVhqM0hwQWZubFU4ZzE4ZHJpTVdBalkzT0lUYVpkREpicTdCdm1aaFFOUENxaUhTTjBoZlNmUXlvOTRXRUJwY0RrZjE0US11dThpdFpDY3RIdzVYVzNqR0pVVHlOM3dwcHdLN0hQMlp4bDhRcHRXZkp4S1JlbmJpdURZQW5UcnNMdDg3TUp3NlVtaUNTTTlzZw?oc=5",
-    "article_date": "2026-06-22T07:24:03+00:00",
-    "headline_snippet": "Video | BMW Accident | 2 Killed As BMW Z4 Crashes At 250 kmph Near Mumbai, Body Parts Scattered - NDTV",
-    "captured_at": "2026-06-22T00:00:00+05:30",
-    "dedupe_key": "mumbai-vadodara-highway-bmw-crash-20260622|https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaGdFeHh0WUJTeTJiX1d2WkVZeXhaMl9YSVpVLU5Sd1A0dFRHd1hXVXJfQ0pxbjNoZE40YkxqZnpFRnhFRExCaExIZkFmaHlvWlBJOHk1NkhOYWhRSmJHdXN0X1VrMlFTUzlPQnJURWx2RVlSaTI2OGdiaXBuX0FaTG1JSEtrdGVIS3R2ckw1WEx2WkhhTUJfQlJtNFlUU1FiR2VYN1h6ZjFnM2cyVFdPZWpaZHBWXzVEZU1ValkxWVlFZDZpb0tVSNIBzgFBVV95cUxQVk9FZGwteTR2ZV9pVUo3RnJfZDRfcWhYYl9xeE5fcEs2ei1sNUZub2UtSnk4R2MyS0NyUjdDaVhqM0hwQWZubFU4ZzE4ZHJpTVdBalkzT0lUYVpkREpicTdCdm1aaFFOUENxaUhTTjBoZlNmUXlvOTRXRUJwY0RrZjE0US11dThpdFpDY3RIdzVYVzNqR0pVVHlOM3dwcHdLN0hQMlp4bDhRcHRXZkp4S1JlbmJpdURZQW5UcnNMdDg3TUp3NlVtaUNTTTlzZw?oc=5",
-    "status": "done",
-    "claimed_at": "2026-06-26T03:33:48+05:30",
-    "claimed_by": "case-explorer",
-    "processed_at": "2026-06-26T03:41:51+05:30",
-    "held_reason": null
+    "signal_id": "munich-freight-train-collision-20260620",
+    "case_id": "munich-freight-train-collision",
+    "score": "high",
+    "reason_category": "fatal_collision",
+    "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNGx5dHdPbnRzRmYxbl83SllFdGEwMm9CMFpKOXFYazIyODVQZ3BtdE1pY285d0ZVTU1UQXljcjVUMVk4dUhoVUhpYXRkUjhQRU9TTGh0N1FYS2kwNVlQOWI4Y0tyUXlUc2NiMHZ4VjJJR3ZRVWhzM0FkQ25TLWN6VzRGNlNaOGZuSk9DU0xYYw?oc=5",
+    "article_date": "2026-06-20T13:57:41Z",
+    "headline_snippet": "One dead after freight trains collide in Munich | Reuters",
+    "captured_at": "2026-06-22T01:47:11Z",
+    "dedupe_key": "munich-freight-train-collision|https://news.google.com/rss/articles/CBMijwFBVV95cUxPNGx5dHdPbnRzRmYxbl83SllFdGEwMm9CMFpKOXFYazIyODVQZ3BtdE1pY285d0ZVTU1UQXljcjVUMVk4dUhoVUhpYXRkUjhQRU9TTGh0N1FYS2kwNVlQOWI4Y0tyUXlUc2NiMHZ4VjJJR3ZRVWhzM0FkQ25TLWN6VzRGNlNaOGZuSk9DU0xYYw?oc=5",
+    "status": "processing"
   },
   "queue_claim": {
-    "claim_id": "mumbai-vadodara-highway-bmw-crash-20260622",
-    "claimed_at": "2026-06-26T03:33:48+05:30",
+    "claim_id": "munich-freight-train-collision-20260620",
+    "claimed_at": "2026-06-27T04:45:47+05:30",
     "queue_name": "agent-workflows/case-queue/update-queue.json"
   },
   "record_snapshot": {
-    "incident_name": "Badlapur BMW Z4 Crash",
-    "incident_location": "Mumbai-Vadodara Highway near Badlapur, Maharashtra",
-    "incident_date": "2026-06-21",
+    "incident_name": "Munich Freight Train Collision",
+    "incident_location": "Munich, Germany",
+    "incident_date": "2026-06-20",
     "known_aliases": [
-      "Mumbai BMW Z4 crash",
-      "Badlapur BMW crash",
-      "Mumbai-Vadodara Highway crash"
+      "Munich train collision",
+      "Munich freight train collision",
+      "Munich cargo train collision",
+      "Munich rail collision"
     ],
-    "selected_identity_source": "queue signal headline plus the frozen News18 article title, location, casualty description, and investigation details",
-    "current_case_file": null
+    "selected_identity_source": "queue signal headline plus Reuters title/body frozen via Yahoo News UK mirror",
+    "current_case_file": null,
+    "captured_at": "2026-06-27 04:45:47 IST"
   },
   "duplicate_guard": {
     "matched": false,
     "match_slug": null,
     "reason": "No exact or near-duplicate case record was found in content/cases.",
     "evidence": [
-      "Repo search found no existing BMW crash case matching this incident identity.",
-      "The closest related case found was the Vadodara bus-truck crash, which is a different road incident in another state."
+      "Repo search for Munich freight train collision, Munich cargo train collision, and Munich rail collision terms found no exact or near-duplicate case record.",
+      "No existing Munich-related rail collision case file was present in content/cases."
     ]
   },
   "frozen_sources": [
     {
-      "source_name": "News18",
-      "source_url": "https://www.news18.com/cities/mumbai-news/2-dead-after-bmw-z4-crashes-into-divider-at-250-kmph-flips-on-highway-ws-bl-10164526.html",
-      "publication_name": "News18",
-      "frozen_path": "agent-workflows/case-editorial/references/cases/mumbai-vadodara-highway-bmw-crash-20260622/2026-06-26-news18-bmw-z4-crash-near-mumbai-frozen.txt",
-      "frozen_at": "2026-06-26T03:38:01+05:30",
-      "status": "frozen",
-      "sha256": "14c49689e7e263b08bed582f6d8704fa5a36e049cc2fc04405c15c865190e3db"
+      "source_name": "Reuters",
+      "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+      "frozen_path": "agent-workflows/case-editorial/references/cases/munich-freight-train-collision-20260620/2026-06-27-munich-freight-train-collision-20260620-reuters-fallback.txt",
+      "frozen_at": "2026-06-27T04:45:47+05:30",
+      "status": "fallback",
+      "sha256": "e645eae243c957dff9cfd49cbec926d93edc9e067e74407c699d87a3c4bebea9"
     }
   ],
   "identity_gate": {
     "verdict": "MATCH",
-    "notes": "The frozen News18 article matches the queue signal on geography, vehicle type, casualty count, and the Badlapur / Mumbai-Vadodara Highway identity.",
+    "notes": "The frozen Reuters text matches the queue signal on incident type, location, and fatality count. The direct Reuters URL was blocked here, so the article was frozen through the Yahoo News UK mirror that carried the Reuters copy.",
     "supporting_quotes": [
-      "Two people were killed and one sustained serious injuries as a BMW car rammed into a divider and then overturned multiple times on the Mumbai-Vadodara Highway in Mumbai’s Badlapur in the early hours of Sunday.",
-      "The incident took place at around 4 am on a stretch of the Mumbai-Vadodara highway near Badlapur when the victims were returning from Titwala.",
-      "the deceased, identified as Yogesh Dighe (26) and Rikeba Jacob (24), were residents of Badlapur"
+      "One person has died after two cargo trains collided on a bridge in Munich in the early hours of Saturday, causing two of the carriages to derail and crash onto the street below, according to local police.",
+      "The cause of the incident is under investigation, a police spokesperson in the southern German city told Reuters.",
+      "Emergency services were alerted to the collision in Munich's northern district of Milbertshofen at 1:40 a.m. (2340 GMT on Friday), with around 60 first responders dispatched to the scene, a fire department spokesperson said."
     ]
   },
   "extraction_record": {
     "field_updates": {
-      "title": "Badlapur BMW Z4 Crash",
-      "date": "2026-06-21",
-      "location": "Mumbai-Vadodara Highway near Badlapur, Maharashtra",
+      "title": "Munich Freight Train Collision",
+      "date": "2026-06-20",
+      "location": "Munich, Germany",
       "category": "other",
       "status": "no-action",
-      "deaths": 2,
-      "injured": 1,
+      "deaths": 1,
+      "injured": null,
       "accused_count": null,
       "accused_gap": "No named accused, arrests, or prosecution details were identified in the frozen source set.",
-      "summary": "News18 reported that a BMW Z4 rammed into a divider and overturned multiple times on the Mumbai-Vadodara Highway near Badlapur in the early hours of 21 June 2026, killing two people and seriously injuring one. The article identified the deceased as Badlapur residents Yogesh Dighe and Rikeba Jacob, said a case of accidental death was registered, and noted that police were checking whether the driver was under the influence of alcohol.",
-      "tags": [
-        "mumbai",
-        "badlapur",
-        "maharashtra",
-        "road-accident",
-        "car-crash",
-        "fatality",
-        "bmw",
-        "highway"
-      ],
-      "last_updated": "2026-06-26",
+      "summary": "Reuters reported that one person died after two cargo trains collided on a bridge in Munich in the early hours of 20 June 2026, causing two carriages to derail and crash onto the street below. The article said the cause was under investigation and that around 60 first responders were dispatched to the scene.",
+      "tags": ["germany", "munich", "train-collision", "freight-train", "rail-accident"],
+      "last_updated": "2026-06-27",
       "accused": [],
       "compensation": {
         "announced": false,
@@ -96,41 +84,100 @@
       },
       "timeline": [
         {
-          "date": "2026-06-21",
+          "date": "2026-06-20",
           "type": "red",
-          "event": "News18 reported that two people were killed and one person was seriously injured when a BMW Z4 crashed into a divider and overturned multiple times on the Mumbai-Vadodara Highway near Badlapur in the early hours of 21 June 2026.",
-          "source": "https://www.news18.com/cities/mumbai-news/2-dead-after-bmw-z4-crashes-into-divider-at-250-kmph-flips-on-highway-ws-bl-10164526.html",
-          "source_name": "News18"
+          "event": "Reuters reported that one person died after two cargo trains collided on a bridge in Munich in the early hours of 20 June 2026, causing two carriages to derail and crash onto the street below.",
+          "source": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+          "source_name": "Reuters"
         },
         {
-          "date": "2026-06-21",
-          "type": "amber",
-          "event": "The article said the crash happened around 4 am on a stretch of the Mumbai-Vadodara highway near Badlapur, that the BMW Z4 was allegedly being driven at 250 kmph, and that the deceased were identified as Yogesh Dighe (26) and Rikeba Jacob (24), both Badlapur residents.",
-          "source": "https://www.news18.com/cities/mumbai-news/2-dead-after-bmw-z4-crashes-into-divider-at-250-kmph-flips-on-highway-ws-bl-10164526.html",
-          "source_name": "News18"
-        },
-        {
-          "date": "2026-06-21",
+          "date": "2026-06-20",
           "type": "gray",
-          "event": "News18 said a case of accidental death was registered and that police were investigating all aspects of the crash, including whether the driver was under the influence of alcohol; a forensic team collected evidence from the site.",
-          "source": "https://www.news18.com/cities/mumbai-news/2-dead-after-bmw-z4-crashes-into-divider-at-250-kmph-flips-on-highway-ws-bl-10164526.html",
-          "source_name": "News18"
+          "event": "Reuters said the cause of the collision was under investigation and that emergency services were alerted at 1:40 a.m. with around 60 first responders dispatched to the scene.",
+          "source": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+          "source_name": "Reuters"
         }
       ]
-    }
+    },
+    "evidence_map": [
+      {
+        "field_name": "title",
+        "value": "Munich Freight Train Collision",
+        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+        "exact_quote": "One dead after freight trains collide in Munich"
+      },
+      {
+        "field_name": "date",
+        "value": "2026-06-20",
+        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+        "exact_quote": "MUNICH, June 20 (Reuters)"
+      },
+      {
+        "field_name": "location",
+        "value": "Munich, Germany",
+        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+        "exact_quote": "One person has died after two cargo trains collided on a bridge in Munich in the early hours of Saturday"
+      },
+      {
+        "field_name": "deaths",
+        "value": 1,
+        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+        "exact_quote": "One person has died"
+      },
+      {
+        "field_name": "summary",
+        "value": "Reuters reported that one person died after two cargo trains collided on a bridge in Munich in the early hours of 20 June 2026, causing two carriages to derail and crash onto the street below. The article said the cause was under investigation and that around 60 first responders were dispatched to the scene.",
+        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+        "exact_quote": "One person has died after two cargo trains collided on a bridge in Munich in the early hours of Saturday, causing two of the carriages to derail and crash onto the street below, according to local police."
+      },
+      {
+        "field_name": "status",
+        "value": "no-action",
+        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+        "exact_quote": "The cause of the incident is under investigation"
+      },
+      {
+        "field_name": "accused_count",
+        "value": null,
+        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+        "exact_quote": "The cause of the incident is under investigation"
+      },
+      {
+        "field_name": "accused_gap",
+        "value": "No named accused, arrests, or prosecution details were identified in the frozen source set.",
+        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+        "exact_quote": "The cause of the incident is under investigation"
+      },
+      {
+        "field_name": "injured",
+        "value": null,
+        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+        "exact_quote": "One person has died"
+      },
+      {
+        "field_name": "category",
+        "value": "other",
+        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+        "exact_quote": "two cargo trains collided on a bridge in Munich"
+      },
+      {
+        "field_name": "tags",
+        "value": ["germany", "munich", "train-collision", "freight-train", "rail-accident"],
+        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
+        "exact_quote": "two cargo trains collided on a bridge in Munich"
+      }
+    ]
   },
   "conflict_notes": [],
-  "draft_diff": null,
+  "draft_diff": "Created content/cases/munich-freight-train-collision-20260620.md and supporting editorial artifacts for the Munich freight train collision case.",
   "critic_review": {
     "verdict": "APPROVED",
     "rejected_claims": [],
     "required_fixes": [],
     "notes": [
-      "The draft title, casualty counts, and location are all directly supported by the frozen News18 article.",
-      "The summary stays within the frozen source set and does not invent any accused or compensation details.",
-      "deaths is supported by the title and the body paragraph stating that two people were killed.",
-      "injured is supported by the body paragraph stating that one person sustained serious injuries.",
-      "The draft keeps accused-related fields null/empty, which matches the source."
+      "The draft stays within the frozen Reuters text preserved via the Yahoo News UK mirror.",
+      "The rewrite uses a conservative normalized category and keeps injuries, accused details, and compensation unsupported or null.",
+      "All populated claims map back to direct quotes in the frozen source set."
     ]
   },
   "validation": {
@@ -139,7 +186,7 @@
     "build_ok": true,
     "duplicate_check_ok": true,
     "passed": true,
-    "notes": "The case file frontmatter parses cleanly, the frozen source is a specific News18 article page, repo search found no exact or near-duplicate case record to merge, and the Hugo build completed successfully."
+    "notes": "The case file frontmatter parses cleanly, the Reuters article was frozen successfully via the accessible Yahoo News UK mirror and hashed, the duplicate search found no exact or near-duplicate case record in content/cases, and Hugo built cleanly after the case file write."
   },
   "commit_ready": true,
   "pushed_to_remote": false
