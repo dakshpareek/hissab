@@ -1,33 +1,29 @@
 {
-  "case_slug": "west-bengal-govt-building-fire-20260612",
-  "case_file": "content/cases/west-bengal-govt-building-fire-20260612.md",
+  "case_slug": "qatarenergy-ras-laffan-explosion",
+  "case_file": "content/cases/qatarenergy-ras-laffan-explosion.md",
   "queue_signal": {
-    "signal_id": "west-bengal-govt-building-fire-20260612-evms-gutted",
-    "case_id": "west-bengal-govt-building-fire-20260612",
-    "score": "high",
-    "reason_category": "public_asset_damage",
-    "source_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWHIxRVhWZkNFemxjUHpkQ3MtYkpSUFR6WVBQcVFVNjY0YVBXckRpWlg2TzZGT1lKQUZXTURJcXR1Yk9fNjBQWkhlVkFVTVpmNVV1T1JMamJjdUFrTWZqVnhiSzEzeFJWcGV1SzA1cm00akp4QmRwU1pyZ0lZWDlrZkVrODgzZVJNWUhpQzlfMmh6TWxDVFlRVlZqak93VlZMYXdLR1hfZlVfb3NjaVZwbzk0aHhHWXRWaDAxdnVCQkotdElCX1hnc3FKdndNMEpkNlE1Mk4yX1BCXzluQWFjZVI5R0puVHM5ZnB2cXBxdG80Q1ppemU4VFQ3X3o1QXZl0gGHAkFVX3lxTE4zOUNCU0puT1I1T093M3FibFl0ZVgtdjZVQWYzMlZCdXFGbGs3VF9uN19xV0d4MXA3R3hCOG1LTXlrVXNzV2c3ajZZemF5UXczbW1pSktKc1NkUFpNZE9MVElyLUtGTUYzZWRWV3RibUtkLUVSZnZXZDM5Y193RF9vaFViQnBlYm05TlJkeDhPajNWY0lKNzhsZnlESmpOVXR2UXhyWUI0dG5BRHBYb01PSVN1cGU2a3BvbWRJV1YzZDJoSG96Q3hYX1NNTjliTVljNGJHUlVOeWl2NDFmTHJ0ckNPMjZ4cHFrVWdDYkVZSVNpaDhfc0tuN3RnSDhELWNJQ3hrVU1z?oc=5",
-    "article_date": "2026-06-12T07:00:00Z",
-    "headline_snippet": "Around 4,000 EVMs gutted as Bengal govt. building catches fire; Minister flags possibility of foul play - The Hindu",
-    "captured_at": "2026-06-21T22:58:30+0530",
+    "signal_id": "qatarenergy-ras-laffan-explosion-20260621-operational-incident",
+    "case_id": "qatarenergy-ras-laffan-explosion-20260621",
+    "score": "medium",
+    "reason_category": "incident_confirmation",
+    "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVEpHT2xJU1Q4YzctVVV0Rm1QLUJScnZvbUl0aWhtRUhhb3ktV2pzSFlfVGRBSGc3R214WnoyS3pFLU1lNTBXZU9ES1FRR2VvYjY3THZ0YVB2UlBiWDRSRHlBRE1GdndYR3NJVFFPeVZfWWpiQU1hUjBZTm5RWGFtemdTUVJyamJJXzd3d2FBYlRjZGtuQjhMNTJkM3hIa1d3SzhOWC05RTBmd0FQYWR6RGlB0gG4AUFVX3lxTE5BcTQwa1Q3UUtqRXliTVR1SG9HSEFGaE1CNEJUclh4NWdpa1hhSFZEcm9lZ3RpdzhjS2szeVljeTdpRWw3YURmcm9aNVFuaGthQUo4S1hyLTU5T1RHOXlXNzc1bi1Wc3lwTno2RjhLZjZXU0VLY2E0XzZHbnVXbnFSNklJVE14ZzQzMHlCaUoyeUUySnBPek5RUGRWS2I3MjNBa2s4VTlCWGpLVW82NEhhc0Vhcm9vVWE?oc=5",
+    "article_date": "2026-06-21T20:51:20+00:00",
+    "headline_snippet": "QatarEnergy says ‘operational incident’ causes explosion at Ras Laffan - The Hindu",
+    "captured_at": "2026-06-22T05:14:03+05:30",
     "status": "done",
-    "dedupe_key": "west-bengal-govt-building-fire-20260612|https://news.google.com/rss/articles/CBMigAJBVV95cUxPWHIxRVhWZkNFemxjUHpkQ3MtYkpSUFR6WVBQcVFVNjY0YVBXckRpWlg2TzZGT1lKQUZXTURJcXR1Yk9fNjBQWkhlVkFVTVpmNVV1T1JMamJjdUFrTWZqVnhiSzEzeFJWcGV1SzA1cm00akp4QmRwU1pyZ0lZWDlrZkVrODgzZVJNWUhpQzlfMmh6TWxDVFlRVlZqak93VlZMYXdLR1hfZlVfb3NjaVZwbzk0aHhHWXRWaDAxdnVCQkotdElCX1hnc3FKdndNMEpkNlE1Mk4yX1BCXzluQWFjZVI5R0puVHM5ZnB2cXBxdG80Q1ppemU4VFQ3X3o1QXZl0gGHAkFVX3lxTE4zOUNCU0puT1I1T093M3FibFl0ZVgtdjZVQWYzMlZCdXFGbGs3VF9uN19xV0d4MXA3R3hCOG1LTXlrVXNzV2c3ajZZemF5UXczbW1pSktKc1NkUFpNZE9MVElyLUtGTUYzZWRWV3RibUtkLUVSZnZXZDM5Y193RF9vaFViQnBlYm05TlJkeDhPajNWY0lKNzhsZnlESmpOVXR2UXhyWUI0dG5BRHBYb01PSVN1cGU2a3BvbWRJV1YzZDJoSG96Q3hYX1NNTjliTVljNGJHUlVOeWl2NDFmTHJ0ckNPMjZ4cHFrVWdDYkVZSVNpaDhfc0tuN3RnSDhELWNJQ3hrVU1z?oc=5"
+    "dedupe_key": "qatarenergy-ras-laffan-explosion-20260621|https://news.google.com/rss/articles/CBMisgFBVV95cUxNVEpHT2xJU1Q4YzctVVV0Rm1QLUJScnZvbUl0aWhtRUhhb3ktV2pzSFlfVGRBSGc3R214WnoyS3pFLU1lNTBXZU9ES1FRR2VvYjY3THZ0YVB2UlBiWDRSRHlBRE1GdndYR3NJVFFPeVZfWWpiQU1hUjBZTm5RWGFtemdTUVJyamJJXzd3d2FBYlRjZGtuQjhMNTJkM3hIa1d3SzhOWC05RTBmd0FQYWR6RGlB0gG4AUFVX3lxTE5BcTQwa1Q3UUtqRXliTVR1SG9HSEFGaE1CNEJUclh4NWdpa1hhSFZEcm9lZ3RpdzhjS2szeVljeTdpRWw3YURmcm9aNVFuaGthQUo4S1hyLTU5T1RHOXlXNzc1bi1Wc3lwTno2RjhLZjZXU0VLY2E0XzZHbnVXbnFSNklJVE14ZzQzMHlCaUoyeUUySnBPek5RUGRWS2I3MjNBa2s4VTlCWGpLVW82NEhhc0Vhcm9vVWE?oc=5"
   },
   "queue_claim": {
-    "claim_id": "west-bengal-govt-building-fire-20260612-evms-gutted",
-    "claimed_at": "2026-06-25T18:10:33+05:30",
+    "claim_id": "qatarenergy-ras-laffan-explosion-20260621",
+    "claimed_at": "2026-06-27T14:06:47+05:30",
     "queue_name": "agent-workflows/case-queue/update-queue.json"
   },
   "record_snapshot": {
-    "incident_name": "Kolkata Government Building Fire",
-    "incident_location": "Alipore, Kolkata, West Bengal",
-    "incident_date": "2026-06-10",
-    "known_aliases": [
-      "Kolkata EVM fire",
-      "Alipore govt building fire",
-      "West Bengal govt building fire"
-    ],
-    "selected_identity_source": "queue signal headline plus The Hindu article title and lead paragraph",
+    "incident_name": "QatarEnergy Ras Laffan Explosion",
+    "incident_location": "Ras Laffan, Qatar",
+    "incident_date": "2026-06-21",
+    "known_aliases": ["QatarEnergy Ras Laffan blast", "Ras Laffan explosion", "Qatar LNG facility blast"],
+    "selected_identity_source": "queue signal headline plus frozen Google News RSS items from The Hindu, ThePrint, Reuters, and Al Jazeera",
     "current_case_file": null
   },
   "duplicate_guard": {
@@ -35,93 +31,68 @@
     "match_slug": null,
     "reason": "No exact or near-duplicate case record was found in content/cases.",
     "evidence": [
-      "Repo search for west bengal government building fire and EVM fire terms found no existing case file.",
-      "The closest related files in the repo are unrelated fire, crash, or explosion cases in other states."
+      "Repo search for qatar, Ras Laffan, QatarEnergy, and LNG blast terms found no existing case file.",
+      "The closest related files in the repo were unrelated fire, crash, or explosion cases in other jurisdictions."
     ]
   },
   "frozen_sources": [
     {
-      "source_name": "The Hindu",
-      "source_url": "https://www.thehindu.com/news/national/west-bengal/around-4000-evms-gutted-as-bengal-govt-building-catches-fire-minister-flags-possibility-of-foul-play/article71094242.ece",
-      "publication_name": "The Hindu",
-      "frozen_path": "agent-workflows/case-editorial/references/cases/west-bengal-govt-building-fire-20260612/2026-06-25-west-bengal-govt-building-fire-20260612-the-hindu-frozen.txt",
-      "frozen_at": "2026-06-25T18:13:50+0530",
-      "status": "frozen",
-      "sha256": "8ccb1a0f85a2ad7c7c56aec001c3fdbe8eb6515544631513dd2e2b33b4eb9728"
+      "source_name": "Google News RSS search",
+      "source_url": "https://news.google.com/rss/search?q=QatarEnergy+says+operational+incident+causes+explosion+at+Ras+Laffan&hl=en-IN&gl=IN&ceid=IN:en",
+      "publication_name": "Google News / The Hindu",
+      "frozen_path": "C:/Users/rdpuser/projects/hissab/agent-workflows/case-editorial/references/cases/qatarenergy-ras-laffan-explosion-20260621/2026-06-27-qatarenergy-ras-laffan-explosion-20260621-google-news-rss-search.xml",
+      "frozen_at": "2026-06-27T14:06:47+05:30",
+      "status": "fallback",
+      "sha256": "fc0e9f1588e51d5eb39fbe03fedb54068988a5962e68362afad453d7c9138a74"
+    },
+    {
+      "source_name": "Reuters-focused Google News RSS search",
+      "source_url": "https://news.google.com/rss/search?q=QatarEnergy+Ras+Laffan+explosion+Reuters&hl=en-IN&gl=IN&ceid=IN:en",
+      "publication_name": "Google News / Reuters",
+      "frozen_path": "C:/Users/rdpuser/projects/hissab/agent-workflows/case-editorial/references/cases/qatarenergy-ras-laffan-explosion-20260621/2026-06-27-qatarenergy-ras-laffan-explosion-20260621-reuters-rss-search.xml",
+      "frozen_at": "2026-06-27T14:06:47+05:30",
+      "status": "fallback",
+      "sha256": "ff75044abcaa08672a7ceb72a2c45858033ce3211d128f125422d1c54fac0dac"
     }
   ],
   "identity_gate": {
     "verdict": "MATCH",
-    "notes": "The frozen The Hindu article matches the queue signal on geography, incident type, and the EVM fire narrative.",
+    "notes": "The frozen RSS items align with the queue signal on location, date, and incident type, while preserving the wording differences between technical/operational incident and blast/fatality coverage.",
     "supporting_quotes": [
-      "Around 4,000 electronic voting machines (EVMs) were gutted after a government building in Kolkata’s Alipore area... caught fire on Wednesday (June 10, 2026)",
-      "It’s a nine-storey building in Alipore... The EVMs were stored in a room on the ninth floor. All of those EVMs have been gutted.",
-      "the additional district magistrate has lodged an FIR based on which a four-member special investigating team (SIT) was also formed"
+      "QatarEnergy says ‘technical incident’ causes explosion at Ras Laffan - The Hindu",
+      "QatarEnergy says ‘operational incident’ causes explosion at Ras Laffan - ThePrint",
+      "Thirteen dead, dozens injured, after blast inside Qatar's Ras Laffan complex - Reuters",
+      "Explosion at Qatar’s Ras Laffan LNG facility kills at least 13 - Al Jazeera"
     ]
   },
   "extraction_record": {
     "field_updates": {
-      "title": "Kolkata Government Building Fire",
-      "date": "2026-06-10",
-      "location": "Alipore, Kolkata, West Bengal",
-      "category": "fire",
+      "title": "QatarEnergy Ras Laffan Explosion",
+      "date": "2026-06-21",
+      "location": "Ras Laffan, Qatar",
+      "category": "other",
       "status": "no-action",
-      "deaths": null,
+      "deaths": 13,
       "injured": null,
       "accused_count": null,
       "accused_gap": "No named accused, arrests, or prosecution details were identified in the frozen source set.",
-      "summary": "The Hindu reported that around 4,000 electronic voting machines were gutted when a nine-storey government building in Kolkata's Alipore area caught fire on 10 June 2026. The article said officials flagged a possibility of sabotage, an FIR was lodged, a four-member SIT was formed, and forensic experts were collecting samples to determine whether the fire was accidental or deliberate.",
-      "tags": [
-        "west-bengal",
-        "kolkata",
-        "alipore",
-        "fire",
-        "evm",
-        "government-building",
-        "investigation"
-      ],
-      "last_updated": "2026-06-25",
-      "accused": [],
-      "compensation": {
-        "announced": false,
-        "announced_amount": "",
-        "paid": "none",
-        "paid_note": "No compensation reporting was frozen for this draft.",
-        "source": ""
-      },
-      "timeline": [
-        {
-          "date": "2026-06-10",
-          "type": "red",
-          "event": "The Hindu reported that around 4,000 electronic voting machines were gutted after a government building in Kolkata's Alipore area caught fire on Wednesday, 10 June 2026.",
-          "source": "https://www.thehindu.com/news/national/west-bengal/around-4000-evms-gutted-as-bengal-govt-building-catches-fire-minister-flags-possibility-of-foul-play/article71094242.ece",
-          "source_name": "The Hindu"
-        },
-        {
-          "date": "2026-06-10",
-          "type": "amber",
-          "event": "The article said the nine-storey building in Alipore housed the South 24 Parganas Zila Parishad, the local District Forest Officer's office, and Sarva Shiksha Abhiyaan, and that the EVMs were stored on the ninth floor.",
-          "source": "https://www.thehindu.com/news/national/west-bengal/around-4000-evms-gutted-as-bengal-govt-building-catches-fire-minister-flags-possibility-of-foul-play/article71094242.ece",
-          "source_name": "The Hindu"
-        },
-        {
-          "date": "2026-06-10",
-          "type": "gray",
-          "event": "The article said an FIR was lodged, a four-member special investigating team was formed, and forensic experts collected samples to determine whether the fire was accidental or deliberate.",
-          "source": "https://www.thehindu.com/news/national/west-bengal/around-4000-evms-gutted-as-bengal-govt-building-catches-fire-minister-flags-possibility-of-foul-play/article71094242.ece",
-          "source_name": "The Hindu"
-        }
-      ]
+      "summary": "Google News RSS results showed The Hindu and ThePrint describing a technical or operational incident at Ras Laffan, while Reuters and Al Jazeera reported a blast in Qatar's Ras Laffan complex or LNG facility that killed at least 13 and injured dozens. The frozen source set does not identify any named accused, arrests, or prosecution details.",
+      "tags": ["qatar", "ras-laffan", "qatarenergy", "explosion", "lng-facility", "fatality"],
+      "last_updated": "2026-06-27"
     }
   },
+  "conflict_notes": [
+    "The Hindu and ThePrint describe the event as a technical or operational incident, while Reuters and Al Jazeera describe a blast with at least 13 dead; the record keeps the incident unified as the Ras Laffan explosion and does not split it into separate cases.",
+    "Reuters and Al Jazeera report at least 13 deaths, but the frozen set does not provide a precise injured count, so injured remains null."
+  ],
   "critic_review": {
     "verdict": "APPROVED",
     "rejected_claims": [],
     "required_fixes": [],
     "notes": [
-      "The draft stays within the frozen The Hindu article and does not invent any casualty or accused details.",
-      "Deaths and injuries remain null because the source does not report casualty counts.",
-      "The FIR, SIT, and forensic-probe language is source-backed and does not overstate legal action."
+      "The draft stays within the frozen Google News RSS source set and does not invent any accused, compensation, or exact injured-count details.",
+      "Deaths are supported by Reuters and Al Jazeera item titles in the frozen feeds.",
+      "The wording variation between technical/operational incident and blast/fatality coverage is preserved as source variation."
     ]
   },
   "validation": {
@@ -131,11 +102,12 @@
     "duplicate_check_ok": true,
     "passed": true,
     "notes": [
-      "YAML frontmatter parsed cleanly in the Hugo build.",
-      "The direct The Hindu source was frozen successfully and matched the queue signal.",
-      "Repo search found no exact or near-duplicate case record in content/cases.",
-      "The case update keeps unsupported casualty and accused facts at null."
+      "Hugo built successfully after the case file write.",
+      "The frozen Google News RSS search feeds match the queue signal and selected incident identity.",
+      "No exact or near-duplicate case record was found in content/cases.",
+      "The draft keeps unsupported accused and injured facts at null."
     ]
   },
-  "commit_ready": true
+  "commit_ready": true,
+  "pushed_to_remote": false
 }
