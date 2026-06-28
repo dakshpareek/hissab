@@ -1,183 +1,144 @@
 {
-  "case_slug": "munich-freight-train-collision-20260620",
-  "case_file": "content/cases/munich-freight-train-collision-20260620.md",
+  "case_slug": "tirupati-apsrtc-bus-truck-collision-20260622",
+  "case_file": "content/cases/tirupati-apsrtc-bus-truck-collision-20260622.md",
   "queue_signal": {
-    "signal_id": "munich-freight-train-collision-20260620",
-    "case_id": "munich-freight-train-collision",
+    "signal_id": "tirupati-apsrtc-bus-truck-collision-20260622-fatality",
+    "case_id": "tirupati-apsrtc-bus-truck-collision-20260622",
     "score": "high",
-    "reason_category": "fatal_collision",
-    "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNGx5dHdPbnRzRmYxbl83SllFdGEwMm9CMFpKOXFYazIyODVQZ3BtdE1pY285d0ZVTU1UQXljcjVUMVk4dUhoVUhpYXRkUjhQRU9TTGh0N1FYS2kwNVlQOWI4Y0tyUXlUc2NiMHZ4VjJJR3ZRVWhzM0FkQ25TLWN6VzRGNlNaOGZuSk9DU0xYYw?oc=5",
-    "article_date": "2026-06-20T13:57:41Z",
-    "headline_snippet": "One dead after freight trains collide in Munich | Reuters",
-    "captured_at": "2026-06-22T01:47:11Z",
-    "dedupe_key": "munich-freight-train-collision|https://news.google.com/rss/articles/CBMijwFBVV95cUxPNGx5dHdPbnRzRmYxbl83SllFdGEwMm9CMFpKOXFYazIyODVQZ3BtdE1pY285d0ZVTU1UQXljcjVUMVk4dUhoVUhpYXRkUjhQRU9TTGh0N1FYS2kwNVlQOWI4Y0tyUXlUc2NiMHZ4VjJJR3ZRVWhzM0FkQ25TLWN6VzRGNlNaOGZuSk9DU0xYYw?oc=5",
-    "status": "processing"
+    "reason_category": "incident_fatalities",
+    "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVENjTk9iWkdkZ2FQdE9kblhmck5EcVRaZnlvR1RfNVdlbEZ0SlhIMXJLZEtoUG1PQVo0RXBlYVphNlk0aWp4c2VvcHpIRnE3UnNLTllpRjczVklRLWNoTFpvRnd3U0tsaHhhWXRnRm1uRzU4WWFJYXJGNFlxeDh4bjFfd0xkUWZ1UXNWRktBUG83SGpEQ08xMGdoX2Z0Wm1EWmkybzUzY0RRaWEtRDNDN0VERnEzNlhiRDhuMmVfVEwtamhVVndIV1loRV9wV0toT3VsTEUtdGVxRUwtbDRpTkxta2wwdVNBZFR2NEFUSFHSAfABQVVfeXFMTVRDY05PYlpHZGdhUHRPZG5YZnJORHFUWmZ5b0dUXzVXZWxGdEpYSDFyS2RLaFBtT0FaNEVwZWFaYTZZNGlqeHNlb3B6SEZxN1JzS05ZaUY3M1ZJUS1jaExab0Z3d1NLbGh4YVl0Z0Ztbkc1OFlhSWFyRjRZcXg4eG4xX3dMZFFmdVFzVkZLQVBvN0hqRENPMTBnaF9mdFptRFppMm81M2NEUWlhLUQzQzdFREZxMzZYYkQ4bjJlX1RMLWpoVVZ3SFdZaEVfcFdLaE91bExFLXRlcUVMLWw0aU5MbWtsMHVTQWRUdjRBVEhR?oc=5",
+    "article_date": "2026-06-22T09:50:12Z",
+    "headline_snippet": "Three dead, over 15 injured in APSRTC bus-truck collision on NH-716 near Tirupati - The Hindu",
+    "captured_at": "2026-06-28T14:52:22+05:30",
+    "status": "done",
+    "dedupe_key": "tirupati-apsrtc-bus-truck-collision-20260622|https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVENjTk9iWkdkZ2FQdE9kblhmck5EcVRaZnlvR1RfNVdlbEZ0SlhIMXJLZEtoUG1PQVo0RXBlYVphNlk0aWp4c2VvcHpIRnE3UnNLTllpRjczVklRLWNoTFpvRnd3U0tsaHhhWXRnRm1uRzU4WWFJYXJGNFlxeDh4bjFfd0xkUWZ1UXNWRktBUG83SGpEQ08xMGdoX2Z0Wm1EWmkybzUzY0RRaWEtRDNDN0VERnEzNlhiRDhuMmVfVEwtamhVVndIV1loRV9wV0toT3VsTEUtdGVxRUwtbDRpTkxta2wwdVNBZFR2NEFUSFHSAfABQVVfeXFMTVRDY05PYlpHZGdhUHRPZG5YZnJORHFUWmZ5b0dUXzVXZWxGdEpYSDFyS2RLaFBtT0FaNEVwZWFaYTZZNGlqeHNlb3B6SEZxN1JzS05ZaUY3M1ZJUS1jaExab0Z3d1NLbGh4YVl0Z0Ztbkc1OFlhSWFyRjRZcXg4eG4xX3dMZFFmdVFzVkZLQVBvN0hqRENPMTBnaF9mdFptRFppMm81M2NEUWlhLUQzQzdFREZxMzZYYkQ4bjJlX1RMLWpoVVZ3SFdZaEVfcFdLaE91bExFLXRlcUVMLWw0aU5MbWtsMHVTQWRUdjRBVEhR?oc=5"
   },
   "queue_claim": {
-    "claim_id": "munich-freight-train-collision-20260620",
-    "claimed_at": "2026-06-27T04:45:47+05:30",
+    "claim_id": "tirupati-apsrtc-bus-truck-collision-20260622-fatality",
+    "claimed_at": "2026-06-28T14:52:22+05:30",
     "queue_name": "agent-workflows/case-queue/update-queue.json"
   },
   "record_snapshot": {
-    "incident_name": "Munich Freight Train Collision",
-    "incident_location": "Munich, Germany",
-    "incident_date": "2026-06-20",
+    "incident_name": "Tirupati APSRTC Bus-Truck Collision",
+    "incident_location": "NH-716 near Tirupati",
+    "incident_date": "2026-06-22",
     "known_aliases": [
-      "Munich train collision",
-      "Munich freight train collision",
-      "Munich cargo train collision",
-      "Munich rail collision"
+      "APSRTC bus-truck collision near Tirupati",
+      "Three dead, over 15 injured in APSRTC bus-truck collision on NH-716 near Tirupati"
     ],
-    "selected_identity_source": "queue signal headline plus Reuters title/body frozen via Yahoo News UK mirror",
-    "current_case_file": null,
-    "captured_at": "2026-06-27 04:45:47 IST"
+    "selected_identity_source": "Google News RSS search feed and Google News article wrapper",
+    "current_case_file": null
   },
   "duplicate_guard": {
     "matched": false,
     "match_slug": null,
-    "reason": "No exact or near-duplicate case record was found in content/cases.",
+    "reason": "No exact case match was found in content/cases. The nearest similar records were road-collision cases in other locations.",
     "evidence": [
-      "Repo search for Munich freight train collision, Munich cargo train collision, and Munich rail collision terms found no exact or near-duplicate case record.",
-      "No existing Munich-related rail collision case file was present in content/cases."
+      "Repo search found no existing Tirupati case file.",
+      "The closest matches were jalpaiguri-nh27-bus-truck-collision-20260621 and vadodara-bus-truck-crash, which are different incidents in different jurisdictions."
     ]
   },
   "frozen_sources": [
     {
-      "source_name": "Reuters",
-      "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-      "frozen_path": "agent-workflows/case-editorial/references/cases/munich-freight-train-collision-20260620/2026-06-27-munich-freight-train-collision-20260620-reuters-fallback.txt",
-      "frozen_at": "2026-06-27T04:45:47+05:30",
-      "status": "fallback",
-      "sha256": "e645eae243c957dff9cfd49cbec926d93edc9e067e74407c699d87a3c4bebea9"
+      "source_name": "Google News RSS search feed",
+      "source_url": "https://news.google.com/rss/search?q=Three+dead+over+15+injured+APSRTC+bus-truck+collision+on+NH-716+near+Tirupati&hl=en-IN&gl=IN&ceid=IN:en",
+      "publication_name": "Google News RSS",
+      "frozen_path": "C:/Users/rdpuser/projects/hissab/agent-workflows/case-editorial/references/cases/tirupati-apsrtc-bus-truck-collision-20260622/2026-06-28/2026-06-28-tirupati-apsrtc-bus-truck-collision-20260622-google-news-rss-search.xml",
+      "frozen_at": "2026-06-28T14:52:22+05:30",
+      "status": "ok",
+      "sha256": "891a94ed3bebde3eabf3bb5eca97cb3ebfc193efe45937de308e53685d33d630"
+    },
+    {
+      "source_name": "Google News article wrapper",
+      "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVENjTk9iWkdkZ2FQdE9kblhmck5EcVRaZnlvR1RfNVdlbEZ0SlhIMXJLZEtoUG1PQVo0RXBlYVphNlk0aWp4c2VvcHpIRnE3UnNLTllpRjczVklRLWNoTFpvRnd3U0tsaHhhWXRnRm1uRzU4WWFJYXJGNFlxeDh4bjFfd0xkUWZ1UXNWRktBUG83SGpEQ08xMGdoX2Z0Wm1EWmkybzUzY0RRaWEtRDNDN0VERnEzNlhiRDhuMmVfVEwtamhVVndIV1loRV9wV0toT3VsTEUtdGVxRUwtbDRpTkxta2wwdVNBZFR2NEFUSFHSAfABQVVfeXFMTVRDY05PYlpHZGdhUHRPZG5YZnJORHFUWmZ5b0dUXzVXZWxGdEpYSDFyS2RLaFBtT0FaNEVwZWFaYTZZNGlqeHNlb3B6SEZxN1JzS05ZaUY3M1ZJUS1jaExab0Z3d1NLbGh4YVl0Z0Ztbkc1OFlhSWFyRjRZcXg4eG4xX3dMZFFmdVFzVkZLQVBvN0hqRENPMTBnaF9mdFptRFppMm81M2NEUWlhLUQzQzdFREZxMzZYYkQ4bjJlX1RMLWpoVVZ3SFdZaEVfcFdLaE91bExFLXRlcUVMLWw0aU5MbWtsMHVTQWRUdjRBVEhR?oc=5",
+      "publication_name": "Google News",
+      "frozen_path": "C:/Users/rdpuser/projects/hissab/agent-workflows/case-editorial/references/cases/tirupati-apsrtc-bus-truck-collision-20260622/2026-06-28/2026-06-28-tirupati-apsrtc-bus-truck-collision-20260622-google-news-article.html",
+      "frozen_at": "2026-06-28T14:52:22+05:30",
+      "status": "ok",
+      "sha256": "29e5b43f98d0667fa664cdcfe50cc9491d78dfd59c954e822443387201daeb5c"
     }
   ],
   "identity_gate": {
     "verdict": "MATCH",
-    "notes": "The frozen Reuters text matches the queue signal on incident type, location, and fatality count. The direct Reuters URL was blocked here, so the article was frozen through the Yahoo News UK mirror that carried the Reuters copy.",
+    "notes": "The frozen Google News RSS feed preserves the exact incident wording, including the casualty summary and location.",
     "supporting_quotes": [
-      "One person has died after two cargo trains collided on a bridge in Munich in the early hours of Saturday, causing two of the carriages to derail and crash onto the street below, according to local police.",
-      "The cause of the incident is under investigation, a police spokesperson in the southern German city told Reuters.",
-      "Emergency services were alerted to the collision in Munich's northern district of Milbertshofen at 1:40 a.m. (2340 GMT on Friday), with around 60 first responders dispatched to the scene, a fire department spokesperson said."
+      "Three dead, over 15 injured in APSRTC bus-truck collision on NH-716 near Tirupati - The Hindu",
+      "Mon, 22 Jun 2026 09:50:12 GMT"
     ]
   },
   "extraction_record": {
     "field_updates": {
-      "title": "Munich Freight Train Collision",
-      "date": "2026-06-20",
-      "location": "Munich, Germany",
+      "title": "Tirupati APSRTC Bus-Truck Collision",
+      "date": "2026-06-22",
+      "location": "NH-716 near Tirupati",
       "category": "other",
       "status": "no-action",
-      "deaths": 1,
+      "deaths": 3,
       "injured": null,
       "accused_count": null,
       "accused_gap": "No named accused, arrests, or prosecution details were identified in the frozen source set.",
-      "summary": "Reuters reported that one person died after two cargo trains collided on a bridge in Munich in the early hours of 20 June 2026, causing two carriages to derail and crash onto the street below. The article said the cause was under investigation and that around 60 first responders were dispatched to the scene.",
-      "tags": ["germany", "munich", "train-collision", "freight-train", "rail-accident"],
-      "last_updated": "2026-06-27",
-      "accused": [],
-      "compensation": {
-        "announced": false,
-        "announced_amount": "",
-        "paid": "none",
-        "paid_note": "No compensation reporting was frozen for this draft.",
-        "source": ""
-      },
-      "timeline": [
-        {
-          "date": "2026-06-20",
-          "type": "red",
-          "event": "Reuters reported that one person died after two cargo trains collided on a bridge in Munich in the early hours of 20 June 2026, causing two carriages to derail and crash onto the street below.",
-          "source": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-          "source_name": "Reuters"
-        },
-        {
-          "date": "2026-06-20",
-          "type": "gray",
-          "event": "Reuters said the cause of the collision was under investigation and that emergency services were alerted at 1:40 a.m. with around 60 first responders dispatched to the scene.",
-          "source": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-          "source_name": "Reuters"
-        }
-      ]
+      "summary": "The Hindu's Google News RSS listing reported that three people were killed and over 15 injured when an APSRTC bus collided with a truck on NH-716 near Tirupati on 22 June 2026. The frozen source set does not identify named accused or arrests, so the case remains no-action.",
+      "tags": [
+        "andhra-pradesh",
+        "tirupati",
+        "road-accident",
+        "bus-crash",
+        "truck-collision",
+        "fatality"
+      ],
+      "last_updated": "2026-06-28"
     },
     "evidence_map": [
       {
         "field_name": "title",
-        "value": "Munich Freight Train Collision",
-        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-        "exact_quote": "One dead after freight trains collide in Munich"
+        "value": "Tirupati APSRTC Bus-Truck Collision",
+        "source_url": "https://news.google.com/rss/search?q=Three+dead+over+15+injured+APSRTC+bus-truck+collision+on+NH-716+near+Tirupati&hl=en-IN&gl=IN&ceid=IN:en",
+        "exact_quote": "Three dead, over 15 injured in APSRTC bus-truck collision on NH-716 near Tirupati - The Hindu"
       },
       {
         "field_name": "date",
-        "value": "2026-06-20",
-        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-        "exact_quote": "MUNICH, June 20 (Reuters)"
+        "value": "2026-06-22",
+        "source_url": "https://news.google.com/rss/search?q=Three+dead+over+15+injured+APSRTC+bus-truck+collision+on+NH-716+near+Tirupati&hl=en-IN&gl=IN&ceid=IN:en",
+        "exact_quote": "<pubDate>Mon, 22 Jun 2026 09:50:12 GMT</pubDate>"
       },
       {
         "field_name": "location",
-        "value": "Munich, Germany",
-        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-        "exact_quote": "One person has died after two cargo trains collided on a bridge in Munich in the early hours of Saturday"
+        "value": "NH-716 near Tirupati",
+        "source_url": "https://news.google.com/rss/search?q=Three+dead+over+15+injured+APSRTC+bus-truck+collision+on+NH-716+near+Tirupati&hl=en-IN&gl=IN&ceid=IN:en",
+        "exact_quote": "Three dead, over 15 injured in APSRTC bus-truck collision on NH-716 near Tirupati - The Hindu"
       },
       {
         "field_name": "deaths",
-        "value": 1,
-        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-        "exact_quote": "One person has died"
-      },
-      {
-        "field_name": "summary",
-        "value": "Reuters reported that one person died after two cargo trains collided on a bridge in Munich in the early hours of 20 June 2026, causing two carriages to derail and crash onto the street below. The article said the cause was under investigation and that around 60 first responders were dispatched to the scene.",
-        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-        "exact_quote": "One person has died after two cargo trains collided on a bridge in Munich in the early hours of Saturday, causing two of the carriages to derail and crash onto the street below, according to local police."
-      },
-      {
-        "field_name": "status",
-        "value": "no-action",
-        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-        "exact_quote": "The cause of the incident is under investigation"
-      },
-      {
-        "field_name": "accused_count",
-        "value": null,
-        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-        "exact_quote": "The cause of the incident is under investigation"
-      },
-      {
-        "field_name": "accused_gap",
-        "value": "No named accused, arrests, or prosecution details were identified in the frozen source set.",
-        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-        "exact_quote": "The cause of the incident is under investigation"
+        "value": 3,
+        "source_url": "https://news.google.com/rss/search?q=Three+dead+over+15+injured+APSRTC+bus-truck+collision+on+NH-716+near+Tirupati&hl=en-IN&gl=IN&ceid=IN:en",
+        "exact_quote": "Three dead, over 15 injured in APSRTC bus-truck collision on NH-716 near Tirupati - The Hindu"
       },
       {
         "field_name": "injured",
         "value": null,
-        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-        "exact_quote": "One person has died"
-      },
-      {
-        "field_name": "category",
-        "value": "other",
-        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-        "exact_quote": "two cargo trains collided on a bridge in Munich"
-      },
-      {
-        "field_name": "tags",
-        "value": ["germany", "munich", "train-collision", "freight-train", "rail-accident"],
-        "source_url": "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/",
-        "exact_quote": "two cargo trains collided on a bridge in Munich"
+        "source_url": "https://news.google.com/rss/search?q=Three+dead+over+15+injured+APSRTC+bus-truck+collision+on+NH-716+near+Tirupati&hl=en-IN&gl=IN&ceid=IN:en",
+        "exact_quote": "Three dead, over 15 injured in APSRTC bus-truck collision on NH-716 near Tirupati - The Hindu"
       }
     ]
   },
-  "conflict_notes": [],
-  "draft_diff": "Created content/cases/munich-freight-train-collision-20260620.md and supporting editorial artifacts for the Munich freight train collision case.",
+  "conflict_notes": [
+    {
+      "field_path": "injured",
+      "source_a": "Google News RSS search feed",
+      "source_b": null,
+      "quote_a": "Three dead, over 15 injured in APSRTC bus-truck collision on NH-716 near Tirupati - The Hindu",
+      "quote_b": null,
+      "note": "The source gives an approximate injury count ('over 15 injured') rather than an exact number, so the field remains null."
+    }
+  ],
   "critic_review": {
     "verdict": "APPROVED",
     "rejected_claims": [],
     "required_fixes": [],
     "notes": [
-      "The draft stays within the frozen Reuters text preserved via the Yahoo News UK mirror.",
-      "The rewrite uses a conservative normalized category and keeps injuries, accused details, and compensation unsupported or null.",
-      "All populated claims map back to direct quotes in the frozen source set."
+      "The draft stays within the frozen Google News RSS search feed and the Google News article wrapper.",
+      "The populated fields remain conservative: deaths 3 is source-backed, injured stays null because the source only says 'over 15 injured', and no accused or compensation facts were invented.",
+      "The nearest similar records are other bus-truck collisions in different jurisdictions, not duplicates."
     ]
   },
   "validation": {
@@ -186,8 +147,14 @@
     "build_ok": true,
     "duplicate_check_ok": true,
     "passed": true,
-    "notes": "The case file frontmatter parses cleanly, the Reuters article was frozen successfully via the accessible Yahoo News UK mirror and hashed, the duplicate search found no exact or near-duplicate case record in content/cases, and Hugo built cleanly after the case file write."
+    "notes": [
+      "The case file frontmatter parses cleanly.",
+      "The frozen Google News RSS search feed matches the queue signal and selected incident identity.",
+      "Repo search found no exact or near-duplicate case record in content/cases.",
+      "The Hugo build completed successfully.",
+      "Unsupported exact injury count remains null."
+    ]
   },
   "commit_ready": true,
-  "pushed_to_remote": true
+  "pushed_to_remote": false
 }
