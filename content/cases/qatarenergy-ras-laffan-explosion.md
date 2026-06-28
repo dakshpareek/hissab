@@ -9,9 +9,9 @@ injured: null
 accused_count: null
 accused_gap: "No named accused, arrests, or prosecution details were identified in the frozen source set."
 summary: >-
-  Google News RSS results showed The Hindu and ThePrint describing a technical or operational incident at Ras Laffan, while Reuters and Al Jazeera reported a blast in Qatar's Ras Laffan complex or LNG facility that killed at least 13 and injured dozens. The frozen source set does not identify any named accused, arrests, or prosecution details.
+  Google News RSS results showed The Hindu and ThePrint describing a technical or operational incident at Ras Laffan, while Reuters and Al Jazeera reported a blast in Qatar's Ras Laffan complex or LNG facility that killed at least 13 and injured dozens; a later The Hindu RSS result reported that 12 Indians were among the 13 killed. The frozen source set does not identify any named accused, arrests, or prosecution details.
 tags: ["qatar", "ras-laffan", "qatarenergy", "explosion", "lng-facility", "fatality"]
-last_updated: 2026-06-27
+last_updated: 2026-06-28
 ---
 
 accused: []
@@ -43,6 +43,11 @@ timeline:
     event: "Al Jazeera reported an explosion at Qatar's Ras Laffan LNG facility that killed at least 13."
     source: "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZHJ4VTVzTER3LWdiVy1vVHBvT2NEREhQOVFTNmkxVXlidDZyc1h6bTZMV1BTYXNVeUtQUnVRdkhyNXZ3bUh6dGoyeVhrQVVqWHM0clBTWVI1UTFpVXVzb1dya1hxNldkbFBnbkRLTUVHdlpMaVFhdVR4YXRlMS1qQ25vSmx4d1FkcTBQZ0Fpem9rVHpnRVo1OURna3pXdUFES3o1NkdDQ0lhY0hFVElN0gG0AUFVX3lxTE9qZ3BZcHlEcHlHb0xYTERCQ21CWEh0MUc3YXpncGh2Q01WN2VNakpOR2k3bEpZbWRyVnBmMlo3UE80Tl9aeWdyLWVfR0x5MGRWQUFQQXZVLXlEclQxbmp0NDM0MUFpcUhrT1cwUnN2SmFlcGVxcDZVb3JBYk91N3hXMG9Tc05jbUhxb1ctSGRyVkdMWksyYTJUVGMwTmlqeGFNZkdRcXo5aDZwTlRxNmJCU25lVg?oc=5"
     source_name: "Al Jazeera"
+  - date: 2026-06-22
+    type: "blue"
+    event: "The Hindu reported that 12 Indians were among 13 killed in the explosion at a factory in Ras Laffan Industrial City in Qatar."
+    source: "https://news.google.com/rss/search?q=Indians+among+13+killed+in+Qatar+explosion+says+Qatar+Minister&hl=en-IN&gl=IN&ceid=IN:en"
+    source_name: "The Hindu"
 
 ## Evidence map
 
