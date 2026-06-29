@@ -11,9 +11,6 @@ accused_gap: "No named accused, arrests, or prosecution details were identified 
 summary: "The Hindu's Google News RSS result reported that four people were killed and seven injured when a truck collided with a van in Madhya Pradesh's Chhindwara on 22 June 2026. The frozen source set does not identify any named accused or arrests, so the case remains no-action."
 tags: ["madhya-pradesh", "chhindwara", "road-accident", "truck-collision", "van-collision", "fatality"]
 last_updated: 2026-06-28
----
-
-accused: []
 
 compensation:
   announced: false
@@ -33,6 +30,7 @@ timeline:
     event: "The frozen source set did not identify any named accused, arrests, or prosecution details, so the case remains no-action."
     source: "https://news.google.com/rss/search?q=Four+killed+seven+injured+truck+collides+with+van+in+Madhya+Pradesh+Chhindwara+The+Hindu&hl=en-IN&gl=IN&ceid=IN:en"
     source_name: "Google News RSS"
+---
 
 ## Evidence map
 

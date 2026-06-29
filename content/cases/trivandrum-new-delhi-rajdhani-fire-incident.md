@@ -13,27 +13,6 @@ tags: ["trivandrum", "rajdhani", "railways", "fire", "nagda"]
 last_updated: 2026-06-24
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen."
-  source: ""
-
-timeline:
-  - date: 2026-05-17
-    type: "red"
-    event: "News On AIR reported a fire in two rear coaches of the Trivandrum-New Delhi Rajdhani Express near Nagda of the Kota Division."
-    source: "https://newsonair.gov.in/railway-ministry-orders-high-level-inquiry-into-trivandrum-new-delhi-rajdhani-express-fire-incident/"
-    source_name: "Akashvani News"
-  - date: 2026-05-17
-    type: "gray"
-    event: "The Ministry said the coach safety system worked immediately, the train automatically stopped, the two affected rear coaches were detached, no passengers were injured, and a railways-wide audit of coach fire systems and drivers was launched."
-    source: "https://newsonair.gov.in/railway-ministry-orders-high-level-inquiry-into-trivandrum-new-delhi-rajdhani-express-fire-incident/"
-    source_name: "Akashvani News"
-
 ## Evidence map
 
 - `title` → The source title is "Railway Ministry orders high-level inquiry into Trivandrum | Akashvani News", and the body identifies the Trivandrum-New Delhi Rajdhani Express fire incident.

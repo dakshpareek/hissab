@@ -14,22 +14,6 @@ tags: ["hardoi", "uttar-pradesh", "bridge-collapse", "construction", "workers-in
 last_updated: 2026-06-29
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen for this draft."
-  source: ""
-
-timeline:
-  - date: 2026-06-22
-    type: "red"
-    event: "ThePrint reported that a beam of an under-construction bridge collapsed in Hardoi, injuring two workers."
-    source: "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaEd3TldmR01YQUJlY0d1b0ZZWTg2YUFNeFkzNXo5dk9oNGplRzVCeTVYcVNjMk50OWotMThxOHJiRDFGOHFOVjA3Tk9Xb05malFfRkpVN3d4ZUtpd3BEdE9wS0ttOVl4TEFJMmJYU0pRNjlLb1p2dUNZcmw1YXpQRGg4dmJXX0RCRW9ESzdEVWswNzJLSVVDZHExa2N5cVctREQ4cDJJUGIwU05TMS03bTB30gG3AUFVX3lxTE5MaGd6YzRhU0xjOFVwRlEySER5bXFULXhwN2JwRlkyY3Q0TDdZdlhid1hSaFlaSTFEQnBNSHFsSTkwZmpmMlRoWVZtZ1dpay03Z1dZMW1yQ3JTUnl2YzdYcXRsd0J2WTNndFdyVkhnLTNwM2ExdmEzcVBWcnRObXhpTHNZOFBWcEllWUlyZHBJYW5NbEJOb1hEeWxKR0pnYXlsVHVFN2JWclY2N2tpdjM4S19kbDR2RQ?oc=5"
-    source_name: "ThePrint"
-
 ## Evidence map
 
 - `title` → The RSS item title is "Beam of under-construction bridge collapses in UP’s Hardoi, two workers injured - ThePrint".

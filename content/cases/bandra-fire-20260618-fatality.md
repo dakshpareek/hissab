@@ -13,33 +13,6 @@ tags: ["bandra", "mumbai", "maharashtra", "fire", "fatality", "bandra-west"]
 last_updated: 2026-06-22
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen."
-  source: ""
-
-timeline:
-  - date: 2026-06-18
-    type: "red"
-    event: "The Hindu reported that a fire incident was reported on Thursday (June 18, 2026) at Atlantic Building near Sherly Rajan Road in Mumbai’s Bandra West."
-    source: "https://www.thehindu.com/news/cities/mumbai/people-dead-and-injured-in-fire-in-bandra/article71117052.ece"
-    source_name: "The Hindu"
-  - date: 2026-06-18
-    type: "gray"
-    event: "The article said Mumbai’s civic body confined the fire to electric wiring, electrical installations, and household articles in Room No. 701 and 702 on the 7th floor of a Ground + 7 floored building."
-    source: "https://www.thehindu.com/news/cities/mumbai/people-dead-and-injured-in-fire-in-bandra/article71117052.ece"
-    source_name: "The Hindu"
-  - date: 2026-06-18
-    type: "gray"
-    event: "The Hindu reported that the three people injured were taken to Bandra Bhabha Hospital; one person was declared brought dead and identified as Azim Barodawala (64), while the other two injured were Shivshankar Bharat Puri (fireman, 32) and Navnath Mohan Bite (fireman, 34)."
-    source: "https://www.thehindu.com/news/cities/mumbai/people-dead-and-injured-in-fire-in-bandra/article71117052.ece"
-    source_name: "The Hindu"
----
-
 ## Evidence map
 
 - `title` → The Hindu headline is "One dead, two injured in fire in Bandra".

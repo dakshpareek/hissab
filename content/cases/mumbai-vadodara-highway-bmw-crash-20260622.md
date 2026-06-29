@@ -14,33 +14,6 @@ tags: ["mumbai", "badlapur", "maharashtra", "road-accident", "car-crash", "fatal
 last_updated: 2026-06-26
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen for this draft."
-  source: ""
-
-timeline:
-  - date: 2026-06-21
-    type: "red"
-    event: "News18 reported that two people were killed and one person was seriously injured when a BMW Z4 crashed into a divider and overturned multiple times on the Mumbai-Vadodara Highway near Badlapur in the early hours of 21 June 2026."
-    source: "https://www.news18.com/cities/mumbai-news/2-dead-after-bmw-z4-crashes-into-divider-at-250-kmph-flips-on-highway-ws-bl-10164526.html"
-    source_name: "News18"
-  - date: 2026-06-21
-    type: "amber"
-    event: "The article said the crash happened around 4 am on a stretch of the Mumbai-Vadodara highway near Badlapur, that the BMW Z4 was allegedly being driven at 250 kmph, and that the deceased were identified as Yogesh Dighe (26) and Rikeba Jacob (24), both Badlapur residents."
-    source: "https://www.news18.com/cities/mumbai-news/2-dead-after-bmw-z4-crashes-into-divider-at-250-kmph-flips-on-highway-ws-bl-10164526.html"
-    source_name: "News18"
-  - date: 2026-06-21
-    type: "gray"
-    event: "News18 said a case of accidental death was registered and that police were investigating all aspects of the crash, including whether the driver was under the influence of alcohol; a forensic team collected evidence from the site."
-    source: "https://www.news18.com/cities/mumbai-news/2-dead-after-bmw-z4-crashes-into-divider-at-250-kmph-flips-on-highway-ws-bl-10164526.html"
-    source_name: "News18"
----
-
 ## Evidence map
 
 - `title` → The article title is "2 Dead After BMW Z4 Crashes Into Divider At 250 Kmph, Flips On Highway".

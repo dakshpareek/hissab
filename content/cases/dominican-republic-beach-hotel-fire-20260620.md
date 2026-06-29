@@ -14,27 +14,6 @@ tags: ["dominican-republic", "caribbean", "fire", "resort-fire", "beach-hotel-fi
 last_updated: 2026-06-27
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen for this draft."
-  source: ""
-
-timeline:
-  - date: 2026-06-20
-    type: "red"
-    event: "Google News RSS search results surfaced headlines reporting that a tourist or woman died in a Dominican Republic luxury resort or beach hotel fire."
-    source: "https://news.google.com/rss/search?q=%22Woman+killed%2C+1%2C700+evacuated+in+beach+hotel+fire+in+Dominican+Republic%22&hl=en-IN&gl=IN&ceid=IN:en"
-    source_name: "Google News RSS"
-  - date: 2026-06-20
-    type: "gray"
-    event: "The same search-feed cluster also surfaced headlines reporting that about 1,700 tourists were evacuated from the resort or hotel after the blaze."
-    source: "https://news.google.com/rss/search?q=Dominican+Republic+beach+resort+fire+1700+evacuated&hl=en-IN&gl=IN&ceid=IN:en"
-    source_name: "Google News RSS"
-
 ## Evidence map
 
 - `title` → The Google News RSS headlines include "Woman killed, 1,700 evacuated in beach hotel fire in Dominican Republic - ThePrint", "Tourist dies in Dominican Republic luxury resort fire - BBC", and "Massive fire destroys resort in Dominican Republic and forces evacuation of almost 1,700 tourists - AP News".

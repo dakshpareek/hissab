@@ -13,32 +13,6 @@ tags: ["germany", "frankfurt", "lufthansa", "boeing-787", "aviation", "aircraft-
 last_updated: 2026-06-26
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen."
-  source: ""
-
-timeline:
-  - date: 2026-06-04
-    type: "red"
-    event: "Google News search RSS returned NDTV's headline: \"Video: Lufthansa Boeing 787's Nose Gear Collapses At Airport, Several Injured - NDTV\"."
-    source: "https://news.google.com/rss/search?hl=en-IN&gl=IN&ceid=IN:en&q=Several%20injured%20in%20Boeing%20787%20nose-gear%20collapse%20in%20Frankfurt"
-    source_name: "Google News search RSS / NDTV"
-  - date: 2026-06-04
-    type: "gray"
-    event: "The same Google News search RSS returned Firstpost's headline: \"Several injured after Lufthansa Boeing 787's nose gear collapses at Frankfurt airport - Firstpost\"."
-    source: "https://news.google.com/rss/search?hl=en-IN&gl=IN&ceid=IN:en&q=Several%20injured%20in%20Boeing%20787%20nose-gear%20collapse%20in%20Frankfurt"
-    source_name: "Google News search RSS / Firstpost"
-  - date: 2026-06-04
-    type: "gray"
-    event: "The Google News search RSS also returned CNBC TV18's headline: \"Watch | Lufthansa staff injured after Boeing 787 nose gear collapses before flight at Frankfurt airport - CNBC TV18\"."
-    source: "https://news.google.com/rss/search?hl=en-IN&gl=IN&ceid=IN:en&q=Several%20injured%20in%20Boeing%20787%20nose-gear%20collapse%20in%20Frankfurt"
-    source_name: "Google News search RSS / CNBC TV18"
-
 Evidence map:
   - field_name: "title"
     value: "Frankfurt Boeing 787 Nose Gear Collapse"

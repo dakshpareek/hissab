@@ -14,32 +14,6 @@ tags: ["pakistan", "khyber-pakhtunkhwa", "bannu", "roadside-bomb", "blast", "sec
 last_updated: 2026-06-27
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen for this draft."
-  source: ""
-
-timeline:
-  - date: 2026-06-20
-    type: "red"
-    event: "Two roadside bomb blasts in northwestern Pakistan killed at least seven people."
-    source: "https://www.aljazeera.com/news/2026/6/20/two-roadside-bombs-kill-at-least-seven-in-northwestern-pakistan"
-    source_name: "Al Jazeera"
-  - date: 2026-06-20
-    type: "amber"
-    event: "The first explosion hit a vehicle in Bannu district, and the second was detonated as rescuers responded; police said three people were wounded."
-    source: "https://www.aljazeera.com/news/2026/6/20/two-roadside-bombs-kill-at-least-seven-in-northwestern-pakistan"
-    source_name: "Al Jazeera"
-  - date: 2026-06-20
-    type: "gray"
-    event: "No group claimed responsibility for the attack, and Prime Minister Muhammad Shehbaz Sharif said the government would bring those responsible to justice."
-    source: "https://www.aljazeera.com/news/2026/6/20/two-roadside-bombs-kill-at-least-seven-in-northwestern-pakistan"
-    source_name: "Al Jazeera"
-
 ## Evidence map
 
 - `title` → The frozen Al Jazeera headline is "Two roadside bombs kill at least seven in northwestern Pakistan".

@@ -14,41 +14,6 @@ tags: ["north-bengal", "mirik", "alipurduar", "bridge-collapse", "rain", "landsl
 last_updated: 2026-06-27
 ---
 
-accused: []
-
-compensation:
-  announced: true
-  announced_amount: "Rs 4 lakh"
-  paid: "none"
-  paid_note: "The frozen report mentions an announcement, not verified payment."
-  source: "https://timesofindia.indiatimes.com/city/kolkata/rain-washes-away-mirik-bridge-boy-dies-in-alipurduar/articleshow/131861397.cms"
-
-timeline:
-  - date: 2026-06-19
-    type: "red"
-    event: >-
-      The Times of India reported that incessant rain in Darjeeling district triggered landslides and flash floods on Friday, disrupting transport and connectivity and also causing the death of a four-year-old boy in Alipurduar.
-    source: "https://timesofindia.indiatimes.com/city/kolkata/rain-washes-away-mirik-bridge-boy-dies-in-alipurduar/articleshow/131861397.cms"
-    source_name: "The Times of India"
-  - date: 2026-06-19
-    type: "amber"
-    event: >-
-      The article said the 468-m temporary Hume pipe bridge over the Balason at Dudhia was washed away after a sharp rise in the water level, severing the only direct road link between Mirik and the plains.
-    source: "https://timesofindia.indiatimes.com/city/kolkata/rain-washes-away-mirik-bridge-boy-dies-in-alipurduar/articleshow/131861397.cms"
-    source_name: "The Times of India"
-  - date: 2026-06-19
-    type: "gray"
-    event: >-
-      The district administration announced Rs 4 lakh compensation for the family of the boy who died in Alipurduar and issued an Orange alert for Darjeeling district.
-    source: "https://timesofindia.indiatimes.com/city/kolkata/rain-washes-away-mirik-bridge-boy-dies-in-alipurduar/articleshow/131861397.cms"
-    source_name: "The Times of India"
-  - date: 2026-06-19
-    type: "gray"
-    event: >-
-      The report said landslides also blocked NH-110 near Mahanadi's Chowki Dara and damaged Darjeeling Himalayan Railway tracks near Paglajhora, forcing temporary suspension of full-length NJP-Darjeeling services until the track was restored.
-    source: "https://timesofindia.indiatimes.com/city/kolkata/rain-washes-away-mirik-bridge-boy-dies-in-alipurduar/articleshow/131861397.cms"
-    source_name: "The Times of India"
-
 ## Evidence map
 
 - `title` → The Times of India headline is "Rain washes away bridge in Mirik, boy dies in Alipurduar".

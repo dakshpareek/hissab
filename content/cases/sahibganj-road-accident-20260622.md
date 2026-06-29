@@ -14,27 +14,6 @@ tags: ["jharkhand", "sahibganj", "road-accident", "fatality"]
 last_updated: 2026-06-29
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen in the source set."
-  source: ""
-
-timeline:
-  - date: 2026-06-22
-    type: "red"
-    event: "The Google News RSS exact-title search feed surfaced the ThePrint headline '3 killed in road accident in Jharkhand’s Sahibganj - ThePrint'."
-    source: "https://news.google.com/rss/search?q=%223%20killed%20in%20road%20accident%20in%20Jharkhand%27s%20Sahibganj%22&hl=en-IN&gl=IN&ceid=IN:en"
-    source_name: "Google News RSS"
-  - date: 2026-06-22
-    type: "gray"
-    event: "The frozen source set did not identify any named accused, arrests, or prosecution details, so the case remains no-action."
-    source: "https://news.google.com/rss/search?q=%223%20killed%20in%20road%20accident%20in%20Jharkhand%27s%20Sahibganj%22&hl=en-IN&gl=IN&ceid=IN:en"
-    source_name: "Google News RSS"
-
 ## Evidence map
 
 - `title` → The RSS item title is `3 killed in road accident in Jharkhand’s Sahibganj - ThePrint`.

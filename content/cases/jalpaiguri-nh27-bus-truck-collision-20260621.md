@@ -13,33 +13,6 @@ tags: ["west-bengal", "jalpaiguri", "maynaguri", "road-accident", "bus-crash", "
 last_updated: 2026-06-25
 ---
 
-accused: []
-
-compensation:
-  announced: true
-  announced_amount: "Rs 5 lakh for the next of kin of those killed, Rs 1 lakh for those grievously injured, and Rs 50,000 for those who sustained minor injuries"
-  paid: "none"
-  paid_note: "No disbursement or payment confirmation was reported in the frozen source set."
-  source: "https://openthemagazine.com/india/jalpaiguri-horror-truck-slams-into-bus-on-nh-27-four-killed-29-injured"
-
-timeline:
-  - date: 2026-06-21
-    type: "red"
-    event: "Open Magazine reported that at least four people were killed and 29 others injured after a bus collided with a lorry on National Highway 27 in the Maynaguri area of Jalpaiguri district, West Bengal."
-    source: "https://openthemagazine.com/india/jalpaiguri-horror-truck-slams-into-bus-on-nh-27-four-killed-29-injured"
-    source_name: "Open Magazine"
-  - date: 2026-06-21
-    type: "gray"
-    event: "The article said police had launched an investigation, that senior officials including the Deputy Inspector General were visiting the accident site, and that injured passengers were being shifted to other medical facilities."
-    source: "https://openthemagazine.com/india/jalpaiguri-horror-truck-slams-into-bus-on-nh-27-four-killed-29-injured"
-    source_name: "Open Magazine"
-  - date: 2026-06-21
-    type: "gray"
-    event: "The article said compensation was announced for the families of the dead and for injured passengers, along with free treatment at government medical facilities."
-    source: "https://openthemagazine.com/india/jalpaiguri-horror-truck-slams-into-bus-on-nh-27-four-killed-29-injured"
-    source_name: "Open Magazine"
----
-
 ## Evidence map
 
 - `title` → The article headline is "Jalpaiguri Horror: Truck Slams Into Bus on NH-27, Four Killed, 29 Injured" and the title tag is "Jalpaiguri NH-27 Bus-Truck Crash: 4 Killed, 29 Injured in Maynaguri as Bengal CM Announces Compensation, Orders Probe".

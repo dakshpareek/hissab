@@ -9,8 +9,8 @@ injured: 500000
 accused_count: 7
 accused_gap: "Seven former plant managers were convicted in 2010, but later reporting still described the compensation and accountability outcome as incomplete."
 summary: >-
-  A methyl isocyanate leak from the Union Carbide pesticide plant in Bhopal on 3 December 1984 became one of the world's worst industrial disasters. Public reporting and historical references place the death toll at more than 15,000 over time, with roughly half a million survivors suffering long-term effects, while later legal reporting noted seven former managers convicted in 2010, a 2023 Supreme Court refusal to increase compensation, a 2025 High Court order to expedite the remaining criminal revision appeals, a 2025 CBI opposition to a retrial plea by three company officials, a 2025 High Court warning about residual ash containment near homes, a 2026 High Court direction to submit a cleanup and remediation plan within five weeks, the 337 tonnes of Union Carbide waste being fully incinerated in Pithampur, a March 2026 Supreme Court direction that the Bhopal Gas Peedith Sangharsh Sahyog Samiti approach the Madhya Pradesh High Court over mercury concerns tied to residual ash from the incinerated waste, a Deccan Herald report saying the court refused to interfere in a plea on "mercury leakage risk" from the Bhopal gas waste, a May 2026 Economic Times report saying the Supreme Court rejected the Centre's plea seeking additional compensation for victims, a May 2026 Outlook India report describing survivors battling collapsing health-care systems and delayed treatment, and a June 2026 Times of India report saying a Supreme Court panel told the government to bear the full cost of treatment for Bhopal gas survivors.
-last_updated: 2026-06-12
+  A methyl isocyanate leak from the Union Carbide pesticide plant in Bhopal on 3 December 1984 became one of the world's worst industrial disasters. Public reporting and historical references place the death toll at more than 15,000 over time, with roughly half a million survivors suffering long-term effects, while later legal reporting noted seven former managers convicted in 2010, a 2023 Supreme Court refusal to increase compensation, a 2025 High Court order to expedite the remaining criminal revision appeals, a 2025 CBI opposition to a retrial plea by three company officials, a 2025 High Court warning about residual ash containment near homes, a 2026 High Court direction to submit a cleanup and remediation plan within five weeks, the 337 tonnes of Union Carbide waste being fully incinerated in Pithampur, a March 2026 Supreme Court direction that the Bhopal Gas Peedith Sangharsh Sahyog Samiti approach the Madhya Pradesh High Court over mercury concerns tied to residual ash from the incinerated waste, a Deccan Herald report saying the court refused to interfere in a plea on "mercury leakage risk" from the Bhopal gas waste, a May 2026 Economic Times report saying the Supreme Court rejected the Centre's plea seeking additional compensation for victims, a May 2026 Outlook India report describing survivors battling collapsing health-care systems and delayed treatment, a June 2026 Times of India report saying a Supreme Court panel told the government to bear the full cost of treatment for Bhopal gas survivors, a June 2026 News On AIR item saying the Madhya Pradesh High Court would hear the Union Carbide waste burning case on Feb. 18, and a January 2026 Times of India report saying a court asked the CBI to verify whether a Union Carbide plant operator was dead.
+last_updated: 2026-06-16
 
 tags: ["bhopal", "gas-disaster", "industrial-disaster", "madhya-pradesh", "union-carbide"]
 accused:
@@ -62,6 +62,11 @@ timeline:
     event: "The Madhya Pradesh High Court directed the state to examine alternate sites far away from human habitation, vegetation, and water sources for disposing of residual ash from incinerated Bhopal Gas Tragedy waste, after noting mercury levels above permissible limits in a 2025 pollution-board report."
     source: "https://indianexpress.com/article/india/madhya-pradesh-hc-voices-concerns-state-govt-site-disposal-residual-bhopal-gas-leak-ash-10298516/"
     source_name: "The Indian Express"
+  - date: 2026-01-14
+    type: "gray"
+    event: "The Times of India reported that a court asked the CBI to verify whether a Union Carbide plant operator was dead."
+    source: "https://news.google.com/rss/articles/CBMizAFBVV95cUxOV0t3eTNZSk9abndROHFEOVZwcVZSaGpWSGtEcGdVQmdFYkNrelhCZnRjMnJaVDlvNkxoV1R1cExYOVQwQjdvVDFyYjI0WWJGT3VtSTlBbnZyLURmYUVYTUVLdUJoUmlHbGR1eGUzUXpQYVR4TFRvUVV1cU2UwR3E?oc=5"
+    source_name: "The Times of India via Google News"
   - date: 2026-03-14
     type: "gray"
     event: "The Madhya Pradesh High Court directed the state government to submit a plan within five weeks for the assessment and remediation of contaminated soil and groundwater at the defunct Union Carbide factory site after an action-taken report said officials had met to discuss time-bound remediation."
@@ -96,6 +101,11 @@ timeline:
     type: "gray"
     event: "News On AIR reported that protests continued over Union Carbide’s hazardous waste burning in Pithampur."
     source: "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEVKWjcyaE9yNUFOb1JRWUxsWnVKVHRSbE5SVGFVSVdHcjFzMXhCTzI5LUZUWUd3QkJ0THJ5aTNTb0kzbkdUa3hKOVpueWNwUFBhQnJnU3lONTNSTV9SX1c2MjB1NkdhekhxX2NIN0s4cUJMQ0IzUWRBTGhkeGI4MkhjSkJncVNua3NzVGt1QkhEMkttU1diNlhJUF82NFJlRlE?oc=5"
+    source_name: "News On AIR via Google News"
+  - date: 2026-06-11
+    type: "gray"
+    event: "News On AIR via Google News said the Madhya Pradesh High Court would hear the Union Carbide waste burning case on Feb. 18."
+    source: "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYzA4V0xpcFN3NkthcHFxZHMyNzFoUGFubFROekVkQ3ZydU5ncTFZN0tYX1JYd0hsa1JiYlRvZHVzendoQjRvM2ZTRWF6NElCcS0xeUtGSVdIbGV5NFZWSHFjdXgzeDltSHhNbF9PS25na2diRHBvZFVLUWg3RFpQU0w2TWhUc3pEYWlucmlJOEFBMndW?oc=5"
     source_name: "News On AIR via Google News"
 ---
 

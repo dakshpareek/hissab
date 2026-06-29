@@ -14,27 +14,6 @@ tags: ["assam", "karbi-anglong", "bokajan", "iaf", "sukhoi-30mki", "aircraft-cra
 last_updated: 2026-06-29
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen for this draft."
-  source: ""
-
-timeline:
-  - date: 2026-03-06
-    type: "red"
-    event: "News On AIR reported that an Indian Air Force Sukhoi-30MKI fighter jet crashed at Inglong Ekopi Hill in Bokajan Sub Division of Karbi Anglong during a routine training mission about 60 km from Jorhat Air Base, and that locals recovered the two dead bodies of the pilots."
-    source: "https://newsonair.gov.in/indian-air-force-sukhoi-30mki-jet-crashes-in-assam/"
-    source_name: "News On AIR"
-  - date: 2026-03-06
-    type: "gray"
-    event: "The same News On AIR report said Defence Minister Rajnath Singh expressed grief over the loss of Squadron Leader Anuj and Flight Lieutenant Purvesh Duragkar."
-    source: "https://newsonair.gov.in/indian-air-force-sukhoi-30mki-jet-crashes-in-assam/"
-    source_name: "News On AIR"
-
 ## Evidence map
 
 - `title` → The article headline is "Indian Air Force Sukhoi-30MKI Jet Crashes in Assam".

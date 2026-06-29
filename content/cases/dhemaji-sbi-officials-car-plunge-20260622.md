@@ -12,7 +12,6 @@ summary: >-
   Google News RSS surfaced a Northeast Live item reporting that two SBI officials were killed after a car plunged into a pond in Dhemaji, Assam, on 22 June 2026. The frozen source set does not identify any named accused, arrests, prosecution details, or an injured count, so the case remains no-action.
 tags: ["assam", "dhemaji", "sbi", "car-plunge", "fatality"]
 last_updated: 2026-06-29
----
 
 accused: []
 
@@ -34,7 +33,7 @@ timeline:
     event: "The same RSS item identified Northeast Live as the publisher and showed pubDate 'Mon, 22 Jun 2026 07:08:22 GMT'."
     source: "https://news.google.com/rss/search?q=Assam+Two+SBI+Officials+Killed+After+Car+Plunges+Into+Pond+in+Dhemaji&hl=en-IN&gl=IN&ceid=IN:en"
     source_name: "Google News RSS"
-
+---
 ## Evidence map
 
 - `title` → The Google News RSS item title is `Assam: Two SBI Officials Killed After Car Plunges Into Pond in Dhemaji - Northeast Live`.

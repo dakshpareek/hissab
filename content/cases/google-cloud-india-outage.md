@@ -14,27 +14,6 @@ tags: ["india", "google-cloud", "outage", "data-centre-fire", "infrastructure", 
 last_updated: 2026-06-28
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen for this draft."
-  source: ""
-
-timeline:
-  - date: 2026-06-09
-    type: "gray"
-    event: "Google News RSS surfaced a Reuters headline reporting a Google Cloud outage in India after a third-party data centre fire triggered shutdown."
-    source: "https://news.google.com/rss/search?q=Google+Cloud+outage+in+India+after+third-party+data+centre+fire+triggers+shutdown+Reuters&hl=en-IN&gl=IN&ceid=IN:en"
-    source_name: "Google News RSS / Reuters"
-  - date: 2026-06-09
-    type: "blue"
-    event: "The same Google News RSS query also surfaced a TradingView republication with the same Reuters headline."
-    source: "https://news.google.com/rss/search?q=Google+Cloud+outage+in+India+after+third-party+data+centre+fire+triggers+shutdown+Reuters&hl=en-IN&gl=IN&ceid=IN:en"
-    source_name: "Google News RSS / TradingView"
-
 ## Evidence map
 
 - `title` → The frozen RSS feed item title is "Google Cloud outage in India after third-party data centre fire triggers shutdown - Reuters".

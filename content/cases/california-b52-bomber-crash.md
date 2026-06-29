@@ -14,32 +14,6 @@ tags: ["california", "edwards-air-force-base", "b-52", "aviation", "aircraft-cra
 last_updated: 2026-06-26
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen for this draft."
-  source: ""
-
-timeline:
-  - date: 2026-06-15
-    type: "red"
-    event: "AP reported that a B-52 bomber crashed shortly after takeoff at a U.S. Air Force base in Southern California's Mojave Desert and burst into flames, killing all eight people aboard."
-    source: "https://apnews.com/article/b52-crash-california-edwards-air-force-base-ea237a6eec587adbbf9e7a578014ca93"
-    source_name: "AP News"
-  - date: 2026-06-15
-    type: "amber"
-    event: "The Guardian said the B-52 was carrying eight people on a routine test mission and crashed shortly after take-off at 11:20 a.m. at Edwards air force base."
-    source: "https://www.theguardian.com/us-news/2026/jun/15/b52-bomber-crash-california-military-base"
-    source_name: "The Guardian"
-  - date: 2026-06-15
-    type: "gray"
-    event: "The Guardian said initial indications were that the crash was not survivable and that emergency response personnel were on scene while officials worked to account for all personnel."
-    source: "https://www.theguardian.com/us-news/2026/jun/15/b52-bomber-crash-california-military-base"
-    source_name: "The Guardian"
-
 ## Evidence map
 
 - `title` → The Guardian headline is "Eight presumed dead after B-52 bomber crashes at California air force base" and AP's headline is "8 people died in B-52 bomber crash at US Air Force base in Southern California, officials say".

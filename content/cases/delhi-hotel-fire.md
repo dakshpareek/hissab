@@ -14,22 +14,6 @@ tags: ["delhi", "india", "fire", "hotel-fire", "fatality"]
 last_updated: 2026-06-27
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen for this draft."
-  source: ""
-
-timeline:
-  - date: 2026-06-03
-    type: "red"
-    event: "Google News RSS surfaced the Reuters headline 'Twelve foreign nationals among 21 killed in Delhi hotel fire - Reuters'."
-    source: "https://news.google.com/rss/search?q=%22Twelve+foreign+nationals+among+21+killed+in+Delhi+hotel+fire%22+Reuters&hl=en-IN&gl=IN&ceid=IN:en"
-    source_name: "Reuters via Google News RSS"
-
 ## Evidence map
 
 - `title` → The frozen Google News RSS item title is 'Twelve foreign nationals among 21 killed in Delhi hotel fire - Reuters'.

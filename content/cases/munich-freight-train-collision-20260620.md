@@ -14,29 +14,6 @@ tags: ["germany", "munich", "train-collision", "freight-train", "rail-accident"]
 last_updated: 2026-06-27
 ---
 
-accused: []
-
-compensation:
-  announced: false
-  announced_amount: ""
-  paid: "none"
-  paid_note: "No compensation reporting was frozen for this draft."
-  source: ""
-
-timeline:
-  - date: 2026-06-20
-    type: "red"
-    event: >-
-      Reuters reported that one person died after two cargo trains collided on a bridge in Munich in the early hours of 20 June 2026, causing two carriages to derail and crash onto the street below.
-    source: "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/"
-    source_name: "Reuters"
-  - date: 2026-06-20
-    type: "gray"
-    event: >-
-      Reuters said the cause of the collision was under investigation and that emergency services were alerted at 1:40 a.m. with around 60 first responders dispatched to the scene.
-    source: "https://www.reuters.com/world/one-dead-after-freight-trains-collide-munich-2026-06-20/"
-    source_name: "Reuters"
-
 ## Evidence map
 
 - `title` → The Reuters headline is "One dead after freight trains collide in Munich".
