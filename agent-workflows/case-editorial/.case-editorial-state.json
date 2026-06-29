@@ -1,99 +1,110 @@
 {
-  "case_slug": "qatarenergy-ras-laffan-explosion",
-  "case_file": "content/cases/qatarenergy-ras-laffan-explosion.md",
+  "case_slug": "tiruvallur-ammonia-gas-leak",
+  "case_file": "content/cases/tiruvallur-ammonia-gas-leak.md",
   "queue_signal": {
-    "signal_id": "qatarenergy-ras-laffan-explosion-20260621-operational-incident",
-    "case_id": "qatarenergy-ras-laffan-explosion-20260621",
+    "signal_id": "tiruvallur-ammonia-gas-leak-20260622-statewide-review",
+    "case_id": "tiruvallur-ammonia-gas-leak",
     "score": "medium",
-    "reason_category": "incident_confirmation",
-    "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVEpHT2xJU1Q4YzctVVV0Rm1QLUJScnZvbUl0aWhtRUhhb3ktV2pzSFlfVGRBSGc3R214WnoyS3pFLU1lNTBXZU9ES1FRR2VvYjY3THZ0YVB2UlBiWDRSRHlBRE1GdndYR3NJVFFPeVZfWWpiQU1hUjBZTm5RWGFtemdTUVJyamJJXzd3d2FBYlRjZGtuQjhMNTJkM3hIa1d3SzhOWC05RTBmd0FQYWR6RGlB0gG4AUFVX3lxTE5BcTQwa1Q3UUtqRXliTVR1SG9HSEFGaE1CNEJUclh4NWdpa1hhSFZEcm9lZ3RpdzhjS2szeVljeTdpRWw3YURmcm9aNVFuaGthQUo4S1hyLTU5T1RHOXlXNzc1bi1Wc3lwTno2RjhLZjZXU0VLY2E0XzZHbnVXbnFSNklJVE14ZzQzMHlCaUoyeUUySnBPek5RUGRWS2I3MjNBa2s4VTlCWGpLVW82NEhhc0Vhcm9vVWE?oc=5",
-    "article_date": "2026-06-21T20:51:20+00:00",
-    "headline_snippet": "QatarEnergy says ‘operational incident’ causes explosion at Ras Laffan - The Hindu",
-    "captured_at": "2026-06-22T05:14:03+05:30",
+    "reason_category": "official_scrutiny",
+    "source_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQTFVoR00xcElLVno1Z0c0WkRjY01XVUtRSFBjN0RsTE5pdHlzeHhwUlQtc3FwQVJkenRFSmJJcnRzNjdOY011VGxiSHM5VUVpQU5JX2lYczh1eVFZcF80cGMzV0ZlVnJqcGhDeGw0X3FsOWFoY1l4SkxERGkzN0JWWlcwUktGaVVvNkQ3MG1ZbEl0bFFoODJyR29HSzZEdGxVYWNlNTlMZlB5ZFNHTERVTC1MYk5HbGlycHRSSzZQNFVUejN2T0lBVTZDNkNlTmFFS0w2UFFJazl6bzhULVRUZmVKMkFHWDdYa0pLaTFzT3lkU056R2QzbC1JSXEtc2xZb3c?oc=5",
+    "article_date": "2026-06-22T09:00:00Z",
+    "headline_snippet": "Tamil Nadu CM orders statewide review of hazardous industries following Tiruvallur ammonia gas leak accident - ANI News",
+    "captured_at": "2026-06-30T04:16:41+05:30",
     "status": "done",
-    "dedupe_key": "qatarenergy-ras-laffan-explosion-20260621|https://news.google.com/rss/articles/CBMisgFBVV95cUxNVEpHT2xJU1Q4YzctVVV0Rm1QLUJScnZvbUl0aWhtRUhhb3ktV2pzSFlfVGRBSGc3R214WnoyS3pFLU1lNTBXZU9ES1FRR2VvYjY3THZ0YVB2UlBiWDRSRHlBRE1GdndYR3NJVFFPeVZfWWpiQU1hUjBZTm5RWGFtemdTUVJyamJJXzd3d2FBYlRjZGtuQjhMNTJkM3hIa1d3SzhOWC05RTBmd0FQYWR6RGlB0gG4AUFVX3lxTE5BcTQwa1Q3UUtqRXliTVR1SG9HSEFGaE1CNEJUclh4NWdpa1hhSFZEcm9lZ3RpdzhjS2szeVljeTdpRWw3YURmcm9aNVFuaGthQUo4S1hyLTU5T1RHOXlXNzc1bi1Wc3lwTno2RjhLZjZXU0VLY2E0XzZHbnVXbnFSNklJVE14ZzQzMHlCaUoyeUUySnBPek5RUGRWS2I3MjNBa2s4VTlCWGpLVW82NEhhc0Vhcm9vVWE?oc=5"
+    "dedupe_key": "tiruvallur-ammonia-gas-leak|https://news.google.com/rss/articles/CBMiggJBVV95cUxQTFVoR00xcElLVno1Z0c0WkRjY01XVUtRSFBjN0RsTE5pdHlzeHhwUlQtc3FwQVJkenRFSmJJcnRzNjdOY011VGxiSHM5VUVpQU5JX2lYczh1eVFZcF80cGMzV0ZlVnJqcGhDeGw0X3FsOWFoY1l4SkxERGkzN0JWWlcwUktGaVVvNkQ3MG1ZbEl0bFFoODJyR29HSzZEdGxVYWNlNTlMZlB5ZFNHTERVTC1MYk5HbGlycHRSSzZQNFVUejN2T0lBVTZDNkNlTmFFS0w2UFFJazl6bzhULVRUZmVKMkFHWDdYa0pLaTFzT3lkU056R2QzbC1JSXEtc2xZb3c?oc=5"
   },
   "queue_claim": {
-    "claim_id": "qatarenergy-ras-laffan-explosion-20260621",
-    "claimed_at": "2026-06-27T14:06:47+05:30",
+    "claim_id": "tiruvallur-ammonia-gas-leak-20260622-statewide-review",
+    "claimed_at": "2026-06-30T04:16:41+05:30",
     "queue_name": "agent-workflows/case-queue/update-queue.json"
   },
   "record_snapshot": {
-    "incident_name": "QatarEnergy Ras Laffan Explosion",
-    "incident_location": "Ras Laffan, Qatar",
-    "incident_date": "2026-06-21",
-    "known_aliases": ["QatarEnergy Ras Laffan blast", "Ras Laffan explosion", "Qatar LNG facility blast"],
-    "selected_identity_source": "queue signal headline plus frozen Google News RSS items from The Hindu, ThePrint, Reuters, and Al Jazeera",
-    "current_case_file": null
+    "title": "Tiruvallur Ammonia Gas Leak",
+    "date": "2026-06-21",
+    "location": "Kannigaipair, near Periyapalayam, Tiruvallur district, Tamil Nadu",
+    "category": "other",
+    "status": "no-action",
+    "deaths": 7,
+    "injured": 67,
+    "accused_count": null,
+    "accused_gap": "No public accused named or arrests reported in the frozen source set.",
+    "summary": "Seven migrant workers died and 67 affected workers were rushed to local medical centres after an ammonia gas leak at St Peter’s Paul Seafoods Exports Private Limited near Periyapalayam in Tiruvallur district, Tamil Nadu. The Indian Express reported that the leak spread through the residential area inside the factory campus, that about 120 migrant workers — mostly women from Assam, Odisha, and Jharkhand — were staying there, that nine critically ill patients were later moved to Government Stanley Medical College Hospital in Chennai, and that the chief minister ordered a probe. A later Google News RSS item from The Hindu said Vijay formed a three-member committee to probe the ammonia leak at the seafood processing unit in Tiruvallur district.",
+    "tags": [
+      "tiruvallur",
+      "tamil-nadu",
+      "ammonia-leak",
+      "seafood-factory",
+      "industrial-accident",
+      "periyapalayam"
+    ],
+    "last_updated": "2026-06-28",
+    "current_case_file": "content/cases/tiruvallur-ammonia-gas-leak.md",
+    "snapshot_at": "2026-06-30T04:16:41+05:30"
   },
   "duplicate_guard": {
-    "matched": false,
-    "match_slug": null,
-    "reason": "No exact or near-duplicate case record was found in content/cases.",
+    "matched": true,
+    "match_slug": "tiruvallur-ammonia-gas-leak",
+    "reason": "The queue item matched the existing Tiruvallur ammonia gas leak case file, so the run proceeded as an update rather than a new-case creation.",
     "evidence": [
-      "Repo search for qatar, Ras Laffan, QatarEnergy, and LNG blast terms found no existing case file.",
-      "The closest related files in the repo were unrelated fire, crash, or explosion cases in other jurisdictions."
+      "Repo search found content/cases/tiruvallur-ammonia-gas-leak.md before any source work.",
+      "The current case file already contained the 21 June 2026 incident record and related follow-up timeline entries."
     ]
   },
   "frozen_sources": [
     {
-      "source_name": "Google News RSS search",
-      "source_url": "https://news.google.com/rss/search?q=QatarEnergy+says+operational+incident+causes+explosion+at+Ras+Laffan&hl=en-IN&gl=IN&ceid=IN:en",
-      "publication_name": "Google News / The Hindu",
-      "frozen_path": "C:/Users/rdpuser/projects/hissab/agent-workflows/case-editorial/references/cases/qatarenergy-ras-laffan-explosion-20260621/2026-06-27-qatarenergy-ras-laffan-explosion-20260621-google-news-rss-search.xml",
-      "frozen_at": "2026-06-27T14:06:47+05:30",
-      "status": "fallback",
-      "sha256": "fc0e9f1588e51d5eb39fbe03fedb54068988a5962e68362afad453d7c9138a74"
+      "source_name": "Google News article wrapper",
+      "source_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQTFVoR00xcElLVno1Z0c0WkRjY01XVUtRSFBjN0RsTE5pdHlzeHhwUlQtc3FwQVJkenRFSmJJcnRzNjdOY011VGxiSHM5VUVpQU5JX2lYczh1eVFZcF80cGMzV0ZlVnJqcGhDeGw0X3FsOWFoY1l4SkxERGkzN0JWWlcwUktGaVVvNkQ3MG1ZbEl0bFFoODJyR29HSzZEdGxVYWNlNTlMZlB5ZFNHTERVTC1MYk5HbGlycHRSSzZQNFVUejN2T0lBVTZDNkNlTmFFS0w2UFFJazl6bzhULVRUZmVKMkFHWDdYa0pLaTFzT3lkU056R2QzbC1JSXEtc2xZb3c?oc=5",
+      "publication_name": "Google News",
+      "frozen_path": "agent-workflows/case-editorial/references/cases/tiruvallur-ammonia-gas-leak/2026-06-30-tiruvallur-ammonia-gas-leak-20260622-ani-news-wrapper.html",
+      "frozen_at": "2026-06-30T04:20:39+05:30",
+      "status": "ok",
+      "sha256": "651e43e72883a98c9cab70df8883cfec72c4c17e3baeb4833ec35e5d1654782e"
     },
     {
-      "source_name": "Reuters-focused Google News RSS search",
-      "source_url": "https://news.google.com/rss/search?q=QatarEnergy+Ras+Laffan+explosion+Reuters&hl=en-IN&gl=IN&ceid=IN:en",
-      "publication_name": "Google News / Reuters",
-      "frozen_path": "C:/Users/rdpuser/projects/hissab/agent-workflows/case-editorial/references/cases/qatarenergy-ras-laffan-explosion-20260621/2026-06-27-qatarenergy-ras-laffan-explosion-20260621-reuters-rss-search.xml",
-      "frozen_at": "2026-06-27T14:06:47+05:30",
-      "status": "fallback",
-      "sha256": "ff75044abcaa08672a7ceb72a2c45858033ce3211d128f125422d1c54fac0dac"
+      "source_name": "Google News exact-title RSS search feed",
+      "source_url": "https://news.google.com/rss/search?q=Tamil%20Nadu%20CM%20orders%20statewide%20review%20of%20hazardous%20industries%20following%20Tiruvallur%20ammonia%20gas%20leak%20accident&hl=en-IN&gl=IN&ceid=IN:en",
+      "publication_name": "Google News RSS",
+      "frozen_path": "agent-workflows/case-editorial/references/cases/tiruvallur-ammonia-gas-leak/2026-06-30-tiruvallur-ammonia-gas-leak-20260622-ani-news-rss.xml",
+      "frozen_at": "2026-06-30T04:20:39+05:30",
+      "status": "ok",
+      "sha256": "f746e9b4a49fd0cb25b4664b193802fc92e5314687e5d6eb7c2680013ae2f9c8"
     }
   ],
   "identity_gate": {
     "verdict": "MATCH",
-    "notes": "The frozen RSS items align with the queue signal on location, date, and incident type, while preserving the wording differences between technical/operational incident and blast/fatality coverage.",
+    "notes": "The frozen Google News RSS title and wrapper align on the same Tiruvallur ammonia gas leak incident and a later official-scrutiny update from ANI News. The update is consistent with the existing case record and does not alter casualty facts.",
     "supporting_quotes": [
-      "QatarEnergy says ‘technical incident’ causes explosion at Ras Laffan - The Hindu",
-      "QatarEnergy says ‘operational incident’ causes explosion at Ras Laffan - ThePrint",
-      "Thirteen dead, dozens injured, after blast inside Qatar's Ras Laffan complex - Reuters",
-      "Explosion at Qatar’s Ras Laffan LNG facility kills at least 13 - Al Jazeera"
+      "Tamil Nadu CM orders statewide review of hazardous industries following Tiruvallur ammonia gas leak accident - ANI News",
+      "Mon, 22 Jun 2026 09:00:00 GMT"
     ]
   },
   "extraction_record": {
     "field_updates": {
-      "title": "QatarEnergy Ras Laffan Explosion",
-      "date": "2026-06-21",
-      "location": "Ras Laffan, Qatar",
-      "category": "other",
-      "status": "no-action",
-      "deaths": 13,
-      "injured": null,
-      "accused_count": null,
-      "accused_gap": "No named accused, arrests, or prosecution details were identified in the frozen source set.",
-      "summary": "Google News RSS results showed The Hindu and ThePrint describing a technical or operational incident at Ras Laffan, while Reuters and Al Jazeera reported a blast in Qatar's Ras Laffan complex or LNG facility that killed at least 13 and injured dozens. The frozen source set does not identify any named accused, arrests, or prosecution details.",
-      "tags": ["qatar", "ras-laffan", "qatarenergy", "explosion", "lng-facility", "fatality"],
-      "last_updated": "2026-06-27"
-    }
+      "summary": "Seven migrant workers died and 67 affected workers were rushed to local medical centres after an ammonia gas leak at St Peter’s Paul Seafoods Exports Private Limited near Periyapalayam in Tiruvallur district, Tamil Nadu. The Indian Express reported that the leak spread through the residential area inside the factory campus, that about 120 migrant workers — mostly women from Assam, Odisha, and Jharkhand — were staying there, that nine critically ill patients were later moved to Government Stanley Medical College Hospital in Chennai, and that the chief minister ordered a probe. A later Google News RSS item from The Hindu said Vijay formed a three-member committee to probe the ammonia leak at the seafood processing unit in Tiruvallur district. A 22 June 2026 Google News RSS item from ANI News added that the Tamil Nadu chief minister ordered a statewide review of hazardous industries following the accident.",
+      "last_updated": "2026-06-30"
+    },
+    "evidence_map": [
+      {
+        "field_name": "summary",
+        "value": "Seven migrant workers died and 67 affected workers were rushed to local medical centres after an ammonia gas leak at St Peter’s Paul Seafoods Exports Private Limited near Periyapalayam in Tiruvallur district, Tamil Nadu. The Indian Express reported that the leak spread through the residential area inside the factory campus, that about 120 migrant workers — mostly women from Assam, Odisha, and Jharkhand — were staying there, that nine critically ill patients were later moved to Government Stanley Medical College Hospital in Chennai, and that the chief minister ordered a probe. A later Google News RSS item from The Hindu said Vijay formed a three-member committee to probe the ammonia leak at the seafood processing unit in Tiruvallur district. A 22 June 2026 Google News RSS item from ANI News added that the Tamil Nadu chief minister ordered a statewide review of hazardous industries following the accident.",
+        "source_url": "https://news.google.com/rss/search?q=Tamil%20Nadu%20CM%20orders%20statewide%20review%20of%20hazardous%20industries%20following%20Tiruvallur%20ammonia%20gas%20leak%20accident&hl=en-IN&gl=IN&ceid=IN:en",
+        "exact_quote": "Tamil Nadu CM orders statewide review of hazardous industries following Tiruvallur ammonia gas leak accident - ANI News"
+      },
+      {
+        "field_name": "summary",
+        "value": "Seven migrant workers died and 67 affected workers were rushed to local medical centres after an ammonia gas leak at St Peter’s Paul Seafoods Exports Private Limited near Periyapalayam in Tiruvallur district, Tamil Nadu. The Indian Express reported that the leak spread through the residential area inside the factory campus, that about 120 migrant workers — mostly women from Assam, Odisha, and Jharkhand — were staying there, that nine critically ill patients were later moved to Government Stanley Medical College Hospital in Chennai, and that the chief minister ordered a probe. A later Google News RSS item from The Hindu said Vijay formed a three-member committee to probe the ammonia leak at the seafood processing unit in Tiruvallur district. A 22 June 2026 Google News RSS item from ANI News added that the Tamil Nadu chief minister ordered a statewide review of hazardous industries following the accident.",
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtdTE1VjJhUU5adkNoa09GbDdQUWFFUW42aW5ySTcta0NiUVFmRG1wbGdmT2hGd21KVm9nT2NTS04yb2dhcml1a25NV3c3cXBQUnNOVkxMR1IyWU5OU2h3bHhRcU83d2xi?oc=5",
+        "exact_quote": "Vijay forms three-member committee to probe ammonia leak at seafood processing unit in Tiruvallur district - The Hindu"
+      }
+    ]
   },
-  "conflict_notes": [
-    "The Hindu and ThePrint describe the event as a technical or operational incident, while Reuters and Al Jazeera describe a blast with at least 13 dead; the record keeps the incident unified as the Ras Laffan explosion and does not split it into separate cases.",
-    "Reuters and Al Jazeera report at least 13 deaths, but the frozen set does not provide a precise injured count, so injured remains null."
-  ],
+  "conflict_notes": [],
+  "draft_diff": "Updated content/cases/tiruvallur-ammonia-gas-leak.md to add a 22 June 2026 blue timeline note for the ANI News Google News RSS item reporting that the Tamil Nadu chief minister ordered a statewide review of hazardous industries after the Tiruvallur ammonia gas leak accident, and updated the summary and last_updated fields accordingly without changing unsupported accused or casualty facts.",
   "critic_review": {
     "verdict": "APPROVED",
     "rejected_claims": [],
     "required_fixes": [],
-    "notes": [
-      "The draft stays within the frozen Google News RSS source set and does not invent any accused, compensation, or exact injured-count details.",
-      "Deaths are supported by Reuters and Al Jazeera item titles in the frozen feeds.",
-      "The wording variation between technical/operational incident and blast/fatality coverage is preserved as source variation."
-    ]
+    "notes": "All populated fields in the draft case file remain directly supported by the frozen Indian Express article and the frozen Google News RSS search feed. The new blue timeline item is limited to the ANI News headline surfaced by Google News RSS, and the draft keeps unsupported accused details at null while preserving the existing casualty counts and no-action status."
   },
   "validation": {
     "yaml_valid": true,
@@ -101,12 +112,7 @@
     "build_ok": true,
     "duplicate_check_ok": true,
     "passed": true,
-    "notes": [
-      "Hugo built successfully after the case file write.",
-      "The frozen Google News RSS search feeds match the queue signal and selected incident identity.",
-      "No exact or near-duplicate case record was found in content/cases.",
-      "The draft keeps unsupported accused and injured facts at null."
-    ]
+    "notes": "The case file frontmatter parses cleanly, the frozen sources include the existing Indian Express article plus the new Google News RSS article-wrapper/search-feed pair for the ANI News statewide-review update, repository search found the existing Tiruvallur case record so the run updated rather than duplicated it, and the Hugo build completed successfully."
   },
   "commit_ready": true,
   "pushed_to_remote": false
