@@ -1,0 +1,171 @@
+---
+case_slug: barnala-iol-chemicals-fire-20260610
+case_file: content/cases/barnala-iol-chemicals-fire-20260610.md
+queue_signal:
+  signal_id: barnala-iol-chemicals-fire-20260610
+  case_id: barnala-iol-chemicals-fire-20260610
+  score: medium
+  reason_category: incident_confirmation
+  source_url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQRDlwaG9KUEJvR3RfQmFYMk9LMkMzcmQ0eW9PeG5wRW1jSFBCOW5URVdzN2NsMmljSDI2UHp1TzRraldwR3hlVU9pMjFxRzFZNHpSUkROVFpCYkkzdDRKdkM0T0ZLUExrV0R0VC16aWFqMlcyTFdaM1UwZDZOZXR3VU9Cdk9Db0xUbzBXb2ZPQWdEM2hkcXltdkhOTElTVUIxeEFmQ2gwVVY5LXltVmZzSXlJSzhtTTJ6NWt5a0ZjZG85V1JOTzd3X00yN0lPZElyUGRwNy16aFhKZVZMbDU4WlNEMWd3WjTSAewBQVVfeXFMUFAtVTJUMnhnYi1XX2puQVBOaEVUZjNJTTFpMEM4MEJ5WGRoVklaMERVUGRIZTNMbklVSzVydEYwWnpzVk9yc1RxOVBqZ0JkcVFlSHVJSnFhbFQ2bmgyTFJWWHlzT3hiOUh0YWlhZFlRamJjWC1Ca1Z5c2tRbm9RQ3lqblBUYkwtUmhsdW1hbHNPZ0hSUS1CbnplaGtuSHJ6RXlIdU5xWFNXRHF4WDNpYy1ka0NqM1RWX0FmdXRRdFhFSGJHU1VLOUpzOXE0eXNfZ2VyZXpWYWZmN1FaX2gxazhobXFRYm1FQ2c5ajA?oc=5
+  article_date: 2026-06-10T07:00:00+00:00
+  headline_snippet: IOL Chemicals reports minor fire incident at Minoxidil manufacturing unit in Punjab - CNBC TV18
+  captured_at: 2026-06-30T13:40:05+05:30
+  status: processing
+  dedupe_key: barnala-iol-chemicals-fire-20260610|https://news.google.com/rss/articles/CBMi5wFBVV95cUxQRDlwaG9KUEJvR3RfQmFYMk9LMkMzcmQ0eW9PeG5wRW1jSFBCOW5URVdzN2NsMmljSDI2UHp1TzRraldwR3hlVU9pMjFxRzFZNHpSUkROVFpCYkkzdDRKdkM0T0ZLUExrV0R0VC16aWFqMlcyTFdaM1UwZDZOZXR3VU9Cdk9Db0xUbzBXb2ZPQWdEM2hkcXltdkhOTElTVUIxeEFmQ2gwVVY5LXltVmZzSXlJSzhtTTJ6NWt5a0ZjZG85V1JOTzd3X00yN0lPZElyUGRwNy16aFhKZVZMbDU4WlNEMWd3WjTSAewBQVVfeXFMUFAtVTJUMnhnYi1XX2puQVBOaEVUZjNJTTFpMEM4MEJ5WGRoVklaMERVUGRIZTNMbklVSzVydEYwWnpzVk9yc1RxOVBqZ0JkcVFlSHVJSnFhbFQ2bmgyTFJWWHlzT3hiOUh0YWlhZFlRamJjWC1Ca1Z5c2tRbm9RQ3lqblBUYkwtUmhsdW1hbHNPZ0hSUS1CbnplaGtuSHJ6RXlIdU5xWFNXRHF4WDNpYy1ka0NqM1RWX0FmdXRRdFhFSGJHU1VLOUpzOXE0eXNfZ2VyZXpWYWZmN1FaX2gxazhobXFRYm1FQ2c5ajA?oc=5
+queue_claim:
+  claim_id: barnala-iol-chemicals-fire-20260610
+  claimed_at: 2026-06-30T13:40:05+05:30
+  queue_name: agent-workflows/case-queue/update-queue.json
+record_snapshot:
+  incident_name: IOL Chemicals Barnala Fire
+  incident_location: Barnala, Punjab
+  incident_date: '2026-06-10'
+  known_aliases:
+    - IOL Chemicals reports minor fire incident at Minoxidil manufacturing unit in Punjab
+    - Fire and explosion at IOL Chemicals plant in Barnala
+    - Explosion & fire at pharma unit in Barnala, no casualty
+  selected_identity_source: Google News exact-title RSS feed plus Barnala search feed and Google News article wrapper shell
+  current_case_file: null
+  snapshot_at: 2026-06-30T13:40:05+05:30
+duplicate_guard:
+  matched: false
+  match_slug: null
+  reason: No exact or near-duplicate case file was found in content/cases for the Barnala IOL Chemicals fire. Repo search found no existing Barnala or IOL Chemicals case record before source work.
+  evidence:
+    - Repo search found no existing case file matching Barnala, IOL Chemicals, or Minoxidil.
+    - The closest industrial-fire records in the repository concern different incidents in other locations.
+frozen_sources:
+  - source_name: Google News exact-title RSS search feed
+    source_url: https://news.google.com/rss/search?q=%22IOL+Chemicals+reports+minor+fire+incident+at+Minoxidil+manufacturing+unit+in+Punjab%22&hl=en-IN&gl=IN&ceid=IN:en
+    publication_name: Google News RSS
+    frozen_path: C:/Users/rdpuser/projects/hissab/agent-workflows/case-editorial/references/cases/barnala-iol-chemicals-fire-20260610/2026-06-30/barnala-iol-chemicals-fire-20260610-google-news-rss-exact-title.xml
+    frozen_at: 2026-06-30T13:42:30+05:30
+    status: ok
+    sha256: 95b45f14f31c75b787cf85c01d1479eb5165e4c454b0244307c93eba16d3d0ef
+  - source_name: Google News Barnala search RSS feed
+    source_url: https://news.google.com/rss/search?q=IOL+Chemicals+Barnala+fire&hl=en-IN&gl=IN&ceid=IN:en
+    publication_name: Google News RSS
+    frozen_path: C:/Users/rdpuser/projects/hissab/agent-workflows/case-editorial/references/cases/barnala-iol-chemicals-fire-20260610/2026-06-30/barnala-iol-chemicals-fire-20260610-google-news-rss-barnala-search.xml
+    frozen_at: 2026-06-30T13:42:30+05:30
+    status: ok
+    sha256: 49a82312cb53ba6f9619da68861a42505d7ab57832e94d9c6b10e2365a33e4bb
+  - source_name: Google News article wrapper
+    source_url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQRDlwaG9KUEJvR3RfQmFYMk9LMkMzcmQ0eW9PeG5wRW1jSFBCOW5URVdzN2NsMmljSDI2UHp1TzRraldwR3hlVU9pMjFxRzFZNHpSUkROVFpCYkkzdDRKdkM0T0ZLUExrV0R0VC16aWFqMlcyTFdaM1UwZDZOZXR3VU9Cdk9Db0xUbzBXb2ZPQWdEM2hkcXltdkhOTElTVUIxeEFmQ2gwVVY5LXltVmZzSXlJSzhtTTJ6NWt5a0ZjZG85V1JOTzd3X00yN0lPZElyUGRwNy16aFhKZVZMbDU4WlNEMWd3WjTSAewBQVVfeXFMUFAtVTJUMnhnYi1XX2puQVBOaEVUZjNJTTFpMEM4MEJ5WGRoVklaMERVUGRIZTNMbklVSzVydEYwWnpzVk9yc1RxOVBqZ0JkcVFlSHVJSnFhbFQ2bmgyTFJWWHlzT3hiOUh0YWlhZFlRamJjWC1Ca1Z5c2tRbm9RQ3lqblBUYkwtUmhsdW1hbHNPZ0hSUS1CbnplaGtuSHJ6RXlIdU5xWFNXRHF4WDNpYy1ka0NqM1RWX0FmdXRRdFhFSGJHU1VLOUpzOXE0eXNfZ2VyZXpWYWZmN1FaX2gxazhobXFRYm1FQ2c5ajA?oc=5
+    publication_name: Google News
+    frozen_path: C:/Users/rdpuser/projects/hissab/agent-workflows/case-editorial/references/cases/barnala-iol-chemicals-fire-20260610/2026-06-30/barnala-iol-chemicals-fire-20260610-google-news-wrapper.html
+    frozen_at: 2026-06-30T13:42:30+05:30
+    status: ok
+    sha256: bfc741a8e45a8068285cb236ef9b0c2e1bfb34bdae747e8c03f172e47349e711
+identity_gate:
+  verdict: MATCH
+  notes: The exact-title Google News RSS feed preserves the CNBC TV18 headline and a pubDate matching 10 June 2026. The Barnala search feed adds a related no-casualty title cluster for the same incident.
+  supporting_quotes:
+    - IOL Chemicals reports minor fire incident at Minoxidil manufacturing unit in Punjab - CNBC TV18
+    - Wed, 10 Jun 2026 07:00:00 GMT
+    - Explosion & fire at pharma unit in Barnala, no casualty - The Times of India
+    - Explosion at IOL Chemicals and Pharmaceuticals Ltd in Barnala; no casualties reported - The Tribune
+extraction_record:
+  field_updates:
+    title: Barnala IOL Chemicals Fire
+    date: '2026-06-10'
+    location: Barnala, Punjab
+    category: fire
+    status: no-action
+    deaths: 0
+    injured: 0
+    accused_count: null
+    accused_gap: No public accused, arrests, or prosecution details were identified in the frozen source set.
+    summary: Google News RSS surfaced CNBC TV18's report that IOL Chemicals reported a minor fire incident at its Minoxidil manufacturing unit in Punjab. A related Google News RSS result from The Times of India reported an explosion and fire at a pharma unit in Barnala with no casualty, and another related result from The Tribune said no casualties were reported.
+    tags:
+      - punjab
+      - barnala
+      - fire
+      - industrial-fire
+      - chemical-fire
+      - pharma-unit
+      - no-casualty
+    last_updated: 2026-06-30
+  evidence_map:
+    - field_name: title
+      value: Barnala IOL Chemicals Fire
+      source_url: https://news.google.com/rss/search?q=%22IOL+Chemicals+reports+minor+fire+incident+at+Minoxidil+manufacturing+unit+in+Punjab%22&hl=en-IN&gl=IN&ceid=IN:en
+      exact_quote: IOL Chemicals reports minor fire incident at Minoxidil manufacturing unit in Punjab - CNBC TV18
+    - field_name: date
+      value: '2026-06-10'
+      source_url: https://news.google.com/rss/search?q=%22IOL+Chemicals+reports+minor+fire+incident+at+Minoxidil+manufacturing+unit+in+Punjab%22&hl=en-IN&gl=IN&ceid=IN:en
+      exact_quote: Wed, 10 Jun 2026 07:00:00 GMT
+    - field_name: location
+      value: Barnala, Punjab
+      source_url: https://news.google.com/rss/search?q=IOL+Chemicals+Barnala+fire&hl=en-IN&gl=IN&ceid=IN:en
+      exact_quote: Explosion & fire at pharma unit in Barnala, no casualty - The Times of India
+    - field_name: deaths
+      value: 0
+      source_url: https://news.google.com/rss/search?q=IOL+Chemicals+Barnala+fire&hl=en-IN&gl=IN&ceid=IN:en
+      exact_quote: Explosion & fire at pharma unit in Barnala, no casualty - The Times of India
+    - field_name: injured
+      value: 0
+      source_url: https://news.google.com/rss/search?q=IOL+Chemicals+Barnala+fire&hl=en-IN&gl=IN&ceid=IN:en
+      exact_quote: Explosion at IOL Chemicals and Pharmaceuticals Ltd in Barnala; no casualties reported - The Tribune
+    - field_name: status
+      value: no-action
+      source_url: https://news.google.com/rss/search?q=%22IOL+Chemicals+reports+minor+fire+incident+at+Minoxidil+manufacturing+unit+in+Punjab%22&hl=en-IN&gl=IN&ceid=IN:en
+      exact_quote: IOL Chemicals reports minor fire incident at Minoxidil manufacturing unit in Punjab - CNBC TV18
+    - field_name: accused_count
+      value: null
+      source_url: https://news.google.com/rss/search?q=IOL+Chemicals+Barnala+fire&hl=en-IN&gl=IN&ceid=IN:en
+      exact_quote: Explosion at IOL Chemicals and Pharmaceuticals Ltd in Barnala; no casualties reported - The Tribune
+    - field_name: accused_gap
+      value: No public accused, arrests, or prosecution details were identified in the frozen source set.
+      source_url: https://news.google.com/rss/search?q=IOL+Chemicals+Barnala+fire&hl=en-IN&gl=IN&ceid=IN:en
+      exact_quote: Explosion at IOL Chemicals and Pharmaceuticals Ltd in Barnala; no casualties reported - The Tribune
+    - field_name: summary
+      value: Google News RSS surfaced CNBC TV18's report that IOL Chemicals reported a minor fire incident at its Minoxidil manufacturing unit in Punjab. A related Google News RSS result from The Times of India reported an explosion and fire at a pharma unit in Barnala with no casualty, and another related result from The Tribune said no casualties were reported.
+      source_url: https://news.google.com/rss/search?q=%22IOL+Chemicals+reports+minor+fire+incident+at+Minoxidil+manufacturing+unit+in+Punjab%22&hl=en-IN&gl=IN&ceid=IN:en
+      exact_quote: IOL Chemicals reports minor fire incident at Minoxidil manufacturing unit in Punjab - CNBC TV18
+conflict_notes: []
+critic_review:
+  verdict: APPROVED
+  rejected_claims: []
+  required_fixes: []
+  notes:
+    - The rewrite stays within the frozen Google News RSS search feeds and the Google News article wrapper shell.
+    - The populated fields are conservative: deaths 0 and injured 0 are supported by no-casualty/no-casualties-reported titles, and no accused, arrest, or compensation details were invented.
+    - The Barnala search feed provides a strong location corroboration for the same incident cluster.
+validation:
+  yaml_valid: true
+  sources_valid: true
+  build_ok: true
+  duplicate_check_ok: true
+  passed: true
+  notes:
+    - The case file frontmatter parses cleanly.
+    - The frozen Google News RSS exact-title feed matches the queue signal and selected incident identity.
+    - Repo search found no exact or near-duplicate case record in content/cases.
+    - The Hugo build completed successfully.
+    - Unsupported accountability details remain null.
+commit_ready: true
+pushed_to_remote: false
+---
+
+# Run snapshot
+
+## Summary
+
+Queued case processed end-to-end for `barnala-iol-chemicals-fire-20260610`.
+
+### Outcome
+- Queue claim: successful
+- Duplicate check: negative
+- Source freeze: exact-title RSS feed, Barnala search feed, and Google News wrapper frozen for the Barnala IOL Chemicals fire case
+- Identity gate: MATCH
+- Extraction: created a new `no-action` fire case
+- Critic review: APPROVED
+- Validation: passed
+- Commit readiness: yes
+- Remote push: pending
+
+## Notes
+
+- The frozen headline does not give a casualty count, so deaths and injured are supported only by the no-casualty follow-up titles.
+- Unsupported accountability details remain null.
+- The case slug follows the upstream queue signal.
