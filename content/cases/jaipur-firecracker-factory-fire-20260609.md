@@ -7,10 +7,10 @@ status: "no-action"
 deaths: 8
 injured: null
 accused_count: null
-accused_gap: "No named accused, arrests, or prosecution details were identified in the frozen source set."
+accused_gap: "No named accused, arrests, or prosecution details were identified in the frozen source set; the follow-up only reports nine police suspensions."
 summary: >-
-  Google News RSS surfaced The Indian Express headline reporting that eight people were killed in a fire at an illegal factory in Jaipur on 9 June 2026. The frozen source set does not identify any named accused, arrests, or prosecution details, so the case remains no-action.
-tags: ["rajasthan", "jaipur", "fire", "factory-fire", "illegal-factory", "fatality", "industrial-accident"]
+  Google News RSS surfaced The Indian Express follow-up headline reporting that nine police officers were suspended in connection with the Jaipur factory fire on 10 June 2026. The frozen source set still does not identify any named accused, arrests, or prosecution details, so the case remains no-action and the unsupported fields stay null.
+tags: ["rajasthan", "jaipur", "fire", "factory-fire", "illegal-factory", "fatality", "industrial-accident", "suspension", "investigation"]
 last_updated: 2026-06-30
 ---
 
@@ -22,25 +22,26 @@ last_updated: 2026-06-30
 - `2026-06-09` `gray` The corresponding Google News article wrapper preserved the same Indian Express item and publisher attribution.
   - source: `https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM1BvYUNpTWZpc3ptbmhKS1padHpCcW9yQldjS2Jzb3VNcE5oX24zcUs5OXhSVzM3a1pGZUFwRDUwOUExa19mR2xMQ2tzZ1VtZmhLdnBsNVA3bV9XUHJONmVsd2dhbEJaLTJwbTlfZmZmZHMwb0RBSWVjZ0Z5LW9kSWxfcFB5X1pOUjdsVFRxRGZqVnVyd09XRThUdVlvRk5QVEV6RFZiaTU4QmPSAbIBQVVfeXFMTUd5WHplSGhyVXRhRHl0cHZ6Wk5vQjVzRzZ6UlNvUGNEX1l5ejRlNnhvSm9yenB2QTEzeWhrQ2RscFVuWm5nMjdFSm5ldWZ0Mjl1WWdiblRvU0xkSEpnaUlOREdIYTZPOTF6WmNDeXpuOVpVMTlNUVdzalhwSUwzbXh2WGZlbGhTWVQwUWhqd0luc0paWlhlTThRdnI4a3ZKUk1uOGJXUlZHWGlWcHgwU3czUQ?oc=5`
   - source_name: `Google News`
+- `2026-06-10` `blue` Google News RSS surfaced The Indian Express follow-up headline `Jaipur fire: 9 cops suspended as questions mount over administrative negligence - The Indian Express`.
+  - source: `https://news.google.com/rss/search?q=%22Jaipur+fire:+9+cops+suspended+as+questions+mount+over+administrative+negligence%22&hl=en-IN&gl=IN&ceid=IN:en`
+  - source_name: `Google News RSS`
 
 ## Evidence map
 
-- `title` → The Google News RSS item title is `In Jaipur, 8 killed in fire at ‘illegal’ factory - The Indian Express`.
-- `date` → The RSS `pubDate` is `Tue, 09 Jun 2026 07:00:00 GMT`, which normalizes to 2026-06-09.
-- `location` → The RSS item title says `In Jaipur`.
-- `deaths` → The RSS item title says `8 killed`.
-- `summary` → Supported by the RSS item title and publisher attribution to The Indian Express.
-- `status` → The frozen source set does not identify named accused, arrests, or prosecution details, so `no-action` is the conservative fit.
-- `injured` → The frozen source set does not provide a reliable injured count.
-- `accused_count` → No named accused, arrests, or prosecution details were identified in the frozen source set.
-- `accused_gap` → The frozen source set does not identify any named accused, arrests, or prosecution details.
+- `title` → The case title stays anchored to Jaipur and the illegal-factory fire incident already established by the 9 June Google News result.
+- `date` → The incident date remains 2026-06-09 from the original RSS item’s pubDate.
+- `location` → The Google News titles explicitly say `In Jaipur` / `Jaipur fire`.
+- `deaths` → 8 deaths are stated in the original Google News RSS headline.
+- `status` → `no-action` remains conservative because the follow-up headline reports suspensions, not named criminal accused, arrests, or prosecution details.
+- `accused_count` → left `null` because the frozen source set names no accused.
+- `accused_gap` → supported by the follow-up headline: it reports nine police suspensions but still does not name criminal accused or arrests.
+- `summary` → supported by the original casualty headline and the follow-up suspension headline.
 
 ## Frozen source notes
 
-- The case was selected as a new record; repo search did not find an existing 2026 Jaipur illegal-factory fire case file.
-- The frozen source set consists of a Google News exact-title RSS search feed and the corresponding Google News article wrapper for the same Indian Express item.
-- Direct publisher text was not accessible in this environment, so Google News RSS artifacts were frozen as fallback sources.
+- The follow-up source was frozen from the Google News RSS exact-title search result for the suspension headline and the corresponding Google News article wrapper.
+- Direct publisher text was not available in this environment, so Google News RSS artifacts were used as the immutable source set.
 
 ## Conflict notes
 
-- None. Unsupported injured and accountability details remain null.
+- None. The follow-up adds a disciplinary suspension update but does not create a new named-accused or casualty conflict.
